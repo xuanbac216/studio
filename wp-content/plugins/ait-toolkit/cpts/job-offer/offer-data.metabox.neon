@@ -1,0 +1,37 @@
+skills:
+	label: Skills
+	type: editor
+	default: ''
+	settings:
+		textarea_rows: 5
+	help: 'Main text of offer'
+
+validFrom:
+	label: Date From
+	type: date
+	format: 'D, d M yy'
+	help: 'Starting date of offer validity'
+
+validTo:
+	label: Date To
+	type: date
+	format: 'D, d M yy'
+	help: 'Ending date of offer validity'
+
+contactName:
+	label: Contact Person
+	type: text
+	default: ''
+	help: 'Text displayed as contact person'
+
+contactMail:
+	label: Contact Email
+	type: text
+	default: ''
+	help: 'Text displayed as contact email'
+
+contactPhone:
+	label: Contact Phone
+	type: text
+	default: ''
+	help: 'Text displayed as contact phone'

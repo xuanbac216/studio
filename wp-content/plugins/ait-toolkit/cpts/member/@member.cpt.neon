@@ -1,0 +1,52 @@
+cpt:
+	labels:
+		name: _x(Members, post type general name)
+		singular_name: _x(Member, post type singular name)
+		menu_name: _x(Members, post type menu name)
+		add_new: _x(Add New, member)
+		add_new_item: Add New Member
+		edit_item: Edit Member
+		new_item: New Member
+		view_item: View Member
+		search_items: Search Members
+		not_found: No Members found
+		not_found_in_trash: No Members found in Trash
+		all_items: All Members
+
+		enterTitleHere: "Enter member's name here"
+
+	args:
+		supports:
+			- title
+			- thumbnail
+			- page-attributes
+
+
+taxonomies:
+	members:
+		labels:
+			name: _x(Members Categories, taxonomy general name)
+			menu_name: _x(Categories, taxonomy menu name)
+			singular_name: _x(Category, taxonomy singular name)
+			search_items: Search Categories
+			all_items: All Categories
+			parent_item: Parent Category
+			parent_item_colon: 'Parent Cateogry:'
+			edit_item: Edit Category
+			view_item: View Category
+			update_item: Update Category
+			add_new_item: Add New Category
+			new_item_name: New Category Name
+
+
+metaboxes:
+	member:
+		title: _x("Member's Additional Info", custom metabox title)
+		config: member
+
+
+featuredImageMetabox:
+	labels:
+		title: _x("Member's Photo", featured image metabox)
+		linkSetTitle: _x("Set Member's Photo", featured image metabox)
+		linkRemoveTitle: _x("Remove Member's Photo", featured image metabox)

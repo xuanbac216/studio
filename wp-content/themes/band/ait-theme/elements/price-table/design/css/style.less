@@ -1,0 +1,27 @@
+
+@import "../../../@common/common.less";
+
+#@{el}{
+
+	/*.standardColor('dark') when (iscolor(@standard))	{ background: @standard; }*/
+	.standardbackground() when (iscolor(@standard))	{ background: @standard; }
+	/*.featuredColor('dark') when (iscolor(@featured))	{ background: @featured !important; }*/
+	.featuredBackground() when (iscolor(@featured))	{ background: @featured !important; }
+
+	.featuredBorder() when (iscolor(@featured))	{ border-color: @featured; }
+	.featuredColor() when (iscolor(@featured))	{ color: @featured; }
+
+	/*.ptable-item .table-header								{ .standardColor('dark'); }*/
+	.ptable-item .table-header h3:before					{ .standardbackground(); }
+	/*.ptable-item.table-featured .table-header				{ .featuredColor('dark'); }*/
+	.ptable-item.table-featured .table-header h3:before		{ .featuredBackground(); }
+
+	.ptable-item .table-button a							{ .featuredColor(); .featuredBorder(); }
+	.ptable-item .table-button a:hover						{ .featuredBackground(); color: #ffffff; }
+	.ptable-item.table-featured .table-button a				{ .featuredBackground(); color: #ffffff; }
+
+}
+
+.@{el} {
+	clear:both;
+}

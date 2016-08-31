@@ -1,0 +1,294 @@
+/*
+ * AIT WordPress Theme
+ *
+ * Copyright (c) 2013, Affinity Information Technology, s.r.o. (http://ait-themes.com)
+ */
+
+
+//body		{ .bodysize; }
+//
+//h1			{ .h1size; }
+//h2			{ .h2size; }
+//h3			{ .h3size; }
+//h4			{ .h4size; }
+//h5			{ .h5size; }
+//h6			{ .h6size; }
+//
+//small					{ .smallSize; }
+//input					{ .largesize; }
+//input[type="submit"],
+//input[type="reset"]		{ .normalsize; }
+//textarea				{ .largesize; }
+//select					{ .normalsize; }
+//.sbHolder 				{ .bodysize; }
+//.sbHolder .sbSelector	{ .bodysize; .largesize; }
+//.sbHolder .sbOptions	{ .bodysize; }
+//.ui-datepicker						{ .bodysize; }
+//.ui-datepicker .ui-widget-header,
+//.ui-datepicker .ui-datepicker-title	{ .h6size; }
+//.ui-datepicker table				{ .bodysize; .largesize; }
+//.ui-datepicker table th				{ .bodysize; }
+//
+//
+//
+//.nav-menu-main > ul		{ .menuUlSize; }
+//.nav-menu-main > ul ul	{ .menuUlUlSize; }
+//
+//.entry-content .tabstyle1 table thead th	{ .tableth; }
+//
+///* shortcodes */
+//
+// .ait-sc-rule-btn-top					{ .smallsize; }
+// .ait-sc-button .title			{ .h5size; }
+// .ait-sc-button .description		{ .smallsize; }
+
+//.elm-portfolio .filters-wrapper 							{ .portfolioFilterSize; }
+//.elm-portfolio .filters-wrapper ul							{ .portfolioFilterUlSize; }
+//.elm-portfolio .portfolio-item .portfolio-item-desc h3 		{ .portfolioTitlSize; }
+//.elm-portfolio .portfolio-item .portfolio-item-desc p 		{ .portfolioDescSize; }
+
+//.elm-item-organizer .carousel-container .item-box					{ .bodysize; }
+//.elm-item-organizer .item-title h3									{ .h4size; }
+//.elm-item-organizer .item-text p									{ .smallsize; }
+//.elm-services-main .item-title h3									{ .h3size; }
+//.elm-members-main .item-title h3									{ .h3size; }
+//.elm-events-main .layout-list .event-date .entry-date				{ .h5size; }
+//.elm-events-main .layout-list .event-date .entry-date .link-day 	{ .h5size; }
+//.elm-events-main .layout-list .event-date .entry-date .link-month 	{ .bodysize; }
+//.elm-testimonials-main .item .item-info .item-author				{ .h5size; }
+//.elm-testimonials-main .item .item-text p							{ .bodysize; }
+//.elm-testimonials-main .column-1 .item  .item-text p				{ .h6size; }
+//.elements-sidebar-wrap, .column	{
+//	.elm-testimonials-main .column-1 .item .item-text p				{ .bodysize; }
+//}
+
+//.elm-faq .faq-question .faq-q					{ .littlesize; }
+
+
+///* Toggles */
+//.elm-toggles-main .ait-tabs ul.ait-tabs-nav li		{ .h5size; } /* 16px 25px */
+//.elm-toggles-main .toggle-title 					{ .h5size; }
+//.elm-toggles-main .ait-tabs .tabs-wrapper .selected	{ .h5size; }
+//.elm-toggles-main .toggle-header .ait-icon:before	{ font-size: 15px; line-height: 25px; } /* h6 size */
+//.local-toggles .toggle-header .toggle-title			{ font-size: 16px; line-height: 25px; } /* h6 size */
+//.local-toggles .toggle-content .toggle-container	{ .bodysize; }
+
+
+/* PRICE-TABLE */
+//.elm-price-table .table-header h3					{ font-size: 16px; }
+//.elm-price-table .table-header .table-description	{ .smallsize; }
+//.elm-price-table .table-header .table-price			{ font-size: 24px; }
+//.elm-price-table .table-header .table-price small	{ font-size: 12px; }
+//.elm-price-table .table-button a					{ .largesize; }
+//
+//.elm-opening-hours-main .day-title h5				{ .bodysize; }
+//.elm-opening-hours-main .hours-note					{ .smallsize; }
+//
+//.elm-counters-main .counter-description						{ .smallsize; }
+//.elm-counters-main .counter-type-textbox .type-text			{ .h2size; }
+//.elm-counters-main .counter-type-textbox .counter-title		{ .h2size; }
+//
+///*.entry-date  						{ .smallsize; }*/
+///*.entry-date .link-day 				{ .h2size; }*/
+//.author-info .author-description h2 { .h3size; }
+//
+///* Comments */
+//.commentlist .comment-meta .fn		{ font-size: 16px; line-height: 18px; }
+//#respond h3	small					{ .bodysize; }
+//
+//.widget-container .widget-title h3		{ .h4size; }
+//.widget_posts h4						{ .bodysize; }
+//.widget_posts .date						{ .smallsize; }
+//.widget_posts p							{ .smallsize; }
+//.widget_posts .read-more				{ .smallsize; }
+//.widget_calendar table 					{ .calTableSize; }
+//.widget_recent_entries .post-date		{ .smallsize; }
+//.widget_rss	.rss-date					{ .smallsize; }
+//.widget_rss .rssSummary					{ .smallsize; }
+//.widget_rss cite						{ .smallsize; }
+//.widget_categories,
+//.widget_archive,
+//.widget_tag_cloud	{ li, .tagcloud a	{ .widgetsButtonSize; } } 	/*** for button layout - optional ***/
+//
+//.site-search label .screen-reader-text	{ .searchLabelSize; }
+//.site-search input.search-field			{ .searchSize; }
+//.widget_search input.search-field		{ .searchSize; }
+
+
+
+// Basic sizing
+body 								{ .baseSize; }
+
+small 								{ .smallSize; }
+
+h1 									{ .h1Size }
+h2 									{ .h2Size }
+h3 									{ .h3Size }
+h4 									{ .h4Size }
+h5 									{ .h5Size }
+h6 									{ .h6Size }
+
+.nav-single a,
+.page-numbers.current 				{ .normalSize; }
+
+
+// Form Elements
+input, textarea 					{ .bigSize; }
+input[type="submit"],
+input[type="reset"],
+select,
+.sbHolder,
+.sbHolder .sbOptions 				{ .baseSize; }
+.sbHolder .sbSelector 				{ .baseSize; }
+.ui-datepicker,
+.ui-datepicker .ui-widget-header,
+.ui-datepicker table th,
+.ui-datepicker .ui-datepicker-title { .baseSize; }
+.ui-datepicker table				{ .bigSize; }
+.column .captcha-text 	 			{ .smallSize; }
+
+
+.site-logo a						{ .h1Size; }
+body.header-four .site-header .site-logo a		{ .siteTitleSize; }
+
+.nav-menu-main > ul,
+.nav-menu-main > ul ul				{ .baseSize; }
+.nav-menu-main > ul > li.menu-item-has-columns > ul ul { font-size: 0; }
+.nav-menu-main > ul > li li          { .baseSize; }
+
+.entry-content .tabstyle1 table thead th	{ .bigSize; }
+
+.ait-sc-rule-btn-top				{ .smallSize; }
+.ait-sc-button .title				{ .baseFontSize; }
+.ait-sc-button .description			{ .smallSize; }
+
+.elm-portfolio .filters-wrapper 							{ .normalSize; }
+.elm-portfolio .filters-wrapper ul							{ .baseSize; }
+.elm-portfolio .portfolio-item .portfolio-item-desc h3 		{ .portfolioItemTitleSize; }
+.elm-portfolio .portfolio-item .portfolio-item-desc p 		{ .normalSize; }
+
+.elm-item-organizer .carousel-container .item-box					{ .baseSize; }
+.elm-item-organizer .item-title h3									{ .h4Size; }
+.elm-item-organizer .item-text p									{ .smallSize; }
+
+.elm-services-main .item-title h3									{ .h4Size; }
+.elm-members-main .item-title h3									{ .h4Size; }
+.elm-events-main .layout-list .event-date .entry-date				{ .h5Size; }
+.elm-events-main .layout-list .event-date .entry-date .link-day 	{ .h5Size; }
+.elm-events-main .layout-list .event-date .entry-date .link-month 	{ .baseSize; }
+.elm-testimonials-main .item .item-info .item-author				{ .h5Size; }
+.elm-testimonials-main .item .item-text p							{ .baseSize; }
+.elm-testimonials-main .column-1 .item  .item-text p				{ .h6Size; }
+.elements-sidebar-wrap, .column	{
+	.elm-testimonials-main .column-1 .item .item-text p				{ .baseSize; }
+}
+
+.elm-faq .faq-question .faq-q						{ .smallSize; }
+
+/* Toggles */
+.elm-toggles-main .ait-tabs ul.ait-tabs-nav li		{ .h5Size; } /* 16px 25px */
+.elm-toggles-main .toggle-title 					{ .h5Size; }
+.elm-toggles-main .ait-tabs .tabs-wrapper .selected	{ .h5Size; }
+.elm-toggles-main .toggle-header .ait-icon:before	{ .h6Size; } /* h6 size */
+.local-toggles .toggle-header .toggle-title			{ .h6Size; } /* h6 size */
+.local-toggles .toggle-content .toggle-container	{ .baseSize; }
+
+/* PRICE-TABLE */
+.elm-price-table .table-header h3					{ .h5Size; }
+.elm-price-table .table-header .table-description	{ .smallSize; }
+.elm-price-table .table-header .table-price			{ .h2Size; }
+.elm-price-table .table-header .table-price small	{ .smallSize; }
+.elm-price-table .table-button a					{ .bigSize; }
+
+.elm-opening-hours-main .day-title h5				{ .baseSize; }
+.elm-opening-hours-main .hours-note					{ .smallSize; }
+
+.elm-counters-main .counter-description						{ .smallSize; }
+.elm-counters-main .counter-type-textbox .type-text			{ .h2Size; }
+.elm-counters-main .counter-type-textbox .counter-title		{ .h2Size; }
+
+.author-info .author-description h2 	{ .h3Size; }
+
+/* Comments */
+.commentlist .comment-meta .fn			{ .h6Size; }
+#respond h3	small						{ .bodysize; }
+
+.widget-container .widget-title h3		{ .h4Size; }
+.widget_posts h4						{ .baseSize; }
+.widget_posts .date,
+.widget_posts p,
+.widget_posts .read-more,
+.widget_calendar table,
+.widget_recent_entries .post-date,
+.widget_rss	.rss-date,
+.widget_rss .rssSummary,
+.widget_rss cite						{ .smallSize; }
+.widget_archive,
+.widget_tag_cloud	{ li, .tagcloud a	{ .tagCloudSize; } } 	/*** for button layout - optional ***/
+.widget_categories .sbHolder .sbOptions a { .tagCloudSize; }
+
+.site-search label .screen-reader-text	{ .smallSize; }
+.site-search input.search-field,
+.widget_search input.search-field		{ .searchFieldSize; }
+.widget-container .sbHolder .sbSelector { .baseSize; }
+
+
+
+
+.elm-item-organizer-main .item-duration,
+.elm-job-offers-main .job-contact { .normalSize; }
+
+.hentry .entry-header .entry-title h2 { .h4Size }
+
+
+/* Woocommerce */
+
+ .star-rating			{ .wooStars; }
+body.woocommerce, body.woocommerce-page, .woocommerce {
+
+	ul.products li h3										{ .h3Size; }
+	ul.products li a .price								{ .wooProductPrice; }
+	ul.products li a .price del							{ .wooProductPriceDel; }
+	ul.products li a.product_type_variable					{ .bodySize; }
+	.widget_price_filter .price_slider_amount .price_label { .wooProductPrice; line-height: 34px; }
+	.button 											{ .baseFontSize; }
+	/*div.product.hentry .price ins,*/
+	ul.products li a h3,  ul.products li a h3			 { .wooProductTitle; }
+	div.product.hentry .summary .product_title,
+	div.product.hentry .summary .product_title 			{ .wooProductDetailTitle; }
+	div.product.hentry .price 						{ .wooDetailPrice; }
+
+	
+	}
+
+
+body.woocommerce-cart, .woocommerce {
+
+	.shop_table.cart tbody td.product-name > a		{ .h5size; }
+	.shop_table.cart tbody td.product-remove a		{ .wooProductRemove; }
+	.shop_table.cart { td, th 						{ .bodysize; }}
+	.cart-collaterals .cart_totals h2,
+	.cart-collaterals .shipping_calculator h2 		{ .bodysize; }
+
+}
+
+
+.widget_top_rated_products,
+.widget_products,
+.widget_recent_products,
+.widget_recently_viewed_products,
+.widget_random_products,
+.widget_onsale,
+.widget_recent_reviews,
+.widget_best_sellers
+{
+	.product_list_widget li a							{ .h6Size; }
+	.product_list_widget li del .amount,
+	.product_list_widget li .amount						{ .wooWidgetPrice; }
+	.product_list_widget li .star-rating				{ .wooStars; }
+}
+
+div.product .summary .price { .h4size; font-size: 18px; }
+
+/* End Woocommerce */
+

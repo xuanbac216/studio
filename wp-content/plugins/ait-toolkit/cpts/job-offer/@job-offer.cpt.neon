@@ -1,0 +1,51 @@
+public: true
+
+
+cpt:
+	labels:
+		name: _x(Job Offers, post type general name)
+		singular_name: _x(Job Offer, post type singular name)
+		menu_name: _x(Job Offers, post type menu name)
+		add_new: _x(Add New, job offer)
+		add_new_item: Add New Job Offer
+		edit_item: Edit Job Offer
+		new_item: New Job Offer
+		view_item: View Job Offer
+		search_items: Search Job Offers
+		not_found: No Job Offers found
+		not_found_in_trash: No Job Offers found in Trash
+		all_items: All Job Offers
+
+		enterTitleHere: "Enter job offer title here"
+
+	args:
+		supports:
+			- title
+			- editor
+			- excerpt
+			- page-attributes
+			- thumbnail
+			- comments
+
+
+taxonomies:
+	offers:
+		labels:
+			name: _x(Job Offers Categories, taxonomy general name)
+			menu_name: _x(Categories, taxonomy menu name)
+			singular_name: _x(Category, taxonomy singular name)
+			search_items: Search Categories
+			all_items: All Categories
+			parent_item: Parent Category
+			parent_item_colon: 'Parent Cateogry:'
+			edit_item: Edit Category
+			view_item: View Category
+			update_item: Update Category
+			add_new_item: Add New Category
+			new_item_name: New Category Name
+
+
+metaboxes:
+	offer-data:
+		title: _x(Job Offer Options, custom metabox title)
+		config: offer-data

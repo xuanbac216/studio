@@ -1,0 +1,48 @@
+teamAName:
+	label: Team A
+	type: text
+	default: ""
+teamBName:
+	label: Team B
+	type: text
+	default: ""
+date:
+	label: Date
+	type: date
+	format: 'D, d M yy'
+
+description:
+	label: Description
+	type: textarea
+	default: ""
+
+teamAfinalScore:
+	label: Final Score for Team A
+	type: text
+	default: ""
+
+teamBfinalScore:
+	label: Final Score for Team B
+	type: text
+	default: ""
+
+link:
+	label: Link
+	type: url
+	default: ""
+
+scores:
+	label: Scores
+	type: clone
+	max: 25
+	items:
+		title:
+			label: Title
+			type: text
+		scoreA:
+			label: Score A
+			type: text
+		scoreB:
+			label: Score B
+			type: text
+	default: []

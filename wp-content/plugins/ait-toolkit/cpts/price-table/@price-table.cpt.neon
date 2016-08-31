@@ -1,0 +1,42 @@
+cpt:
+	labels:
+		name: _x(Price Tables, post type general name)
+		singular_name: _x(Price Table, post type singular name)
+		menu_name: _x(Price Tables, post type menu name)
+		add_new: _x(Add New, service)
+		add_new_item: Add New Price Table
+		edit_item: Edit Price Table
+		new_item: New Price Table
+		view_item: View Price Table
+		search_items: Search Price Tables
+		not_found: No Price Tables found
+		not_found_in_trash: No Price Tables found in Trash
+		all_items: All Price Tables
+
+	args:
+		supports:
+			- title
+			- page-attributes
+
+
+taxonomies:
+	tables:
+		labels:
+			name: _x(Price Tables Categories, taxonomy general name)
+			menu_name: _x(Categories, taxonomy menu name)
+			singular_name: _x(Category, taxonomy singular name)
+			search_items: Search Categories
+			all_items: All Categories
+			parent_item: Parent Category
+			parent_item_colon: 'Parent Cateogry:'
+			edit_item: Edit Category
+			view_item: View Category
+			update_item: Update Category
+			add_new_item: Add New Category
+			new_item_name: New Category Name
+
+
+metaboxes:
+	table-data:
+		title: _x(Table Options, custom metabox title)
+		config: table-data

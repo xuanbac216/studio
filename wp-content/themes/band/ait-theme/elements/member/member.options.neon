@@ -1,0 +1,37 @@
+@include: common.neon
+
+member:
+	label: @native
+	cpt: member
+	type: posts
+	default: 0
+	help: "Select member displayed on page"
+
+imageHeight:
+	label: Image Format
+	type: select
+	selected: "1:1"
+	default:
+		"1:1" : "1:1"
+		"1:2" : "1:2"
+		"3:4" : "3:4"
+		"9:16" : "9:16"
+	help: "Select format for image of member"
+
+textRows:
+	label: Text Rows
+	type: number
+	unit: number
+	default: 4
+	help: "Number of rows for description text"
+
+hideRows:
+	label: Collapsible Rows
+	type: on-off
+	default: on
+	help: "Collapsible hidden exceeded rows"
+
+linksInNewWindow:
+	label: Open links in new window
+	type: on-off
+	default: off

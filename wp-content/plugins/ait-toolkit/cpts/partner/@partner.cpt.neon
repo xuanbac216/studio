@@ -1,0 +1,54 @@
+translatable: false
+
+cpt:
+	labels:
+		name: _x(Partners, post type general name)
+		singular_name: _x(Partner, post type singular name)
+		menu_name: _x(Partners, post type menu name)
+		add_new: _x(Add New, partner)
+		add_new_item: Add New Partner
+		edit_item: Edit Partner
+		new_item: New Partner
+		view_item: View Partner
+		search_items: Search Partners
+		not_found: No Partners found
+		not_found_in_trash: No Partners found in Trash
+		all_items: All Partners
+
+	args:
+		supports:
+			- title
+			- thumbnail
+			- page-attributes
+
+
+taxonomies:
+	partners:
+		labels:
+			name: _x(Partners Categories, taxonomy general name)
+			menu_name: _x(Categories, taxonomy menu name)
+			singular_name: _x(Category, taxonomy singular name)
+			search_items: Search Categories
+			all_items: All Categories
+			parent_item: Parent Category
+			parent_item_colon: 'Parent Cateogry:'
+			edit_item: Edit Category
+			view_item: View Category
+			update_item: Update Category
+			add_new_item: Add New Category
+			new_item_name: New Category Name
+
+
+metaboxes:
+	partner-options:
+		title: _x(Partner Options, custom metabox title)
+		config: partner-options
+
+
+featuredImageMetabox:
+	labels:
+		title: _x(Partner Logo, featured image metabox)
+		linkSetTitle: _x(Set Partner Logo, featured image metabox)
+		linkRemoveTitle: _x(Remove Partner Image, featured image metabox)
+	context: normal
+	priority: high

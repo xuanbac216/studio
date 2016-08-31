@@ -1,0 +1,51 @@
+v1.7.5, 1.12.2015
+-----------------
+- Fix: Sometimes Page Builder link from Admin Bar was redirecting to wrong Special Page in Page Builder (e.g. from Items Archive pages)
+- Fix: When taxonomies were unchecked on AIT Languages settings page to not be translatable, they still were translatable
+
+
+v1.7.4, 30.11.2015
+------------------
+- Fix: Fixed item location admin form option name typo
+
+
+v1.7.3, 02.10.2015
+-----------------
+- Fix: Updated metabox save callback preventing infinite looping
+
+
+v1.7.2, 01.10.2015
+-----------------
+- Fix: Updated metabox save callback conditions
+
+
+v1.7.1, 25.9.2015
+-----------------
+- Fix: Updated author metabox conditions
+
+
+v1.7.0, 22.9.2015
+-----------------
+- New: Better compatibility with AIT Languages plugin and directory-like themes
+
+
+v1.6.1, 14.7.2015
+-----------------
+- Tweak: Addded function to store any custom taxonomy fields to database for further use (City Guide theme)
+
+
+v1.6.0, 1.7.2015
+-----------------
+- Update: All translations are now handled by AIT Languages plugin
+
+
+v1.5.7, 3.6.2015
+-----------------
+- Update: Updated all translations - translated some new strings
+- New:  Added new Ukrainian (uk) translation
+
+
+v1.5.6, 18.5.2015
+-----------------
+- Fixed: Item custom post type - do not allow some elements and options on Page Builder for Items Categories/Locations
+- Fixed: Map selected as default Header Type for new Categories and Locations

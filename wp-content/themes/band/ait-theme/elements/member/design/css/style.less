@@ -1,0 +1,25 @@
+
+@import "../../../@common/common.less";
+
+.textCrop(@rowSize) when (isnumber(@textRows))	{ height: @rowSize * @textRows; overflow: hidden; }
+
+#@{el}{
+
+	.entry-content	{ .textCrop(20px); }
+
+}
+
+@media all and (max-width: 640px) {
+
+	#@{el}{
+
+		.entry-content	{ .textCrop(26px); }
+
+	}
+
+}
+
+
+.@{el}{
+	clear:both;
+}

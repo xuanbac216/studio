@@ -1,0 +1,15 @@
+v1.1.1, 14.7.2015
+------------------
+- Fix: Correct translation textdomain - updated POT and all translations for this plugin in AIT Languages plugin
+
+
+v1.1.0, 1.7.2015
+-----------------
+- New: Font Awesome icons implemented in button shortcode
+- Update: All translations are now handled by AIT Languages plugin
+
+
+v1.0.12, 3.6.2015
+-----------------
+- New:  Added new Ukrainian (uk) translation
+- New:  Added new Ukrainian (tr_TR) translation

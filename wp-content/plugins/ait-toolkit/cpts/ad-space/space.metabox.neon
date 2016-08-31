@@ -1,0 +1,18 @@
+image:
+	label: Image
+	type: image
+	default:
+	help: "URL of image displayed in advertising space, use valid URL format with http://"
+
+content:
+	label: Description
+	type: editor
+	default:
+	settings:
+	help: "Text displayed in advertising space"
+
+link:
+	label: 'Link'
+	type: url
+	default: ""
+	help: "Link used for image in advertising space"

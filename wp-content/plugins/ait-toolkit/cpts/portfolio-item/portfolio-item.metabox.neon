@@ -1,0 +1,88 @@
+type:
+	label: Type
+	type: radio
+	checked: image
+	default:
+		image: Large Image
+		website: Website
+		video: Video
+	help: "Select type of item"
+
+cropFromPosition:
+	label: Crop From Position
+	type: select
+	selected: 'center,center'
+	default:
+		'top,left': 'top left'
+		'top,center': 'top center'
+		'top,right': 'top right'
+		'center,center': 'center center'
+		'bottom,left': 'bottom left'
+		'bottom,center': 'bottom center'
+		'bottom,right': 'bottom right'
+	help: 'Anchor point of the source image, used when cropping image'
+
+- section(id: website)
+websiteUrl:
+	label: Link To Website
+	type: url
+	help: "Link to website used with Website type, use valid URL format with http://"
+linkTarget:
+	label: Open In New Window
+	type: on-off
+	default: on
+	help: "Open links in new window or tab"
+
+- section(id: video)
+videoUrl:
+	label: Link To Video
+	type: url
+	help: "Link to video used with Video type, use valid URL format with http://"
+
+videoRatio:
+	label: Video Format
+	type: select
+	selected: "1:1"
+	default:
+		"1:1" : "1:1"
+		"2:1" : "2:1"
+		"4:3" : "4:3"
+		"16:9" : "16:9"
+	help: "Select format of video"
+
+informations:
+	label: Information
+	type: clone
+	max: 10
+	help: ''
+	items:
+		title:
+			label: Title
+			type: text
+			help: ""
+		description:
+			label: Description
+			type: text
+			help: ""
+	default: []
+
+pictures:
+	label: Item gallery
+	type: clone
+	max: 99
+	help: ''
+	items:
+		title:
+			label: Title
+			type: text
+			help: ""
+		image:
+			label: Image
+			type: image
+			defualt: ""
+		link:
+			label: Link
+			type: url
+			default: ""
+	default: []
+

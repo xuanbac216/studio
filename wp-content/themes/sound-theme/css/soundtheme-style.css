@@ -1,0 +1,238 @@
+/*********************************************************************************************************** 
+*
+* BACKGROUND COLOR
+* 
+***********************************************************************************************************/
+
+html, body {
+	background-color: #FBFCFC;
+}
+
+/*********************************************************************************************************** 
+*
+* FONT FAMILY
+* 
+***********************************************************************************************************/
+
+html, body, p, .soundtheme-big-title h1, .soundtheme-big-title h2, .soundtheme-single-titles h1, .soundtheme-comment-bigtitle h3, .soundtheme-comments-list .media-body h6,
+.soundtheme-loop-list h1, .soundtheme-blog-list h2, .soundtheme-filter-posting h1, .soundtheme-filter-posting h2, .soundtheme-slidertitle h1, .soundtheme-mod-detail h1, .soundtheme-mod-detail h2,
+.soundtheme-mod-dates h1, .soundtheme-mod-dates h2, .soundtheme-billboard ul li h1 {
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .soundtheme-menu-icon .soundtheme-btn-sidebar, .soundtheme-top-search-form input, #fap-current-title, #fap-social-links a, .soundtheme-sidebar-tab ul li a,
+.soundtheme-loading-image p, .soundtheme-post-detail blockquote p {
+	font-family: 'Raleway', sans-serif;
+}
+
+/*********************************************************************************************************** 
+*
+* FONT COLOR
+* 
+***********************************************************************************************************/
+
+html, body, p {
+	color: #24252A;
+}
+
+a {
+	color:#45B39D;
+}
+
+a:hover, a:focus {
+	color:#138D75;
+}
+
+
+/*********************************************************************************************************** 
+*
+* MAIN COLOR SET
+* 
+***********************************************************************************************************/
+
+/* FONT COLOR */
+.soundtheme-big-title h1, .soundtheme-mini-share ul li a:hover, .soundtheme-mini-share-two ul li a:hover, .soundtheme-btn-search:hover, .soundtheme-btn-sidebar:hover, .soundtheme-single-tracklist ol li a:hover, .soundtheme-related-title h1,
+.soundtheme-comments-list .media-body small a:hover, .soundtheme-blog-list h1 a:hover, .widget ul li a:hover, .soundtheme-filter-posting h1 a:hover, .soundtheme-mod-detail h1 a:hover, .soundtheme-mod-detail-dark h1 a:hover,
+.soundtheme-mod-title-dark h2, .soundtheme-billboard ul li h1 a:hover, .soundtheme-top-search, .soundtheme-top-search-form input:focus {
+	color:#45B39D;
+	opacity: 0.95;
+}
+
+.soundtheme-main-color-dark {
+	color:#138D75;
+	opacity: 0.95;
+}
+
+.soundtheme-main-color-light {
+	color:#73C6B6;
+	opacity: 0.95;
+}
+
+/* BACKGROUND COLOR */
+.soundtheme-thumb-image .util-theme-default .util-prev, .soundtheme-thumb-image .util-theme-default .util-next, .soundtheme-mini-popup ul li button:hover, .btn-primary:hover, .btn-success,
+.soundtheme-post-tags a:hover, .soundtheme-related-fa .fa, .soundtheme-contact-form input[type="submit"], .soundtheme-logo-footer ul li a:hover, .soundtheme-gallery-hover, .soundtheme-biography-hover, .soundtheme-navi ul li a:hover,
+.soundtheme-navi ul li.current, .widget_search input[type=submit], .tagcloud a:hover, .soundtheme-filter-menu ul li.active, .soundtheme-filter-menu ul li:hover, .soundtheme-filter-random ul li.active,
+.soundtheme-content-none .soundtheme-content-block h1, .parent-expanded  {
+	background-color:#45B39D;
+	opacity: 0.95;
+}
+
+.soundtheme-main-background-dark, .soundtheme-contact-form input[type="submit"]:hover,
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary,
+.btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success,
+.btn:active, .btn.active, .open > .dropdown-toggle.btn {
+	background-color:#138D75;
+	opacity: 0.95;
+}
+
+.soundtheme-main-background-light {
+	background-color:#73C6B6;
+	opacity: 0.95;
+}
+
+/* BORDER COLOR */
+.soundtheme-sidebar-tab ul li.active a {
+	border-color: #45B39D;
+}
+
+/*********************************************************************************************************** 
+*
+* DARK COLOR SET
+* 
+***********************************************************************************************************/
+
+/* FONT COLOR */
+.soundtheme-mini-share ul li, .soundtheme-mini-share ul li a, .soundtheme-mini-share-two ul li, .soundtheme-mini-share-two ul li a, .soundtheme-blog-list h1 a, .widget_search input[type=text],
+.widget ul li a, .tagcloud a, .soundtheme-filter-posting h1 a, .soundtheme-mod-detail h1 a, .soundtheme-billboard ul li h1 a, .soundtheme-contact-form input[type="text"], .soundtheme-contact-form input[type="email"], .soundtheme-contact-form textarea, 
+.soundtheme-contact-form input[type="submit"] {
+	color:#2A2B30;
+	opacity: 0.95;
+}
+
+.soundtheme-single-tracklist ol li a, .soundtheme-post-tags a {
+	color:#24252A;
+	opacity: 0.95;
+}
+
+.soundtheme-sidebar-tab ul li.active, .main-nav li > ul a, .soundtheme-mini-popup ul li button, .input-group-addon, .soundtheme-darkback-two, .soundtheme-navi ul li a, .soundtheme-navi ul li.page_nums,
+.soundtheme-filter-menu ul li, .soundtheme-filter-random ul li, #fap-player-wrapper {
+	background-color:#2A2B30;
+	opacity: 0.98;
+}
+
+.soundtheme-sidebar-tab ul li, .soundtheme-sidebar-menu, .soundtheme-nav-fixed, .soundtheme-header-back, .btn-primary, .btn-success:hover, 
+.btn-success:focus, .btn-primary:focus, .soundtheme-darkback-one, .soundtheme-logo-footer ul li a, .component-fullwidth, .soundtheme-mod-dark {
+	background-color:#24252A;
+	opacity: 0.98;
+}
+
+/*********************************************************************************************************** 
+*
+* WHITE COLOR SET
+* 
+***********************************************************************************************************/
+
+/* FONT COLOR */
+.soundtheme-sidebar-tab ul li.active a, .soundtheme-sidebar-tab ul li a:hover, .main-nav a:hover, .soundtheme-big-title h2, .soundtheme-mini-popup ul li button, .soundtheme-post-tags a:hover,
+.soundtheme-related-fa .fa, .input-group-addon, .soundtheme-logo-footer ul li a:hover, .soundtheme-gallery-hover, .soundtheme-biography-hover, .soundtheme-navi ul li a, .soundtheme-navi ul li.current,
+.soundtheme-navi ul li.page_nums, .widget_search input[type=submit], .tagcloud a:hover, .soundtheme-filter-menu ul li, .soundtheme-filter-random ul li, .soundtheme-slidertitle,
+.soundtheme-slider-nav, .soundtheme-mod-detail-dark h1, .soundtheme-mod-detail-dark h1 a, .soundtheme-mod-title-dark h1, .soundtheme-content-none h1  {
+	color: #FDFEFE;
+}
+
+.soundtheme-white-two {
+	color: #FBFCFC;
+}
+
+.soundtheme-white-three {
+	color: #F7F9F9;
+}
+
+.soundtheme-white-four {
+	color: #F4F6F7;
+}
+
+.soundtheme-white-five {
+	color: #F0F3F4;
+}
+
+.soundtheme-white-six {
+	color: #ECF0F1;
+}
+
+.main-nav a, .soundtheme-menu-icon ul li button, .soundtheme-related-title h6, .soundtheme-logo-footer ul li a, .soundtheme-mod-detail-dark h2, .soundtheme-mod-detail-dark p {
+	color: #D0D3D4;
+}
+
+.main-nav li > ul li a {
+	color: #B3B6B7;
+}
+
+.main-nav li > ul li > ul a, .soundtheme-single-count {
+	color: #979A9A;
+}
+
+.soundtheme-sidebar-tab ul li a, .soundtheme-comments-list .media-body small a {
+	color: #7B7D7D;
+}
+
+/* MAIN WHITE BACKGROUND */
+.soundtheme-top-search {
+	background: #fff;
+}
+
+.soundtheme-white-backone, .soundtheme-mod-light, .soundtheme-contact-form input[type="text"], .soundtheme-contact-form input[type="email"], .soundtheme-contact-form textarea {
+	background-color: #FBFCFC;
+}
+
+.soundtheme-white-backtwo, .soundtheme-mod-grey {
+	background-color: #F4F6F7;
+}
+
+/* BACKGROUND COLOR */
+.soundtheme-loading, .soundtheme-mini-popup, .soundtheme-post-tags a, .soundtheme-dark-widget {
+	background-color: #FDFEFE;
+}
+
+.soundtheme-header-bottomback, .soundtheme-single-tracklist ol li:nth-child(odd), .btn-default:hover {
+	background-color: #F4F6F7;
+}
+
+.soundtheme-single-tracklist ol li:nth-child(even), .btn-default, .soundtheme-comments-list .media-body, .form-control, 
+.widget_search input[type=text], .tagcloud a, div#calendar_wrap, .soundtheme-content-none p {
+	background-color: #ECF0F1;
+}
+
+.soundtheme-single-tracklist ol li:before {
+	background-color: #D0D3D4;
+}
+
+/* BORDER COLOR */
+.soundtheme-single-titles h1, .soundtheme-single-mininfo ul li, .soundtheme-comment-bigtitle h3, .soundtheme-blog-list h2, .widget-title, .widget ul li, .soundtheme-event-ul li,
+.soundtheme-mod-playlist .soundtheme-mod-detail, .soundtheme-mod-others li, .soundtheme-billboard ul li, .soundtheme-top-search {
+	border-color: #ECF0F1;
+}
+
+.soundtheme-mod-dark .soundtheme-single-titles h1, .soundtheme-mod-dark .soundtheme-single-mininfo ul li, .soundtheme-mod-dark .soundtheme-comment-bigtitle h3,
+.soundtheme-mod-dark .soundtheme-blog-list h2, .soundtheme-mod-dark .widget-title, .soundtheme-mod-dark .widget ul li, .soundtheme-mod-dark .soundtheme-event-ul li,
+.soundtheme-mod-dark .soundtheme-mod-playlist .soundtheme-mod-detail, .soundtheme-mod-dark .soundtheme-mod-others li {
+	border-color: #42444B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

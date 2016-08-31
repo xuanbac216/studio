@@ -1,0 +1,81 @@
+
+@import "../../../@common/common.less";
+
+/* Customization */
+	.box-shadow(@args) 		{ -moz-box-shadow: @args;
+	  						  -webkit-box-shadow: @args;
+							  box-shadow: @args; }
+
+
+	/* Font size for Counter type GAUGE */
+
+		.fontSizeGauge() when (@counterDimension < 150px) {
+			font-size: (15px);
+		}
+
+		.fontSizeGauge() when (@counterDimension < 200px) {
+			font-size: (@counterDimension / 10px + 2);
+		}
+
+		.fontSizeGauge() when (@counterDimension >= 200px) {
+			font-size: 24px;
+		}
+
+
+	/* Font size for Counter type TEXT */
+
+		.fontSizeText() when (@counterThickness < 15px) {
+			font-size: (@counterThickness - 5px);
+		}
+
+		.fontSizeText() when (@counterThickness < 22px) {
+			font-size: (@counterThickness - 12px);
+		}
+
+		.fontSizeText() when (@counterThickness >= 22px) {
+			font-size: 16px
+		}
+
+/* end Customization */
+
+#@{el}.counter-type-gauge {
+
+	.counter-description { width: @counterDimension; }
+
+		/* Customization */
+			.counter-title				{ .fontSizeGauge(); max-width: @counterDimension - (@counterThickness * 2 + 30); left: ( 15 + @counterThickness ); right: ( 15 + @counterThickness ); }
+			.counter-title.no-title		{ font-size: 25px; }
+		/* end Customization */
+
+}
+
+#@{el}.counter-type-line {
+
+	canvas				{ height: @counterThickness; }
+	.counter-display	{ line-height: @counterThickness; }
+	.counter-title		{ line-height: @counterThickness; font-size: @counterThickness - 8px; }
+
+		/* Customization */
+			.counter-display			{ background: @counterBottomColor; }
+			.counter-title				{ .fontSizeText(); }
+		/* end Customization */
+}
+
+#@{el}.counter-type-textbox {
+
+	.counter-display	{ min-width: @counterDimension; border-width: @counterThickness; border-color: @counterBottomColor; }
+	.type-text			{ color: @counterBaseColor; }
+	.counter-title		{ color: @counterBaseColor; }
+
+		/* Customization */
+			.counter-display	{ border: none; .box-shadow(0px @counterThickness @counterBottomColor);  }
+		/* end Customization */
+}
+
+#@{el} {
+
+}
+
+.@{el} {
+	clear:both;
+}

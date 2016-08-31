@@ -1,0 +1,58 @@
+public: true
+
+cpt:
+	labels:
+		name: _x(Obituaries, post type general name)
+		singular_name: _x(Obituary, post type singular name)
+		menu_name: _x(Obituaries, post type menu name)
+		add_new: _x(Add New, Obituary)
+		add_new_item: Add New Obituary
+		edit_item: Edit Obituary
+		new_item: New Obituary
+		view_item: View Obituary
+		search_items: Search Obituaries
+		not_found: No Obituaries found
+		not_found_in_trash: No Obituaries found in Trash
+		all_items: All Obituaries
+
+
+	args:
+		supports:
+			- title
+			- thumbnail
+			- editor
+			- page-attributes
+			- excerpt
+			- comments
+
+
+taxonomies:
+	obituaries:
+		labels:
+			name: _x(Obituaries Categories, taxonomy general name)
+			menu_name: _x(Categories, taxonomy menu name)
+			singular_name: _x(Category, taxonomy singular name)
+			search_items: Search Categories
+			all_items: All Categories
+			parent_item: Parent Category
+			parent_item_colon: 'Parent Category:'
+			edit_item: Edit Category
+			view_item: View Category
+			update_item: Update Category
+			add_new_item: Add New Category
+			new_item_name: New Category Name
+
+
+metaboxes:
+	obituary-data:
+		title: _x(Obituary Options, custom metabox title)
+		config: obituary-data
+
+
+featuredImageMetabox:
+	labels:
+		title: _x(Obituary Image, featured image metabox)
+		linkSetTitle: _x(Set Obituary Image, featured image metabox)
+		linkRemoveTitle: _x(Remove Obituary Image, featured image metabox)
+	context: normal
+	priority: default

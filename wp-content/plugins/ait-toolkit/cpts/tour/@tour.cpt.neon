@@ -1,0 +1,58 @@
+public: true
+
+cpt:
+	labels:
+		name: _x(Tours, post type general name)
+		singular_name: _x(Tour, post type singular name)
+		menu_name: _x(Tours, post type menu name)
+		add_new: _x(Add New, Tour)
+		add_new_item: Add New Tour
+		edit_item: Edit Tour
+		new_item: New Tour
+		view_item: View Tour
+		search_items: Search Tours
+		not_found: No Tours found
+		not_found_in_trash: No Tours found in Trash
+		all_items: All Tours
+
+
+	args:
+		supports:
+			- title
+			- thumbnail
+			- editor
+			- page-attributes
+			- excerpt
+			- comments
+
+
+taxonomies:
+	tours:
+		labels:
+			name: _x(Tours Categories, taxonomy general name)
+			menu_name: _x(Categories, taxonomy menu name)
+			singular_name: _x(Category, taxonomy singular name)
+			search_items: Search Categories
+			all_items: All Categories
+			parent_item: Parent Category
+			parent_item_colon: 'Parent Category:'
+			edit_item: Edit Category
+			view_item: View Category
+			update_item: Update Category
+			add_new_item: Add New Category
+			new_item_name: New Category Name
+
+
+metaboxes:
+	tour-data:
+		title: _x(Tour Options, custom metabox title)
+		config: tour-data
+
+
+featuredImageMetabox:
+	labels:
+		title: _x(Tour Image, featured image metabox)
+		linkSetTitle: _x(Set Tour Image, featured image metabox)
+		linkRemoveTitle: _x(Remove Tour Image, featured image metabox)
+	context: normal
+	priority: default

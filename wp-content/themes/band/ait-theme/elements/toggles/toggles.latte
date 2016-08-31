@@ -1,0 +1,48 @@
+{include $element->common('header')}
+
+<div id="{$htmlId}" class="{$htmlClass} type-{$el->option(type)}">
+
+	{customQuery as $query,
+		type => toggle,
+		tax => toggles,
+		cat => $element->option(category),
+		limit => -1,
+		orderby => $element->option(orderby),
+		order => $element->option(order),
+	}
+
+	{if $query->havePosts}
+		{if $el->option(type) == 'accordion' || $el->option(type) == 'toggle'}
+			{customLoop from $query as $item}
+				<div class="toggle-header"><h3 class="toggle-title">{!$item->title}</h3></div>
+  				<div class="toggle-content"><div class="toggle-container entry-content">{!$item->content}</div></div>
+			{/customLoop}
+		{elseif $el->option(type) == 'htabs'}
+			<div class="tabs-wrapper">
+				<div class="selected"></div>
+				<ul><!--
+				{customLoop from $query as $item}
+					--><li><a href="#{!$htmlId}-{$iterator->getCounter()}">{!$item->title}</a></li><!--
+				{/customLoop}
+				--></ul>
+			</div>
+			{customLoop from $query as $item}
+			<div id="{!$htmlId}-{$iterator->getCounter()}" class="toggle-content entry-content">{!$item->content}</div>
+			{/customLoop}
+		{else}
+			<div class="tabs-wrapper">
+				<div class="selected"></div>
+				<ul>
+				{customLoop from $query as $item}
+					<li><a href="#{!$htmlId}-{$iterator->getCounter()}">{!$item->title}</a></li>
+				{/customLoop}
+				</ul>
+			</div>
+			{customLoop from $query as $item}
+			<div id="{!$htmlId}-{$iterator->getCounter()}" class="toggle-content entry-content">{!$item->content}</div>
+			{/customLoop}
+		{/if}
+	{/if}
+</div>
+
+{includePart "ait-theme/elements/toggles/javascript"}

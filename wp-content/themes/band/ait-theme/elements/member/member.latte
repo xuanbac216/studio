@@ -1,0 +1,56 @@
+{include $element->common('header')}
+
+<div id="{$htmlId}" class="{$htmlClass}">
+
+	{customQuery as $query,
+		id => $el->option('member'),
+		type => 'member'
+	}
+
+	{if $query->havePosts}
+		{customLoop from $query as $member}
+			{var $meta = $member->meta('member')}
+			{var $target = $el->option('linksInNewWindow') ? 'target="_blank"'}
+
+			<div n:class="member-container, !$member->hasImage ? noimage">
+				<h3>{$member->title}</h3>
+
+				{if $member->hasImage}
+					{var $ratio = explode(":", $element->option(imageHeight))}
+					{var $iWidth = 300}
+					{var $iHeight = ($iWidth / $ratio[0]) * $ratio[1]}
+					<div class="photo-wrap">
+						<img src="{imageUrl $member->imageUrl, width => $iWidth, height => $iHeight, crop => 1}" alt="photo">
+					</div>
+				{/if}
+				<div class="desc-wrap">
+					<div class="member-title">
+						{if $meta->position}
+							{* translators: 1st placeholder '%s' is openning html tag of wrapping html element, 2nd is closing tag, 3rd is name of job position *}
+							<div class="member-position">{!_x '%1$sPosition:%2$s %3$s', 'job position'|printf: '<span class="member-position-title">', '</span>', esc_html($meta->position)}</div>
+						{/if}
+					</div>
+
+					<div class="entry-content">{!$meta->about}</div>
+
+					<div class="social-wrap">
+						<ul class="member-icons"><!--
+						{foreach $meta->icons as $icon}
+							--><li><a href="{$icon[url]}" {!target} title="{!$icon[title]}"><img src="{$icon[image]}" alt="icon"></a></li><!--
+						{/foreach}
+						--></ul>
+					</div>
+				</div>
+			</div>
+		{/customLoop}
+
+	{else}
+		<div class="member-container">
+			<div class="alert alert-info">
+				{_x 'Member', 'name of element'}&nbsp;&nbsp;|&nbsp;&nbsp;{__ 'Info: Select some member in the Member element, please.'}
+			</div>
+		</div>
+	{/if}
+</div>
+
+{includePart "ait-theme/elements/member/javascript"}

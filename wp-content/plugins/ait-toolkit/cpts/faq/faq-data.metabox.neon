@@ -1,0 +1,11 @@
+question:
+	label: Question
+	type: textarea
+	default: ''
+	help: "Text displayed as question"
+
+answer:
+	label: Answer
+	type: editor
+	default: ''
+	help: "Text displayed as an answer to question"

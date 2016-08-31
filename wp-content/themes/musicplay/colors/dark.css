@@ -1,0 +1,333 @@
+#preloader_iva_wrap,
+body { background-color:#222222;}
+.preloader {
+	background: url('../ajax-loader-dark.gif') center center no-repeat #333333;
+}
+.tracklist-Row .ivaplay,
+.ivaplay {
+	background: url('../images/play_white.png') no-repeat scroll center center transparent;
+}
+.tracklist-Row .selected .ivaplay,
+.selected .ivaplay {
+	background: url('../images/playing_white.gif') no-repeat scroll center center transparent;
+}
+body,
+#footer {
+	color: #999999;
+}
+.tracks-search {
+	background: transparent;
+}
+
+#stretched .topbar,
+#header,
+#header-s2,
+#header-s3,
+#main,
+#featured_slider,
+#subheader,
+#footer,
+.frontpage_teaser,
+.more-labels {
+	background-color: rgb(0, 0, 0, 1);
+	background-color: rgba(0, 0, 0, 0.8);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#subheader .page-title,
+#footer .widget-title,
+.tabs li.current a {
+	color: #ffffff;
+}
+a,
+.mp3options a:hover,
+.selected .fa-2x.play_icon,
+.album-meta > a {
+	color: #ffc000;
+}
+a:hover {
+	color: #ffffff;
+}
+
+.album-list .entry-title > a,
+.artist-list .entry-title > a,
+.gallery-list .entry-title > a,
+.video-list .entry-title > a,
+.djmix-list .entry-title > a { color:#ffc000; }
+
+.album-list .entry-title > a:hover,
+.artist-list .entry-title > a:hover,
+.gallery-list .entry-title > a:hover,
+.video-list .entry-title > a:hover,
+.djmix-list .entry-title > a:hover { color:#000000; }
+
+
+/* Menu */
+/* ---------------------- */
+#atp_menu a {
+	color: #999999;
+}
+#atp_menu li:hover,
+#atp_menu li.sfHover {
+}
+.sf-menu ul li {
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+#atp_menu ul {
+	background: #222222;
+}
+#atp_menu ul a {
+	color: #cccccc;
+}
+#atp_menu li li:hover,
+#atp_menu li li.sfHover,
+#atp_menu li li a:focus,
+#atp_menu li li a:hover,
+#atp_menu li li a:active {
+	color: #ffc000;
+	background: #333333;
+}
+#atp_menu a:hover,
+#atp_menu li.current-cat > a,
+#atp_menu li.current_page_item > a,
+#atp_menu li.current-page-ancestor > a {
+	color: #ffc000;
+}
+
+/* Menu */
+/* ---------------------- */
+
+.imageframe,
+.ac_wrap .ac_title,
+.tabs li.current,
+.tab_content,
+.album-desc,
+.artist-desc,
+.gallery-desc,
+.video-desc,
+.event-desc,
+.is-countdown,
+.custompost_thumb,
+.fancytoggle .toggle-title,
+.search-box input,
+.post-desc,
+.tracklist-Row:hover {
+	background-color: #444444;
+	border-color: #222222;
+}
+.album-desc a,
+.artist-desc a,
+.gallery-desc a,
+.video-desc a,
+.event-desc a {
+	color: #ffffff;
+}
+.album-desc a:hover,
+.artist-desc a:hover,
+.gallery-desc a:hover,
+.video-desc a:hover,
+.event-desc a:hover {
+	color: #222222;
+}
+.album-desc span,
+.artist-desc span,
+.gallery-desc span,
+.video-desc span,
+.event-desc span {
+	color: rgba(255, 255, 255, 0.5)
+}
+.imageborder,
+.divider,
+#subheader,
+.pagination a,
+.pagination a:link,
+#footer .footer-sidebar,
+.events-list,
+.event_details_wrap,
+.event-single .event_info,
+.event-meta,
+.event_wwrap,
+.style2 .post_list,
+.ac_wrap .ac_content,
+.tabs li,
+.fancytoggle .toggle-title,
+.event_wwrap .event-meta,
+.djmix-list,
+#stretched .topbar,
+#stretched #header,
+#stretched #footer,
+.tracklist-Row {
+	border-color: #444444;
+}
+.fancytoggle .active,
+.tracklist-Row,
+.tabs li {
+	background-color: #333333;
+}
+.tabs a {
+	color: #999999;
+}
+#back-top span,
+.event-meta .day,
+.tagcloud a:hover,
+.pagination a:hover,
+.pagination span.current,
+.play-btn,
+.tracklist-Header .tracklist-Row,
+.comment-edit-link,
+.post-edit-link {
+	background-color: #ffc000;
+	color: #444444;
+}
+.album-list:hover .album-desc,
+.artist-list:hover .artist-desc,
+.gallery-list:hover .gallery-desc,
+.video-list:hover .video-desc,
+.event-list:hover .event-desc,
+.hover_type a.hoveraudio:hover,
+.hover_type a.hovervideo:hover,
+.hover_type a.hovergallery:hover,
+.hover_type a.hoverimage:hover,
+.hover_type a.hoverartist:hover,
+.hover_type a.hoverdjmix:hover {
+	background-color: #ffc000;
+}
+.album-playlist li {
+	background-color: #444444;
+	color: #999999;
+}
+.album-playlist li a {
+	color: #bbbbbb;
+}
+.album-playlist li.selected,
+.album-playlist li.selected > a,
+.album-playlist li:hover {
+	background-color: #222222;
+}
+.album-list:hover .album-desc *,
+.video-list:hover .video-desc *,
+.gallery-list:hover .gallery-desc *,
+.event-list:hover .event-desc *,
+.artist-list:hover .artist-desc * {
+	color: #111111;
+}
+.album-list:hover .album-desc span,
+.video-list:hover .video-desc span,
+.gallery-list:hover .gallery-desc span,
+.event-list:hover .event-desc span,
+.artist-list:hover .artist-desc span {
+	color: rgba(0, 0, 0, 0.4)
+}
+.event_details_wrap,
+.events-list {
+	background-color: #222222;
+}
+
+/* Audio Player Dark Skin */
+#fap-wrapper,
+#fap-current-cover {
+	background-color: #121212 !important;
+	border-color: #444444 !important;
+}
+#fap-volume-scrubber,
+#fap-loading-bar {
+	background-color: #444444 !important;
+}
+#fap-current-title {
+	color: #ffffff !important;
+}
+#fap-volume-progress,
+#fap-volume-scrubber,
+#fap-time-bar {
+	border-color: #444444 !important;
+}
+#fap-playlist li {
+	background: none !important;
+	color: #ffffff !important;
+}
+#fap-previous:hover,
+#fap-progress-bar,
+#fap-next:hover,
+#fap-player-popup:hover,
+#fap-playlist-toggle:hover,
+#fap-playlist-shuffle:hover,
+#fap-current-meta a:hover,
+#fap-play-pause {
+	color: #ffc000 !important;
+}
+#fap-volume-indicator,
+#fap-progress-bar {
+	background-color: #ffc000 !important;
+}
+#fap-current-meta > a {
+	color: #ffc000 !important;
+}
+#fap-wrapper-switcher {
+	background: #111111 !important;
+	border-top-color: #444444 !important;
+	border-right-color: #444444 !important;
+	border-left-color: #444444 !important;
+}
+
+.iva-np-pagination a {
+	color: #bbbbbb;
+}
+.iva-np-pagination a:hover {
+	color: #ffc000;
+}
+
+.topbar,
+.iva-music-bar {
+	background-color: rgba(0,0,0,0.65);
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+.testimonial-box { background-color: #111111; }
+.testimonial-arrow{ border-color:#111111 transparent transparent transparent; }
+
+/* Radio Skinning Dark
+----------------------------------------------- */
+
+.jp-radio {
+    color: #ffc000 !important;
+}
+.jp-radio .jp-interface {
+	background-color: #111111;
+}
+.jp-radio .jp-close-btn {
+	color: #ffc000;
+	background-color: #111111;
+	border-color: #ffc000;
+}
+.jp-radio .jp-volume-bar {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.jp-play-bar,
+.jp-volume-bar-value {
+	background-color: #ffc000;
+}
+.jp-audio a {
+	color: #ffc000;
+}
+.jp-audio a:hover {
+	color: #ffc000;
+}
+.jp-radio .jp-play {
+	color: #ffc000;
+}
+.jp-radio .jp-pause {
+	color: #ffc000;
+}
+
+.jp-volume-bar::after {
+	border-left: 1px solid rgba( 255, 255, 255, 0.1 );
+	border-right: 1px solid rgba( 0, 0, 0, 0.6 );
+}
+.jp-radio .jp-controls:after {
+	border-left: 1px solid rgba( 255, 255, 255, 0.1 );
+	border-right: 1px solid rgba( 0, 0, 0, 0.6 );
+}

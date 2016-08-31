@@ -1,0 +1,105 @@
+body,
+#footer {
+	color:#444444;
+}
+
+#header, 
+#header-s2, 
+#header-s3,
+#main,
+#featured_slider,
+#subheader,
+#footer,
+.frontpage_teaser,
+.more-labels
+{
+	background-color:rgba(255,255,255,0.85);
+}
+
+h1,h2,h3,h4,h5,h6,
+#subheader .page-title,
+#footer .widget-title
+{
+	color:#222222;
+}
+
+a,
+.album-meta > a { color:#333333; }
+a:hover { color:#01749F; }
+
+/* Menu */
+/* ---------------------- */
+#atp_menu a { font-size:14px; color:#999999;   font-family:Dosis; }
+#atp_menu li:hover, 
+#atp_menu li.sfHover {  }
+
+#atp_menu ul { background:#222222; }
+#atp_menu ul a { color:#cccccc; }
+
+#atp_menu li li:hover, #atp_menu li li.sfHover,
+#atp_menu li li a:focus, #atp_menu li li a:hover, #atp_menu li li a:active {
+	color:#01749F;	background:#333333;	}
+
+#atp_menu li.current-cat a, 
+#atp_menu li.current_page_item a,
+#atp_menu li.current-page-ancestor > a { color:#01749F; }
+
+#atp_menu a:hover,
+#atp_menu li.current-cat a, 
+#atp_menu li.current_page_item a,
+#atp_menu li.current-page-ancestor > a {
+	color:#01749F;
+}
+
+/* Menu */
+/* ---------------------- */
+
+.album-desc,
+.artist-desc,
+.gallery-desc,
+.video-desc,
+.event-desc
+{
+	border-color:#cccccc;
+}
+
+.divider,
+#subheader,
+.pagination a, .pagination a:link,
+#footer .footer-sidebar,
+.events-list,
+.event_details_wrap,
+.event-single .event_info,
+.event-meta {
+	border-color:#cccccc;
+}
+
+#back-top span,
+.event-meta .day,
+.tagcloud a:hover,
+.pagination a:hover,
+.pagination span.current,
+.play-btn,
+.comment-edit-link, .post-edit-link {
+	background-color:#01749F;
+	color: #ffffff;
+}
+
+.album-list:hover .album-desc,
+.artist-list:hover .artist-desc,
+.gallery-list:hover .gallery-desc,
+.video-list:hover .video-desc,
+.event-list:hover .event-desc,
+.hover_type a.hoveraudio:hover,
+.hover_type a.hovervideo:hover,
+.hover_type a.hovergallery:hover,
+.hover_type a.hoverimage:hover,
+.hover_type a.hoverartist:hover,
+.album-playlist li.selected { 
+	background-color:#01749F; 
+}
+
+.iva-music-bar {
+	background-color: rgba(255,255,255,0.65);
+	border:1px solid rgba(0, 0, 0, 0.1);
+}

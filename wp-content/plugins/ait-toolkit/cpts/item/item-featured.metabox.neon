@@ -1,0 +1,4 @@
+featured:
+	label: Featured
+	type: on-off
+	default: off

@@ -1,0 +1,242 @@
+body,
+#footer {
+	color:#666666;
+}
+
+#bodybg {
+    background-attachment: fixed !important;
+    background-color: #DA2D2E;
+    background-image: url("http://www.aivahthemes.com/musicplay/files/chris.png") !important;
+    background-position: center top;
+    background-repeat: repeat !important;
+}
+
+#header,
+#header-s2,
+#header-s3,
+#main,
+#featured_slider,
+#subheader,
+#footer
+{
+	background-color:rgb(255, 255, 255, 1);
+	background-color:rgba(255, 255, 255, 1);
+}
+
+*::-moz-selection {
+    background-color: #DA2D2E;
+    color: #FFFFFF;
+}
+
+h1,h2,h3,h4,h5,h6,
+#subheader .page-title,
+#footer .widget-title
+{
+	color:#222222;
+}
+
+a,
+.album-meta > a { color:#DA2D2E; }
+a:hover { color:#DA2D2E; }
+
+/* Menu */
+/* ---------------------- */
+#atp_menu a { color:#444; }
+#atp_menu li:hover,
+#atp_menu li.sfHover {  }
+.sf-menu ul li {
+	border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+#atp_menu ul { background:#fff; }
+#atp_menu ul a { color:#444; }
+
+#atp_menu li li:hover, #atp_menu li li.sfHover,
+#atp_menu li li a:focus, #atp_menu li li a:hover, #atp_menu li li a:active {
+	color:#DA2D2E;	background:#ddd;	}
+
+#atp_menu a:hover,
+#atp_menu li.current-cat > a,
+#atp_menu li.current_page_item > a,
+#atp_menu li.current-page-ancestor > a {color:#DA2D2E;}
+
+/* Menu */
+/* ---------------------- */
+
+.album-desc,
+.artist-desc,
+.gallery-desc,
+.video-desc,
+.event-desc
+{
+
+}
+
+.album-desc a,
+.artist-desc a,
+.gallery-desc a,
+.video-desc a,
+.event-desc a {
+	color:#222222;
+}
+
+.album-desc a:hover,
+.artist-desc a:hover,
+.gallery-desc a:hover,
+.video-desc a:hover,
+.event-desc a:hover {
+	color:#222222;
+}
+
+.album-desc span,
+.artist-desc span,
+.gallery-desc span,
+.video-desc span,
+.event-desc span {
+	color:rgba(0,0,0,0.5)
+}
+
+.divider,
+#subheader,
+.pagination a, .pagination a:link,
+#footer .footer-sidebar,
+.events-list,
+.event_details_wrap,
+.event-single .event_info,
+.event-meta {
+	border-color:#dddddd;
+}
+
+#back-top span,
+.event-meta .day,
+.tagcloud a:hover,
+.pagination a:hover,
+.pagination span.current,
+.play-btn,
+.fancy-title:after,
+.comment-edit-link, .post-edit-link,
+.tracklist-Header .tracklist-Row {
+	background-color:#DA2D2E;
+	color: #fff;
+}
+
+.album-list:hover .album-desc,
+.artist-list:hover .artist-desc,
+.gallery-list:hover .gallery-desc,
+.video-list:hover .video-desc,
+.event-list:hover .event-desc,
+.hover_type a.hoveraudio:hover,
+.hover_type a.hovervideo:hover,
+.hover_type a.hovergallery:hover,
+.hover_type a.hoverimage:hover,
+.hover_type a.hoverartist:hover,
+.post-desc,
+.album-playlist li.selected,
+.ac_title .arrow,
+.ac_title.active .arrow,
+.tabs li,
+.fancytoggle .arrow,
+.toggle-title.active .arrow {
+	background-color:#DA2D2E;
+}
+
+.album-playlist li { background-color:#f6f6f6; color:#d0d0d0; }
+.album-playlist li a { color:#444444; }
+.album-playlist li:hover { background-color:#eeeeee;}
+span.buy a, span.download a, span.lyrics  a{ background-color:#DA2D2E; color:#FFFFFF;}
+span.download a
+.album-list:hover .album-desc *,
+.video-list:hover .video-desc *,
+.gallery-list:hover .gallery-desc *,
+.event-list:hover .event-desc *,
+.artist-list:hover .artist-desc * { color:#ffffff; }
+
+.album-list:hover .album-desc span,
+.video-list:hover .video-desc span,
+.gallery-list:hover .gallery-desc span,
+.event-list:hover .event-desc span,
+.artist-list:hover .artist-desc span { color:rgba(255,255,255,0.8) }
+
+.event_details_wrap,
+.events-list { background-color:#f6f6f6; }
+
+
+/* Audio Player Dark Skin */
+#fap-wrapper,
+#fap-current-cover { background-color:#222222 !important; border-color:#BA3535 !important;}
+
+#fap-volume-scrubber,
+#fap-loading-bar { background-color:#444444 !important;}
+
+#fap-current-title { color:#ffffff !important; }
+
+#fap-volume-progress,
+#fap-volume-scrubber,
+#fap-time-bar { border-color:#444444 !important;}
+
+#fap-playlist li { background:none !important; color:#ffffff !important; }
+
+#fap-previous:hover,
+#fap-progress-bar,
+#fap-next:hover,
+#fap-player-popup:hover,
+#fap-playlist-toggle:hover,
+#fap-playlist-shuffle:hover,
+#fap-current-meta a:hover,
+#fap-play-pause { color:#BA3535 !important; }
+
+#fap-volume-indicator,
+#fap-progress-bar { background-color:#BA3535 !important; }
+
+#fap-current-meta > a { color:#BA3535 !important; }
+
+#fap-wrapper-switcher {
+	background:#111111 !important;
+	border-top-color:#444444 !important;
+	border-right-color:#444444 !important;
+	border-left-color:#444444 !important;
+}
+.tagcloud a {background-color: #DA2D2E;}
+
+/* Radio Skinning Dark
+----------------------------------------------- */
+
+.jp-radio {
+    color: #BA3535 !important;
+}
+.jp-radio .jp-interface {
+	background-color: #111111;
+}
+.jp-radio .jp-close-btn {
+	color: #BA3535;
+	background-color: #111111;
+	border-color: #BA3535;
+}
+.jp-radio .jp-volume-bar {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.jp-play-bar,
+.jp-volume-bar-value {
+	background-color: #BA3535;
+}
+.jp-audio a {
+	color: #BA3535;
+}
+.jp-audio a:hover {
+	color: #BA3535;
+}
+.jp-radio .jp-play {
+	color: #BA3535;
+}
+.jp-radio .jp-pause {
+	color: #BA3535;
+}
+
+.jp-volume-bar::after {
+	border-left: 1px solid rgba( 255, 255, 255, 0.1 );
+	border-right: 1px solid rgba( 0, 0, 0, 0.6 );
+}
+.jp-radio .jp-controls:after {
+	border-left: 1px solid rgba( 255, 255, 255, 0.1 );
+	border-right: 1px solid rgba( 0, 0, 0, 0.6 );
+}

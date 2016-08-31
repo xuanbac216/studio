@@ -1,0 +1,137 @@
+location:
+	label: Location
+	type: multimarker-map
+	default:
+		address: ""
+	related: checkpoints
+
+checkpoints:
+	label: Checkpoints
+	type: clone
+	max: infinity
+	items:
+		title:
+			label: Title
+			type: text
+		desc:
+			label: Description
+			type: multiline-code
+		lat:
+			type: hidden
+			default: ''
+		lng:
+			type: hidden
+			default: ''
+		icon:
+			label: Checkpoint Icon
+			type: image
+			default: '/design/img/tour-pin.png'
+		align:
+			label: Align
+			type: select
+			selected: center
+			default:
+				center: Center
+				bottom: Bottom
+			help: 'Set alignment for icons ("center" for round symetric icons and "bottom" for pins or flags)'
+	default: []
+
+
+strokeColor:
+	label: Path Color
+	type: color
+	default: '#fdbc3f'
+	required: true
+
+
+showAllMarkers:
+	label: Display All Checkpoints
+	type: on-off
+	default: false
+	help: "Checkpoints without Title and Description will not be displayed on the map"
+
+
+
+
+- section(title: 'Additional information')
+startDate:
+	label: Date From
+	type: date
+	format: 'D, d M yy'
+	help: "Starting date for tour"
+
+endDate:
+	label: Date To
+	type: date
+	format: 'D, d M yy'
+	help: "Ending date for tour"
+
+difficulty:
+	label: Difficulty
+	type: range
+	min: 0
+	max: 10
+	step: 1
+	default: 0
+	help: "Set 0 to ignore this option"
+
+difficultyTitle:
+	label: Difficulty Title
+	type: code
+	default: 'Difficulty for this tour'
+
+
+details:
+	label: Additional Information
+	type: clone
+	max: 20
+	help: "Add custom additional information"
+	items:
+		title:
+			label: Title
+			type: text
+		value:
+			label: Value
+			type: text
+		desc:
+			label: Description
+			type: multiline-code
+	default: []
+
+- section(title: 'Galleries')
+
+videoGallery:
+	label: Video Gallery
+	type: clone
+	max: infinity
+	items:
+		type:
+			label: Type
+			type: select
+			default:
+				youtube: 'YouTube'
+				vimeo: 'Vimeo'
+			help: "Select video source"
+		link:
+			label: Link
+			type: url
+			default: ''
+			help: "URL of video displayed on page, use valid URL format with http://"
+		description:
+			label: Description
+			type: multiline-string
+			default: ''
+	default: []
+
+gallery:
+	label: Picture Gallery
+	type: clone
+	max: infinity
+	items:
+		title:
+			label: Title
+			type: text
+		image:
+			label: Image
+			type: image
+	default: []

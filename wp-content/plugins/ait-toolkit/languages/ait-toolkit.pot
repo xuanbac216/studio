@@ -1,0 +1,2434 @@
+# Copyright (C) 2015 AitThemes.Club
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AIT Toolkit\n"
+"Report-Msgid-Bugs-To: https://system.ait-themes.club/support/\n"
+"POT-Creation-Date: 2015-11-05 13:50:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgctxt "post type general name"
+msgid "Advertisements"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgctxt "post type singular name"
+msgid "Advertisement"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgctxt "post type menu name"
+msgid "Advertisements"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgctxt "advertisement"
+msgid "Add New"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgid "Add New Advertisement"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgid "Edit Advertisement"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgid "New Advertisement"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgid "View Advertisement"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgid "Search Advertisements"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgid "No Advertisements found"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgid "No Advertisements found in Trash"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgid "All Advertisements"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Advertisements Categories"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon cpts/event/@event.cpt.neon
+#: cpts/event-with-map/@event-with-map.cpt.neon
+#: cpts/facility/@facility.cpt.neon cpts/faq/@faq.cpt.neon
+#: cpts/infopanel/@infopanel.cpt.neon cpts/job-offer/@job-offer.cpt.neon
+#: cpts/match/@match.cpt.neon cpts/member/@member.cpt.neon
+#: cpts/obituary/@obituary.cpt.neon cpts/partner/@partner.cpt.neon
+#: cpts/price-table/@price-table.cpt.neon
+#: cpts/product-item/@product-item.cpt.neon
+#: cpts/service-box/@service-box.cpt.neon
+#: cpts/testimonial/@testimonial.cpt.neon cpts/toggle/@toggle.cpt.neon
+#: cpts/tour/@tour.cpt.neon
+msgctxt "taxonomy menu name"
+msgid "Categories"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon cpts/event/@event.cpt.neon
+#: cpts/event-with-map/@event-with-map.cpt.neon
+#: cpts/facility/@facility.cpt.neon cpts/faq/@faq.cpt.neon
+#: cpts/infopanel/@infopanel.cpt.neon cpts/job-offer/@job-offer.cpt.neon
+#: cpts/match/@match.cpt.neon cpts/member/@member.cpt.neon
+#: cpts/obituary/@obituary.cpt.neon cpts/partner/@partner.cpt.neon
+#: cpts/price-table/@price-table.cpt.neon
+#: cpts/product-item/@product-item.cpt.neon
+#: cpts/service-box/@service-box.cpt.neon
+#: cpts/testimonial/@testimonial.cpt.neon cpts/toggle/@toggle.cpt.neon
+#: cpts/tour/@tour.cpt.neon
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon cpts/event/@event.cpt.neon
+#: cpts/event-with-map/@event-with-map.cpt.neon
+#: cpts/facility/@facility.cpt.neon cpts/faq/@faq.cpt.neon
+#: cpts/infopanel/@infopanel.cpt.neon cpts/item/@item.cpt.neon
+#: cpts/job-offer/@job-offer.cpt.neon cpts/match/@match.cpt.neon
+#: cpts/member/@member.cpt.neon cpts/obituary/@obituary.cpt.neon
+#: cpts/partner/@partner.cpt.neon cpts/price-table/@price-table.cpt.neon
+#: cpts/product-item/@product-item.cpt.neon
+#: cpts/service-box/@service-box.cpt.neon
+#: cpts/testimonial/@testimonial.cpt.neon cpts/toggle/@toggle.cpt.neon
+#: cpts/tour/@tour.cpt.neon
+msgid "Search Categories"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon cpts/event/@event.cpt.neon
+#: cpts/event-with-map/@event-with-map.cpt.neon
+#: cpts/facility/@facility.cpt.neon cpts/faq/@faq.cpt.neon
+#: cpts/infopanel/@infopanel.cpt.neon cpts/item/@item.cpt.neon
+#: cpts/job-offer/@job-offer.cpt.neon cpts/match/@match.cpt.neon
+#: cpts/member/@member.cpt.neon cpts/obituary/@obituary.cpt.neon
+#: cpts/partner/@partner.cpt.neon cpts/price-table/@price-table.cpt.neon
+#: cpts/product-item/@product-item.cpt.neon
+#: cpts/service-box/@service-box.cpt.neon
+#: cpts/testimonial/@testimonial.cpt.neon cpts/toggle/@toggle.cpt.neon
+#: cpts/tour/@tour.cpt.neon
+msgid "All Categories"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon cpts/event/@event.cpt.neon
+#: cpts/event-with-map/@event-with-map.cpt.neon
+#: cpts/facility/@facility.cpt.neon cpts/faq/@faq.cpt.neon
+#: cpts/infopanel/@infopanel.cpt.neon cpts/item/@item.cpt.neon
+#: cpts/job-offer/@job-offer.cpt.neon cpts/match/@match.cpt.neon
+#: cpts/member/@member.cpt.neon cpts/obituary/@obituary.cpt.neon
+#: cpts/partner/@partner.cpt.neon cpts/price-table/@price-table.cpt.neon
+#: cpts/product-item/@product-item.cpt.neon
+#: cpts/service-box/@service-box.cpt.neon
+#: cpts/testimonial/@testimonial.cpt.neon cpts/toggle/@toggle.cpt.neon
+#: cpts/tour/@tour.cpt.neon
+msgid "Parent Category"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon cpts/facility/@facility.cpt.neon
+#: cpts/faq/@faq.cpt.neon cpts/infopanel/@infopanel.cpt.neon
+#: cpts/item/@item.cpt.neon cpts/job-offer/@job-offer.cpt.neon
+#: cpts/match/@match.cpt.neon cpts/member/@member.cpt.neon
+#: cpts/partner/@partner.cpt.neon cpts/portfolio-item/@portfolio-item.cpt.neon
+#: cpts/price-table/@price-table.cpt.neon
+#: cpts/product-item/@product-item.cpt.neon
+#: cpts/service-box/@service-box.cpt.neon
+#: cpts/testimonial/@testimonial.cpt.neon cpts/toggle/@toggle.cpt.neon
+msgid "Parent Cateogry:"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon cpts/event/@event.cpt.neon
+#: cpts/event-with-map/@event-with-map.cpt.neon
+#: cpts/facility/@facility.cpt.neon cpts/faq/@faq.cpt.neon
+#: cpts/infopanel/@infopanel.cpt.neon cpts/item/@item.cpt.neon
+#: cpts/job-offer/@job-offer.cpt.neon cpts/match/@match.cpt.neon
+#: cpts/member/@member.cpt.neon cpts/obituary/@obituary.cpt.neon
+#: cpts/partner/@partner.cpt.neon cpts/price-table/@price-table.cpt.neon
+#: cpts/product-item/@product-item.cpt.neon
+#: cpts/service-box/@service-box.cpt.neon
+#: cpts/testimonial/@testimonial.cpt.neon cpts/toggle/@toggle.cpt.neon
+#: cpts/tour/@tour.cpt.neon
+msgid "Edit Category"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon cpts/event/@event.cpt.neon
+#: cpts/event-with-map/@event-with-map.cpt.neon
+#: cpts/facility/@facility.cpt.neon cpts/faq/@faq.cpt.neon
+#: cpts/infopanel/@infopanel.cpt.neon cpts/item/@item.cpt.neon
+#: cpts/job-offer/@job-offer.cpt.neon cpts/match/@match.cpt.neon
+#: cpts/member/@member.cpt.neon cpts/obituary/@obituary.cpt.neon
+#: cpts/partner/@partner.cpt.neon cpts/price-table/@price-table.cpt.neon
+#: cpts/product-item/@product-item.cpt.neon
+#: cpts/service-box/@service-box.cpt.neon
+#: cpts/testimonial/@testimonial.cpt.neon cpts/toggle/@toggle.cpt.neon
+#: cpts/tour/@tour.cpt.neon
+msgid "View Category"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon cpts/event/@event.cpt.neon
+#: cpts/event-with-map/@event-with-map.cpt.neon
+#: cpts/facility/@facility.cpt.neon cpts/faq/@faq.cpt.neon
+#: cpts/infopanel/@infopanel.cpt.neon cpts/item/@item.cpt.neon
+#: cpts/job-offer/@job-offer.cpt.neon cpts/match/@match.cpt.neon
+#: cpts/member/@member.cpt.neon cpts/obituary/@obituary.cpt.neon
+#: cpts/partner/@partner.cpt.neon cpts/price-table/@price-table.cpt.neon
+#: cpts/product-item/@product-item.cpt.neon
+#: cpts/service-box/@service-box.cpt.neon
+#: cpts/testimonial/@testimonial.cpt.neon cpts/toggle/@toggle.cpt.neon
+#: cpts/tour/@tour.cpt.neon
+msgid "Update Category"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon cpts/event/@event.cpt.neon
+#: cpts/event-with-map/@event-with-map.cpt.neon
+#: cpts/facility/@facility.cpt.neon cpts/faq/@faq.cpt.neon
+#: cpts/infopanel/@infopanel.cpt.neon cpts/item/@item.cpt.neon
+#: cpts/job-offer/@job-offer.cpt.neon cpts/match/@match.cpt.neon
+#: cpts/member/@member.cpt.neon cpts/obituary/@obituary.cpt.neon
+#: cpts/partner/@partner.cpt.neon cpts/price-table/@price-table.cpt.neon
+#: cpts/product-item/@product-item.cpt.neon
+#: cpts/service-box/@service-box.cpt.neon
+#: cpts/testimonial/@testimonial.cpt.neon cpts/toggle/@toggle.cpt.neon
+#: cpts/tour/@tour.cpt.neon
+msgid "Add New Category"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon cpts/event/@event.cpt.neon
+#: cpts/event-with-map/@event-with-map.cpt.neon
+#: cpts/facility/@facility.cpt.neon cpts/faq/@faq.cpt.neon
+#: cpts/infopanel/@infopanel.cpt.neon cpts/item/@item.cpt.neon
+#: cpts/job-offer/@job-offer.cpt.neon cpts/match/@match.cpt.neon
+#: cpts/member/@member.cpt.neon cpts/obituary/@obituary.cpt.neon
+#: cpts/partner/@partner.cpt.neon cpts/price-table/@price-table.cpt.neon
+#: cpts/product-item/@product-item.cpt.neon
+#: cpts/service-box/@service-box.cpt.neon
+#: cpts/testimonial/@testimonial.cpt.neon cpts/toggle/@toggle.cpt.neon
+#: cpts/tour/@tour.cpt.neon
+msgid "New Category Name"
+msgstr ""
+
+#: cpts/ad-space/@ad-space.cpt.neon
+msgctxt "custom metabox title"
+msgid "Advertisement Options"
+msgstr ""
+
+#: cpts/ad-space/space.metabox.neon cpts/item/AitItemCpt.php:204
+#: cpts/item/AitItemCpt.php:272 cpts/item/AitItemCpt.php:349
+#: cpts/item/AitItemCpt.php:402 cpts/item/item-data.metabox.neon
+#: cpts/member/member.metabox.neon cpts/obituary/obituary-data.metabox.neon
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+#: cpts/service-box/box-data.metabox.neon
+msgid "Image"
+msgstr ""
+
+#: cpts/ad-space/space.metabox.neon
+msgid "URL of image displayed in advertising space, use valid URL format with http://"
+msgstr ""
+
+#: cpts/ad-space/space.metabox.neon cpts/facility/facility-data.metabox.neon
+#: cpts/infopanel/infopanel-data.metabox.neon cpts/item/item-data.metabox.neon
+#: cpts/match/match-data.metabox.neon cpts/obituary/obituary-data.metabox.neon
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+#: cpts/price-table/table-data.metabox.neon
+#: cpts/product-item/product-item-options.metabox.neon
+#: cpts/service-box/box-data.metabox.neon
+msgid "Description"
+msgstr ""
+
+#: cpts/ad-space/space.metabox.neon
+msgid "Text displayed in advertising space"
+msgstr ""
+
+#: cpts/ad-space/space.metabox.neon cpts/item/item-data.metabox.neon
+#: cpts/match/match-data.metabox.neon cpts/member/member.metabox.neon
+#: cpts/obituary/obituary-data.metabox.neon
+#: cpts/partner/partner-options.metabox.neon
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+#: cpts/service-box/box-data.metabox.neon
+msgid "Link"
+msgstr ""
+
+#: cpts/ad-space/space.metabox.neon
+msgid "Link used for image in advertising space"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgctxt "post type general name"
+msgid "Events"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgctxt "post type singular name"
+msgid "Event"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgctxt "post type menu name"
+msgid "Events"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgctxt "Event"
+msgid "Add New"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgid "Add New Event"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgid "Edit Event"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgid "New Event"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgid "View Event"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgid "Search Events"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgid "No Events found"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgid "No Events found in Trash"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgid "All Events"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Events Categories"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+#: cpts/item/@item.cpt.neon cpts/obituary/@obituary.cpt.neon
+#: cpts/tour/@tour.cpt.neon
+msgid "Parent Category:"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgctxt "custom metabox title"
+msgid "Event Options"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgctxt "featured image metabox"
+msgid "Event Image"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgctxt "featured image metabox"
+msgid "Set Event Image"
+msgstr ""
+
+#: cpts/event/@event.cpt.neon cpts/event-with-map/@event-with-map.cpt.neon
+msgctxt "featured image metabox"
+msgid "Remove Event Image"
+msgstr ""
+
+#: cpts/event/event-data.metabox.neon
+#: cpts/event-with-map/event-with-map-data.metabox.neon
+#: cpts/job-offer/offer-data.metabox.neon
+#: cpts/obituary/obituary-data.metabox.neon
+#: cpts/rating/rating-data.metabox.neon cpts/tour/tour-data.metabox.neon
+msgid "Date From"
+msgstr ""
+
+#: cpts/event/event-data.metabox.neon
+#: cpts/event-with-map/event-with-map-data.metabox.neon
+#: cpts/rating/rating-data.metabox.neon cpts/tour/tour-data.metabox.neon
+msgid "Starting date of event"
+msgstr ""
+
+#: cpts/event/event-data.metabox.neon
+#: cpts/event-with-map/event-with-map-data.metabox.neon
+#: cpts/job-offer/offer-data.metabox.neon
+#: cpts/obituary/obituary-data.metabox.neon
+#: cpts/rating/rating-data.metabox.neon cpts/tour/tour-data.metabox.neon
+msgid "Date To"
+msgstr ""
+
+#: cpts/event/event-data.metabox.neon
+#: cpts/event-with-map/event-with-map-data.metabox.neon
+#: cpts/rating/rating-data.metabox.neon cpts/tour/tour-data.metabox.neon
+msgid "Ending date of event"
+msgstr ""
+
+#: cpts/event/event-data.metabox.neon
+#: cpts/event-with-map/event-with-map-data.metabox.neon
+#: cpts/obituary/obituary-data.metabox.neon
+#: cpts/rating/rating-data.metabox.neon cpts/tour/tour-data.metabox.neon
+msgid "Location"
+msgstr ""
+
+#: cpts/event/event-data.metabox.neon
+#: cpts/event-with-map/event-with-map-data.metabox.neon
+#: cpts/rating/rating-data.metabox.neon cpts/tour/tour-data.metabox.neon
+msgid "Location of event"
+msgstr ""
+
+#: cpts/event-with-map/@event-with-map.cpt.neon
+msgctxt "custom metabox title"
+msgid "Relations"
+msgstr ""
+
+#: cpts/event-with-map/event-with-map-relations-data.metabox.neon
+msgid "Item"
+msgstr ""
+
+#: cpts/event-with-map/event-with-map-relations-data.metabox.neon
+msgid "Related Item"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgctxt "post type general name"
+msgid "Facility"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgctxt "post type singular name"
+msgid "Facility"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgctxt "post type menu name"
+msgid "Facilities"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgctxt "Facility"
+msgid "Add New"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgid "Add New Facility"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgid "Edit Facility"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgid "New Facility"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgid "View Facility"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgid "Search Facilities"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgid "No Facilities found"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgid "No Facilities found in Trash"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgid "All Facilities"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgid "Enter descriptive title for this facility here"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Facility Categories"
+msgstr ""
+
+#: cpts/facility/@facility.cpt.neon
+msgctxt "custom metabox title"
+msgid "Facility Options"
+msgstr ""
+
+#: cpts/facility/facility-data.metabox.neon cpts/item/AitItemCpt.php:73
+#: cpts/item/AitItemCpt.php:74 cpts/item/AitItemCpt.php:110
+#: cpts/item/AitItemCpt.php:111 cpts/item/AitItemCpt.php:179
+#: cpts/item/AitItemCpt.php:257 cpts/item/AitItemCpt.php:334
+#: cpts/item/AitItemCpt.php:393 cpts/item/item-data.metabox.neon
+msgid "Icon"
+msgstr ""
+
+#: cpts/facility/facility-data.metabox.neon cpts/item/item-data.metabox.neon
+msgid "Icon Color"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgctxt "post type general name"
+msgid "Questions and Answers"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgctxt "post type singular name"
+msgid "Question and Answer"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgctxt "post type menu name"
+msgid "FAQ"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgctxt "question and answer"
+msgid "Add New"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgid "Add New Question and Answer"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgid "Edit Question and Answer"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgid "New Question and Answer"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgid "View Question and Answer"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgid "Search Questions and Answers"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgid "No Questions and Answers found"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgid "No Questions and Answers found in Trash"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgid "All Questions and Answers"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgid "Enter descriptive title for this question here"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgctxt "taxonomy general name"
+msgid "FAQ Categories"
+msgstr ""
+
+#: cpts/faq/@faq.cpt.neon
+msgctxt "custom metabox title"
+msgid "Question and Answer"
+msgstr ""
+
+#: cpts/faq/faq-data.metabox.neon
+msgid "Question"
+msgstr ""
+
+#: cpts/faq/faq-data.metabox.neon
+msgid "Text displayed as question"
+msgstr ""
+
+#: cpts/faq/faq-data.metabox.neon
+msgid "Answer"
+msgstr ""
+
+#: cpts/faq/faq-data.metabox.neon
+msgid "Text displayed as an answer to question"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgctxt "post type general name"
+msgid "Infopanels"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgctxt "post type singular name"
+msgid "Infopanel"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgctxt "post type menu name"
+msgid "Infopanels"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgctxt "Infopanel"
+msgid "Add New"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgid "Add New Infopanel"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgid "Edit Infopanel"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgid "New Infopanel"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgid "View Infopanel"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgid "Search Infopanels"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgid "No Infopanels found"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgid "No Infopanels found in Trash"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgid "All Infopanels"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Infopanel Categories"
+msgstr ""
+
+#: cpts/infopanel/@infopanel.cpt.neon
+msgctxt "custom metabox title"
+msgid "Infopanel Options"
+msgstr ""
+
+#: cpts/infopanel/infopanel-data.metabox.neon cpts/item/item-data.metabox.neon
+#: cpts/match/match-data.metabox.neon cpts/member/member.metabox.neon
+#: cpts/obituary/obituary-data.metabox.neon
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+#: cpts/price-table/table-data.metabox.neon
+msgid "Title"
+msgstr ""
+
+#: cpts/infopanel/infopanel-data.metabox.neon
+msgid "Data"
+msgstr ""
+
+#: cpts/infopanel/infopanel-data.metabox.neon cpts/item/item-data.metabox.neon
+msgid "Name"
+msgstr ""
+
+#: cpts/infopanel/infopanel-data.metabox.neon cpts/item/item-data.metabox.neon
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Value"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "post type general name"
+msgid "Items"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "post type singular name"
+msgid "Item"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "post type menu name"
+msgid "Items"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "Item"
+msgid "Add New"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgid "Add New Item"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgid "Edit Item"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgid "New Item"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgid "View Item"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgid "Search Items"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgid "No Items found"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgid "No Items found in Trash"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgid "All Items"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Item Categories"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "taxonomy menu name"
+msgid "Item Categories"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "taxonomy singular name"
+msgid "Item Category"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Item Locations"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "taxonomy menu name"
+msgid "Item Locations"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "taxonomy singular name"
+msgid "Item Location"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "custom metabox title"
+msgid "Item Options"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "custom metabox title"
+msgid "Author Options"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "featured image metabox"
+msgid "Item Image"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "featured image metabox"
+msgid "Set Item Image"
+msgstr ""
+
+#: cpts/item/@item.cpt.neon
+msgctxt "featured image metabox"
+msgid "Remove Item Image"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:69 cpts/item/AitItemCpt.php:70
+#: cpts/item/AitItemCpt.php:106 cpts/item/AitItemCpt.php:107
+#: cpts/item/AitItemCpt.php:170 cpts/item/AitItemCpt.php:252
+#: cpts/item/AitItemCpt.php:325 cpts/item/AitItemCpt.php:388
+msgid "Keywords"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:77 cpts/item/AitItemCpt.php:78
+msgid "Map Icon"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:81 cpts/item/AitItemCpt.php:82
+#: cpts/item/AitItemCpt.php:114 cpts/item/AitItemCpt.php:115
+#: cpts/item/AitItemCpt.php:199 cpts/item/AitItemCpt.php:269
+#: cpts/item/AitItemCpt.php:344 cpts/item/AitItemCpt.php:399
+msgid "Header Type"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:85 cpts/item/AitItemCpt.php:86
+#: cpts/item/AitItemCpt.php:118 cpts/item/AitItemCpt.php:119
+#: cpts/item/AitItemCpt.php:213 cpts/item/AitItemCpt.php:279
+#: cpts/item/AitItemCpt.php:358 cpts/item/AitItemCpt.php:409
+#: cpts/item/item-data.metabox.neon
+msgid "Header Image"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:89 cpts/item/AitItemCpt.php:90
+#: cpts/item/AitItemCpt.php:122 cpts/item/AitItemCpt.php:123
+#: cpts/item/AitItemCpt.php:223 cpts/item/AitItemCpt.php:285
+#: cpts/item/AitItemCpt.php:368 cpts/item/AitItemCpt.php:415
+#: cpts/item/item-data.metabox.neon
+msgid "Header Image Align"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:93 cpts/item/AitItemCpt.php:94
+msgid "Category Featured"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:183 cpts/item/AitItemCpt.php:193
+#: cpts/item/AitItemCpt.php:217 cpts/item/AitItemCpt.php:259
+#: cpts/item/AitItemCpt.php:265 cpts/item/AitItemCpt.php:281
+#: cpts/item/AitItemCpt.php:338 cpts/item/AitItemCpt.php:362
+#: cpts/item/AitItemCpt.php:395 cpts/item/AitItemCpt.php:411
+msgid "Insert Image"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:183 cpts/item/AitItemCpt.php:193
+#: cpts/item/AitItemCpt.php:259 cpts/item/AitItemCpt.php:265
+#: cpts/item/AitItemCpt.php:338 cpts/item/AitItemCpt.php:395
+msgid "Select Icon"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:189 cpts/item/AitItemCpt.php:263
+msgid "Icon in Map"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:203 cpts/item/AitItemCpt.php:271
+#: cpts/item/AitItemCpt.php:348 cpts/item/AitItemCpt.php:401
+#: cpts/item/item-data.metabox.neon
+msgid "Map"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:205 cpts/item/AitItemCpt.php:273
+#: cpts/item/AitItemCpt.php:350 cpts/item/AitItemCpt.php:403
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Video"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:206 cpts/item/AitItemCpt.php:274
+#: cpts/item/AitItemCpt.php:351 cpts/item/AitItemCpt.php:404
+msgid "None"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:217 cpts/item/AitItemCpt.php:281
+#: cpts/item/AitItemCpt.php:362 cpts/item/AitItemCpt.php:411
+msgid "Select Image"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:227 cpts/item/AitItemCpt.php:287
+#: cpts/item/AitItemCpt.php:372 cpts/item/AitItemCpt.php:417
+#: cpts/item/item-data.metabox.neon
+msgid "Left"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:228 cpts/item/AitItemCpt.php:288
+#: cpts/item/AitItemCpt.php:373 cpts/item/AitItemCpt.php:418
+#: cpts/item/item-data.metabox.neon cpts/obituary/obituary-data.metabox.neon
+msgid "Center"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:229 cpts/item/AitItemCpt.php:289
+#: cpts/item/AitItemCpt.php:374 cpts/item/AitItemCpt.php:419
+#: cpts/item/item-data.metabox.neon
+msgid "Right"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:236 cpts/item/AitItemCpt.php:294
+msgid "Featured Category"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:602
+msgid "There are no Revolution Slider element options for this '%s' page"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:605
+msgid "There are no SEO element options for this '%s' page"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:624
+msgid "Item Author"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:625 cpts/item/item-featured.metabox.neon
+#: cpts/price-table/table-data.metabox.neon
+msgid "Featured"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:644
+msgid "yes"
+msgstr ""
+
+#: cpts/item/AitItemCpt.php:644
+msgid "no"
+msgstr ""
+
+#: cpts/item/item-author.metabox.neon
+#: cpts/testimonial/testimonial-options.metabox.neon
+msgid "Author"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Item Featured"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Item Header"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Select type of header on page"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "No header"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Image Options"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Image displayed in header"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Align of image in header"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "General"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Address"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Specify address and position of item"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Telephone"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Telephone number related to item"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Additional telephone numbers"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Additional telephone numbers related to item"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Number"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Email"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Email address related to item"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Show Email"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Display or hide email address on page"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Contact owner button"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Create contact form on page"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Web"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Web address, use valid URL format with http://"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Web Link Label"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Text displayed instead of full web address"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Opening Hours"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Show"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Display or hide Opening Hours section"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Monday"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Tuesday"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Wednesday"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Thursday"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Friday"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Saturday"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Sunday"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Note"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Social"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Display or hide Social Icons section"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Open links in new window"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Image displayed as social icon"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Select predefined social icon, Image will be ignored"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Optional color (in hex eg. #00FF00), leave this empty to use default icon color"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Gallery"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Display or hide Gallery section"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Features"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Display or hide Features section"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Icon image displayed with feature"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Feature main text"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Feature descriptive text"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Custom Fields"
+msgstr ""
+
+#: cpts/item/item-data.metabox.neon
+msgid "Do not use system reserved names (post_id, rating_count, rating_max, rating_mean, rating_mean_rounded), they will be ignored"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgctxt "post type general name"
+msgid "Job Offers"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgctxt "post type singular name"
+msgid "Job Offer"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgctxt "post type menu name"
+msgid "Job Offers"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgctxt "job offer"
+msgid "Add New"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgid "Add New Job Offer"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgid "Edit Job Offer"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgid "New Job Offer"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgid "View Job Offer"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgid "Search Job Offers"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgid "No Job Offers found"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgid "No Job Offers found in Trash"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgid "All Job Offers"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgid "Enter job offer title here"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Job Offers Categories"
+msgstr ""
+
+#: cpts/job-offer/@job-offer.cpt.neon
+msgctxt "custom metabox title"
+msgid "Job Offer Options"
+msgstr ""
+
+#: cpts/job-offer/offer-data.metabox.neon
+msgid "Skills"
+msgstr ""
+
+#: cpts/job-offer/offer-data.metabox.neon
+msgid "Main text of offer"
+msgstr ""
+
+#: cpts/job-offer/offer-data.metabox.neon
+msgid "Starting date of offer validity"
+msgstr ""
+
+#: cpts/job-offer/offer-data.metabox.neon
+msgid "Ending date of offer validity"
+msgstr ""
+
+#: cpts/job-offer/offer-data.metabox.neon
+msgid "Contact Person"
+msgstr ""
+
+#: cpts/job-offer/offer-data.metabox.neon
+msgid "Text displayed as contact person"
+msgstr ""
+
+#: cpts/job-offer/offer-data.metabox.neon
+msgid "Contact Email"
+msgstr ""
+
+#: cpts/job-offer/offer-data.metabox.neon
+msgid "Text displayed as contact email"
+msgstr ""
+
+#: cpts/job-offer/offer-data.metabox.neon
+msgid "Contact Phone"
+msgstr ""
+
+#: cpts/job-offer/offer-data.metabox.neon
+msgid "Text displayed as contact phone"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgctxt "post type general name"
+msgid "Matches"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgctxt "post type singular name"
+msgid "Match"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgctxt "post type menu name"
+msgid "Matches"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgctxt "Match"
+msgid "Add New"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgid "Add New Match"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgid "Edit Match"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgid "New Match"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgid "View Match"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgid "Search Matches"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgid "No Matches found"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgid "No Matches found in Trash"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgid "All Matches"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Match Categories"
+msgstr ""
+
+#: cpts/match/@match.cpt.neon
+msgctxt "custom metabox title"
+msgid "Match Options"
+msgstr ""
+
+#: cpts/match/match-data.metabox.neon
+msgid "Team A"
+msgstr ""
+
+#: cpts/match/match-data.metabox.neon
+msgid "Team B"
+msgstr ""
+
+#: cpts/match/match-data.metabox.neon
+msgid "Date"
+msgstr ""
+
+#: cpts/match/match-data.metabox.neon
+msgid "Final Score for Team A"
+msgstr ""
+
+#: cpts/match/match-data.metabox.neon
+msgid "Final Score for Team B"
+msgstr ""
+
+#: cpts/match/match-data.metabox.neon
+msgid "Scores"
+msgstr ""
+
+#: cpts/match/match-data.metabox.neon
+msgid "Score A"
+msgstr ""
+
+#: cpts/match/match-data.metabox.neon
+msgid "Score B"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgctxt "post type general name"
+msgid "Members"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgctxt "post type singular name"
+msgid "Member"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgctxt "post type menu name"
+msgid "Members"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgctxt "member"
+msgid "Add New"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgid "Add New Member"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgid "Edit Member"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgid "New Member"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgid "View Member"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgid "Search Members"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgid "No Members found"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgid "No Members found in Trash"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgid "All Members"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgid "Enter member's name here"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Members Categories"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgctxt "custom metabox title"
+msgid "Member's Additional Info"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgctxt "featured image metabox"
+msgid "Member's Photo"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgctxt "featured image metabox"
+msgid "Set Member's Photo"
+msgstr ""
+
+#: cpts/member/@member.cpt.neon
+msgctxt "featured image metabox"
+msgid "Remove Member's Photo"
+msgstr ""
+
+#: cpts/member/member.metabox.neon
+msgctxt "job position"
+msgid "Position"
+msgstr ""
+
+#: cpts/member/member.metabox.neon
+msgid "Position of member in the company, community, etc"
+msgstr ""
+
+#: cpts/member/member.metabox.neon
+msgid "About member"
+msgstr ""
+
+#: cpts/member/member.metabox.neon
+msgid "Information about member"
+msgstr ""
+
+#: cpts/member/member.metabox.neon
+msgid "Social Icons"
+msgstr ""
+
+#: cpts/member/member.metabox.neon
+msgid "Add new Social Icon by click on \"+ Add New Item\" link, or remove existing Social Icon by click on red cross. Click on \"Remove All Items\" link to remove all existing Social Icons."
+msgstr ""
+
+#: cpts/member/member.metabox.neon
+msgid "Social icon title"
+msgstr ""
+
+#: cpts/member/member.metabox.neon
+msgid "Social icon image"
+msgstr ""
+
+#: cpts/member/member.metabox.neon
+msgid "Social icon link, use valid URL format with http://"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgctxt "post type general name"
+msgid "Obituaries"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgctxt "post type singular name"
+msgid "Obituary"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgctxt "post type menu name"
+msgid "Obituaries"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgctxt "Obituary"
+msgid "Add New"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgid "Add New Obituary"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgid "Edit Obituary"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgid "New Obituary"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgid "View Obituary"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgid "Search Obituaries"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgid "No Obituaries found"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgid "No Obituaries found in Trash"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgid "All Obituaries"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Obituaries Categories"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgctxt "custom metabox title"
+msgid "Obituary Options"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgctxt "featured image metabox"
+msgid "Obituary Image"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgctxt "featured image metabox"
+msgid "Set Obituary Image"
+msgstr ""
+
+#: cpts/obituary/@obituary.cpt.neon
+msgctxt "featured image metabox"
+msgid "Remove Obituary Image"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Checkpoints"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Checkpoint Icon"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Align"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Set alignment for icons (\"center\" for round symetric icons and \"bottom\" for pins or flags)"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Bottom"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Path Color"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Display All Checkpoints"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Checkpoints without Title and Description will not be displayed on the map"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Additional information"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Starting date for tour"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Ending date for tour"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Difficulty"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Set 0 to ignore this option"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Difficulty Title"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Additional Information"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Add custom additional information"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Galleries"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Video Gallery"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Type"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Select video source"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "YouTube"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Vimeo"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "URL of video displayed on page, use valid URL format with http://"
+msgstr ""
+
+#: cpts/obituary/obituary-data.metabox.neon
+msgid "Picture Gallery"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgctxt "post type general name"
+msgid "Partners"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgctxt "post type singular name"
+msgid "Partner"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgctxt "post type menu name"
+msgid "Partners"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgctxt "partner"
+msgid "Add New"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgid "Add New Partner"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgid "Edit Partner"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgid "New Partner"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgid "View Partner"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgid "Search Partners"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgid "No Partners found"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgid "No Partners found in Trash"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgid "All Partners"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Partners Categories"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgctxt "custom metabox title"
+msgid "Partner Options"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgctxt "featured image metabox"
+msgid "Partner Logo"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgctxt "featured image metabox"
+msgid "Set Partner Logo"
+msgstr ""
+
+#: cpts/partner/@partner.cpt.neon
+msgctxt "featured image metabox"
+msgid "Remove Partner Image"
+msgstr ""
+
+#: cpts/partner/partner-options.metabox.neon
+msgid "URL of image link, use valid URL format with http://"
+msgstr ""
+
+#: cpts/partner/partner-options.metabox.neon
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Open In New Window"
+msgstr ""
+
+#: cpts/partner/partner-options.metabox.neon
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Open links in new window or tab"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgctxt "post type general name"
+msgid "Portfolio Items"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgctxt "post type singular name"
+msgid "Portfolio Item"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgctxt "post type menu name"
+msgid "Portfolio"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgctxt "portfolio item"
+msgid "Add New"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "New Portfolio Item"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "View Portfolio Item"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "No Portfolio Items found"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "No Portfolio Items found in Trash"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "All Portfolio Items"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Portfolios"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgctxt "taxonomy menu name"
+msgid "Portfolios"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgctxt "taxonomy singular name"
+msgid "Portfolio"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "Search Portfolios"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "All Portfolios"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "Parent Portfolio"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "Edit Portfolio"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "View Portfolio"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "Update Portfolio"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "Add New Portfolio"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgid "New Portfolio Name"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgctxt "custom metabox title"
+msgid "Portfolio Item Options"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgctxt "featured image metabox"
+msgid "Large Image"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgctxt "featured image metabox"
+msgid "Select Large Image"
+msgstr ""
+
+#: cpts/portfolio-item/@portfolio-item.cpt.neon
+msgctxt "featured image metabox"
+msgid "Remove Large Image"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Select type of item"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Large Image"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Website"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Crop From Position"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Anchor point of the source image, used when cropping image"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "top left"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "top center"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "top right"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "center center"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "bottom left"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "bottom center"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "bottom right"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Link To Website"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Link to website used with Website type, use valid URL format with http://"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Link To Video"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Link to video used with Video type, use valid URL format with http://"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Video Format"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Select format of video"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "1:1"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "2:1"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "4:3"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "16:9"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Information"
+msgstr ""
+
+#: cpts/portfolio-item/portfolio-item.metabox.neon
+msgid "Item gallery"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgctxt "post type general name"
+msgid "Price Tables"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgctxt "post type singular name"
+msgid "Price Table"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgctxt "post type menu name"
+msgid "Price Tables"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+#: cpts/service-box/@service-box.cpt.neon
+msgctxt "service"
+msgid "Add New"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgid "Add New Price Table"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgid "Edit Price Table"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgid "New Price Table"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgid "View Price Table"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgid "Search Price Tables"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgid "No Price Tables found"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgid "No Price Tables found in Trash"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgid "All Price Tables"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Price Tables Categories"
+msgstr ""
+
+#: cpts/price-table/@price-table.cpt.neon
+msgctxt "custom metabox title"
+msgid "Table Options"
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+msgid "Text displayed as title in header of table"
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+msgid "Text displayed below title in header of table"
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+#: cpts/product-item/product-item-options.metabox.neon
+msgid "Price"
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+msgid "Text displayed as price in header of table"
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+msgid "Table Rows"
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+msgid "Add new Row by click on \"+ Add New Item\" link, or remove existing Row by click on red cross. Click on \"Remove All Items\" link to remove all existing Rows."
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+msgid "Row Text"
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+msgid "Text displayed in row"
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+msgid "Button Text"
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+msgid "Title of button in footer of table"
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+msgid "Button Link"
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+msgid "Link used for button, use valid URL format with http://"
+msgstr ""
+
+#: cpts/price-table/table-data.metabox.neon
+msgid "Highlight table as featured"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgctxt "post type general name"
+msgid "Products"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgctxt "post type singular name"
+msgid "Products"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgctxt "post type menu name"
+msgid "Products"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgctxt "Product"
+msgid "Add New"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgid "Add New Product"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgid "Edit Product"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgid "New Product"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgid "View Product"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgid "Search Products"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgid "No Products found"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgid "No products found in Trash"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgid "All Products"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Product Categories"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgctxt "custom metabox title"
+msgid "Product Options"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgctxt "featured image metabox"
+msgid "Product Image"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgctxt "featured image metabox"
+msgid "Set Product Image"
+msgstr ""
+
+#: cpts/product-item/@product-item.cpt.neon
+msgctxt "featured image metabox"
+msgid "Remove Product Image"
+msgstr ""
+
+#: cpts/product-item/product-item-options.metabox.neon
+msgid "Featured Item"
+msgstr ""
+
+#: cpts/rating/@rating.cpt.neon
+msgctxt "post type general name"
+msgid "Ratings"
+msgstr ""
+
+#: cpts/rating/@rating.cpt.neon
+msgctxt "post type singular name"
+msgid "Rating"
+msgstr ""
+
+#: cpts/rating/@rating.cpt.neon
+msgctxt "post type menu name"
+msgid "Ratings"
+msgstr ""
+
+#: cpts/rating/@rating.cpt.neon
+msgctxt "custom metabox title"
+msgid "Rating Options"
+msgstr ""
+
+#: cpts/rating/AitRatingCpt.php:39 cpts/rating/AitRatingCpt.php:53
+msgid "Rating "
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgctxt "post type general name"
+msgid "Services"
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgctxt "post type singular name"
+msgid "Service"
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgctxt "post type menu name"
+msgid "Services"
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgid "Add New Service"
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgid "Edit Service"
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgid "New Service"
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgid "View Service"
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgid "Search Services"
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgid "No Services found"
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgid "No Services found in Trash"
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgid "All Services"
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Services Categories"
+msgstr ""
+
+#: cpts/service-box/@service-box.cpt.neon
+msgctxt "custom metabox title"
+msgid "Service Options"
+msgstr ""
+
+#: cpts/service-box/box-data.metabox.neon
+msgid "Subtitle"
+msgstr ""
+
+#: cpts/service-box/box-data.metabox.neon
+msgid "Text displayed with main title of service box"
+msgstr ""
+
+#: cpts/service-box/box-data.metabox.neon
+msgid "URL of image displayed in service box"
+msgstr ""
+
+#: cpts/service-box/box-data.metabox.neon
+msgid "Hover Image"
+msgstr ""
+
+#: cpts/service-box/box-data.metabox.neon
+msgid "URL of image displayed in service box on hover event"
+msgstr ""
+
+#: cpts/service-box/box-data.metabox.neon
+msgid "Main text displayed in service box"
+msgstr ""
+
+#: cpts/service-box/box-data.metabox.neon
+msgid "\"Read more\" text"
+msgstr ""
+
+#: cpts/service-box/box-data.metabox.neon
+msgid "Text for \"Read more\" link"
+msgstr ""
+
+#: cpts/service-box/box-data.metabox.neon
+msgid "URL of \"Read more\" link, use valid URL format with http://"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgctxt "post type general name"
+msgid "Testimonials"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgctxt "post type menu name"
+msgid "Testimonials"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgctxt "testimonial"
+msgid "Add New"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgid "Add New Testimonial"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgid "Edit Testimonial"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgid "New Testimonial"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgid "View Testimonial"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgid "Search Testimonials"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgid "No Testimonials found"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgid "All Testimonials"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Testimonials Categories"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgctxt "custom metabox title"
+msgid "Testimonial Options"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgctxt "featured image metabox"
+msgid "Testimonial Icon"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgctxt "featured image metabox"
+msgid "Set Testimonial Icon"
+msgstr ""
+
+#: cpts/testimonial/@testimonial.cpt.neon
+msgctxt "featured image metabox"
+msgid "Remove Testimonial Icon"
+msgstr ""
+
+#: cpts/testimonial/testimonial-options.metabox.neon
+msgid "Text displayed as author name"
+msgstr ""
+
+#: cpts/testimonial/testimonial-options.metabox.neon
+msgid "Rating"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgctxt "post type general name"
+msgid "Toggles"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgctxt "post type singular name"
+msgid "Toggle"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgctxt "post type menu name"
+msgid "Toggles"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgctxt "toggle"
+msgid "Add New"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgid "Add New Toggle"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgid "Edit Toggle"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgid "New Toggle"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgid "View Toggle"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgid "Search Toggles"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgid "No Toggles found"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgid "No Toggles found in Trash"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgid "All Toggles"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Toggles Categories"
+msgstr ""
+
+#: cpts/toggle/@toggle.cpt.neon
+msgctxt "custom metabox title"
+msgid "Toggle Options"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgctxt "post type general name"
+msgid "Tours"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgctxt "post type singular name"
+msgid "Tour"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgctxt "post type menu name"
+msgid "Tours"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgctxt "Tour"
+msgid "Add New"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgid "Add New Tour"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgid "Edit Tour"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgid "New Tour"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgid "View Tour"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgid "Search Tours"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgid "No Tours found"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgid "No Tours found in Trash"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgid "All Tours"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgctxt "taxonomy general name"
+msgid "Tours Categories"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgctxt "custom metabox title"
+msgid "Tour Options"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgctxt "featured image metabox"
+msgid "Tour Image"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgctxt "featured image metabox"
+msgid "Set Tour Image"
+msgstr ""
+
+#: cpts/tour/@tour.cpt.neon
+msgctxt "featured image metabox"
+msgid "Remove Tour Image"
+msgstr ""
+
+#: lib/AitSimpleMetaBox.php:80
+msgid "Custom Meta Box"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds custom post types for AIT themes"
+msgstr ""

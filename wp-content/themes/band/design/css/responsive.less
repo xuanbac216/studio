@@ -1,0 +1,1083 @@
+/*
+ * AIT WordPress Theme
+ *
+ * Copyright (c) 2013, Affinity Information Technology, s.r.o. (http://ait-themes.com)
+ */
+
+
+/* ========================================================================== */
+/*                                                                            */
+/*   Responsive Stylesheet                                                    */
+/*                                                                            */
+/* ========================================================================== */
+
+
+
+/******************************************************************************/
+/* ========================================================================== */
+/* = MAX WIDTH 1100px                                                       = */
+/* ========================================================================== */
+/******************************************************************************/
+
+@media all and (max-width: (@theme-general-websiteWidth + 100px) ) {
+/* && START 1100 */
+
+/**************************************************/
+/*** && UNIVERSAL CAROUSEL                      ***/
+/**************************************************/
+
+.elm-main.carousel-enabled .carousel-arrows					{ opacity: 1; width: 70px; margin: 0px auto 20px auto; }
+.elm-main.carousel-enabled .carousel-arrows:after			{ .clearfix; }
+.elm-main.carousel-enabled .carousel-arrows .arrow			{ position: relative; top: auto; left: auto; right: auto; margin-top: 0px; }
+.elm-main.carousel-enabled .carousel-arrows .arrow-left		{ float: left; }
+.elm-main.carousel-enabled .carousel-arrows .arrow-right	{ float: right; }
+
+	/* Customization for Universal carousel */
+
+		.elm-main.carousel-enabled .carousel-arrows					{ margin: -30px auto 20px auto; }
+
+	/* end Customization for Universal carousel */
+
+/* && end of UNIVERSAL CAROUSEL */
+
+/* && END 1100 */
+}
+
+
+/******************************************************************************/
+/* ========================================================================== */
+/* = MAX WIDTH 1024px                                                       = */
+/* ========================================================================== */
+/******************************************************************************/
+
+@media all and (max-width: 1024px) {
+/* && START 1024 */
+
+/* && END 1024 */
+}
+
+/******************************************************************************/
+/* ========================================================================== */
+/* = MAX WIDTH 1000px                                                       = */
+/* ========================================================================== */
+/******************************************************************************/
+
+@media all and (max-width: 1000px) {
+/* && START 1000 */
+
+.menu-item-has-columns > ul > li > ul > li { display: block; margin: 0; padding: 0; }
+.menu-item-ait-row > ul li				   { width: auto !important; }
+.with-background li.menu-item-ait-row 	   { background: none; }
+
+/* && END 1000 */
+}
+
+
+/******************************************************************************/
+/* ========================================================================== */
+/* = MAX WIDTH 980px                                                        = */
+/* ========================================================================== */
+/******************************************************************************/
+
+@media all and (max-width: 980px) {
+/* && START 980 */
+
+/**************************************************/
+/*** && SITE HEADER                             ***/
+/**************************************************/
+
+	/* Customization for Site header */
+		body.element-revolution-slider .site-header						{ position: relative; padding-bottom: 20px; background: @theme-header-headbg-image @theme-header-headbg-color @theme-header-headbg-repeat @theme-header-headbg-scroll @theme-header-headbg-position; }
+
+		.header-table-wrap												{ display: block; width: 100%; }
+		.header-table-wrap.grid-main									{ padding: 0; }
+		.header-container												{ display: block; }
+
+		.site-logo							{ display: block; text-align: center; float: none;  }
+		.menu-container						{ display: block; text-align: center; }
+
+
+
+		body.header-two .header-table-wrap				{ display: block; }
+		body.header-two .header-row-wrap				{ display: block; }
+		body.header-two .site-logo						{ margin-bottom: 35px; }
+		body.header-two .menu-container					{ display: block; width: 100%; text-align: center; }
+		body.header-two .site-tools						{ display: block; text-align: center; }
+
+		body.header-three .header-separator						{ border-bottom: none; }
+		body.header-three .header-container						{ display: block; }
+		body.header-three .header-cell-wrap						{ display: block; text-align: center; padding: 0 }
+		body.header-three .site-logo							{ margin-bottom: 15px; }
+		body.header-three .site-logo .site-title				{ display: block; }
+		body.header-three .site-logo .site-description			{ display: block; margin-left: 0px; }
+		body.header-three .menu-container						{ text-align: center; }
+		body.header-three .site-tools							{ text-align: center; padding-top: 5px; }
+		body.header-three .site-search:before					{ content: " "; display: block; width: 1px; height: 1px; }
+		body.header-three .site-search 							{ background: transparent; display: block; text-align: center;  margin-top: 25px; }
+		body.header-three .site-search form 					{ background-color: rgba(0,0,0,0.2); border: none; max-width: 300px; display: inline-block; text-align: left; }
+
+		body.header-four .header-cell-wrap						{ display: block; text-align: center; }
+		body.header-four .site-tools							{ text-align: center; padding-top: 5px; }
+
+
+		/* sticky menu */
+		.sticky-menu										{ display: none; }
+		.header-scrolled .sticky-menu        				{ display: none; }
+
+
+		/* Woocomerce */
+
+		.ait-woocommerce-cart-widget .cart-wrapper { position: relative; }
+		.ait-woocommerce-cart-widget { float: none; }
+		.ait-woocommerce-cart-widget .cart-wrapper .cart-content { margin-right: -105px; }
+
+		.header-three .ait-woocommerce-cart-widget { padding: 0 2px 20px; }
+
+
+	/* end Customization for Site header */
+
+/* && end of SITE HEADER */
+
+
+/* && END 980 */
+}
+
+
+/******************************************************************************/
+/* ========================================================================== */
+/* = MAX WIDTH 768px                                                        = */
+/* ========================================================================== */
+/******************************************************************************/
+
+@media all and (max-width: 768px){
+/* && START 768 */
+
+/**************************************************/
+/*** && MAIN LAYOUT                             ***/
+/**************************************************/
+
+.grid-main,
+.elm-wrapper,
+.elements-sidebar-wrap							{ padding-left: 20px; padding-right: 20px; }
+.elements-sidebar-wrap .elm-wrapper				{ padding-left: 0px; padding-right: 0px; }
+
+.sidebar-right-area,
+.sidebar-left-area,
+.elements-area									{ float: none !important; width: 100% !important; margin-right: 0px !important; }
+
+/* && end of MAIN LAYOUT */
+
+
+/**************************************************/
+/*** && SITE HEADER                             ***/
+/**************************************************/
+
+/* Sticky navigation */
+
+#masthead-clone	{ display: none; }
+
+/* && end of SITE HEADER */
+
+
+/**************************************************/
+/*** && COLUMNS                                 ***/
+/**************************************************/
+
+/*** collapsed to fullwidth boxes *****************/
+
+.column		{ float: none; margin-right: 0px !important; margin-left: 0px !important; width: 100% !important; }
+
+/* && end of COLUMNS */
+
+
+/**************************************************/
+/*** && REVOLUTION SLIDER                       ***/
+/**************************************************/
+
+.elm-revolution-slider-main .elm-wrapper		{ padding-left: 0px; padding-right: 0px; }
+
+/* && end of REVOLUTION SLIDER */
+
+
+/**************************************************/
+/*** && ITEM-ORGANIZER                          ***/
+/**************************************************/
+
+.elm-item-organizer .carousel-disabled .item-first			{ clear: none; }
+.elm-item-organizer .carousel-disabled.column-1 .item		{ width: @item1; margin-right: 0px; clear: both; }
+.elm-item-organizer .carousel-disabled.column-2,
+.elm-item-organizer .carousel-disabled.column-3,
+.elm-item-organizer .carousel-disabled.column-4,
+.elm-item-organizer .carousel-disabled.column-5			{ 	.item					{ width: @item2; }
+															.item:nth-child(2n)		{  margin-right: 0px;  }
+															.item:nth-child(2n+1)	{ clear: both; margin-right: @itemSpace;}
+														}
+
+.elm-item-organizer .carousel-container.column-1 .item-box	{ width: @item1; }
+.elm-item-organizer .carousel-container.column-2,
+.elm-item-organizer .carousel-container.column-3,
+.elm-item-organizer .carousel-container.column-4,
+.elm-item-organizer .carousel-container.column-5		{ 	.item-box				{ width: @item2; } }
+
+/* && end of ITEM-ORGANIZER */
+
+
+/**************************************************/
+/*** && HALF-DETAIL                             ***/
+/**************************************************/
+
+.detail-half-content .detail-thumbnail					{ width: 100%; float: none; margin-right: 0px; }
+.detail-half-content .detail-thumbnail-wrap				{ margin-bottom: 40px; }
+.detail-half-content .detail-description				{ width: 100%; float: none; }
+
+/* && end of HALF-DETAIL */
+
+
+/**************************************************/
+/*** && PRICE-TABLE                             ***/
+/**************************************************/
+
+/*** horizontal - two columns *********************/
+
+.elm-price-table-main .layout-horizontal						{ margin-left: 0px; margin-right: 0px; }
+
+.elm-price-table.layout-horizontal .ptable-container			{ display: block; }
+.elm-price-table.layout-horizontal .ptable-wrap					{ display: block; }
+.elm-price-table.layout-horizontal .ptable-wrap:after			{ .clearfix; }
+.elm-price-table.layout-horizontal .ptable-item					{ display: block; float: left; width: -webkit-calc(~"50%" - (@cellSpace / 2)); width: calc(~"50%" - (@cellSpace / 2)); margin-right: @cellSpace; margin-bottom: @cellSpace; padding-top: 0px; padding-right: 0px; }
+.elm-price-table.layout-horizontal .ptable-item:last-child		{ width: 100%; margin-right: 0px; }
+.elm-price-table.layout-horizontal .ptable-item:nth-child(2n)	{ float: right; margin-right: 0px; width: -webkit-calc(~"50%" - (@cellSpace / 2)); width: calc(~"50%" - (@cellSpace / 2)); }
+.elm-price-table.layout-horizontal .ptable-item:nth-child(2n+1)	{ clear: both; }
+
+.elm-price-table.layout-horizontal .table-featured .table-header			{ padding-top: 0px; }
+.elm-price-table.layout-horizontal .table-featured .table-header h3:before	{ top: 0px; }
+.elm-price-table.layout-horizontal .table-footer,
+.elm-price-table.layout-horizontal .table-featured .table-footer			{ padding-top: 10px; padding-bottom: 10px; }
+
+/* && end of PRICE-TABLE */
+
+
+/**************************************************/
+/*** && RULE                                    ***/
+/**************************************************/
+
+.elements-sidebar-wrap .elm-rule-main .rule-fullsize .grid-main		{ margin-left: -20px; margin-right: -20px; max-width: none; }
+
+/* && end of RULE */
+
+/* woocommerce */
+
+ul.products li a.add_to_cart_button										 				{ display: none !important; }
+ul.products li .thubnail-wrapper:hover .thubnail-link .star-rating-wrapper				{ opacity: 0 !important; }
+
+/***/
+
+
+/**************************************************/
+/*** && WIDGETS                                 ***/
+/**************************************************/
+
+/*** content collapsed to two columns *************/
+
+.widget-container .widget-title		{ width: @grid2col1; float: left; }
+.widget-container .widget-content	{ width: @grid2col1; float: right; }
+.widget-container .widget:after		{ .clearfix; }
+
+/* && end of WIDGETS */
+
+
+/**************************************************/
+/*** && WOOCOMMERCE                             ***/
+/**************************************************/
+
+body.woocommerce-cart .shop_table.cart tbody td.actions 									{ text-align: center; }
+body.woocommerce-cart .shop_table.cart tbody td.actions .coupon,
+body.woocommerce-cart .shop_table.cart tbody td.actions .cart-actions 					{ display: inline-block; float: none; }
+
+ul.products li a.add_to_cart_button										 				{ display: none !important; }
+ul.products li .thubnail-wrapper:hover .thubnail-link .star-rating-wrapper				{ opacity: 0 !important; }
+
+/* && end of WOOCOMMERCE */
+
+
+/**************************************************/
+/*** && FOOTER WIDGETS LAYOUT                   ***/
+/**************************************************/
+
+/*** collapsed to one column **********************/
+
+.footer-widgets-container		{ margin-right: 0px; }
+.footer-widgets .widget-area	{ width: 100%; float: none; padding-right: 0px}
+
+/* && end of FOOTER WIDGETS LAYOUT */
+
+
+/**************************************************/
+/*** && SITE FOOTER                             ***/
+/**************************************************/
+
+/*** collapsed ************************************/
+
+.site-footer .nav-menu-footer		{ width: 100%; float: none; }
+.site-footer .nav-menu-footer ul	{ text-align: center; margin-bottom: 20px; }
+.site-footer .footer-text			{ width: 100%; float: none; text-align: center; }
+
+/* && end of SITE FOOTER */
+
+/* && END 768 */
+}
+
+
+/******************************************************************************/
+/* ========================================================================== */
+/* = MAX WIDTH 640px                                                        = */
+/* ========================================================================== */
+/******************************************************************************/
+
+@media all and (max-width: 640px) {
+/* && START 640 */
+
+/**************************************************/
+/*** && FONT SIZES                              ***/
+/**************************************************/
+
+/*** larger font sizes ****************************/
+
+//.bodysize	{ font-size: 18px; line-height: 26px; }
+//.smallsize	{ font-size: 14px; line-height: 22px; }
+//
+//.h1size		{ font-size: 36px; line-height: 52px; }
+//.h2size		{ font-size: 26px; line-height: 36px; }
+//.h3size		{ font-size: 24px; line-height: 34px; }
+//.h4size		{ font-size: 22px; line-height: 30px; }
+//.h5size		{ font-size: 20px; line-height: 28px; }
+//.h6size		{ font-size: 18px; line-height: 26px; }
+//
+//.littlesize	{ font-size: 14px; }
+//.normalsize	{ font-size: 18px; }
+//.largesize	{ font-size: 20px; }
+//
+//.menuUlSize		{ font-size: 14px; line-height: 24px; }
+//.menuUlUlSize	{ font-size: 14px; line-height: 24px; }
+//
+//.tableth		{ font-size: 18px; line-height: 26px; }
+//
+//.portfolioFilterSize	{ font-size: 18px; line-height: 26px; }
+//.portfolioFilterUlSize	{ font-size: 14px; line-height: 24px; }
+//.portfolioTitlSize		{ .h4size; height: 30px; }
+//.portfolioDescSize		{ .smallsize; }
+//
+//.testimonialsText	{ font-size: 18px; line-height: 26px; }
+//.testimonialsAuthor	{ font-size: 18px; line-height: 26px; }
+//
+//.widgetsButtonSize	{ font-size: 14px !important; line-height: 22px !important; }
+//.calTableSize		{ font-size: 14px; line-height: 26px; }
+//
+//.searchLabelSize	{ font-size: 14px; line-height: 20px; }
+//.searchSize			{ font-size: 14px; line-height: 24px; height: 26px; }
+
+/* Relative font sizing variables */
+
+/* Size of a basic text. Other font sizes are derived from this one. */
+@baseFontSize: 18px;
+
+/* Ratio used as a base for calculation of line heights */
+@lineHeightRatio: 1.4714285714285714;
+
+@smallFontSize:		round(@baseFontSize * 0.8);
+@bigFontSize:		round(@baseFontSize * 1.2);
+@h1FontSize:		round(@baseFontSize * 2.6);
+@h2FontSize:		round(@baseFontSize * 2.0);
+@h3FontSize:		round(@baseFontSize * 1.7);
+@h4FontSize:		round(@baseFontSize * 1.3);
+@h5FontSize:		round(@baseFontSize * 1.1);
+@h6FontSize:		round(@baseFontSize * 1.0);
+@baseLineHeight:	round(@baseFontSize * @lineHeightRatio);
+@smallLineHeight: 	round(@smallFontSize * @lineHeightRatio);
+@bigLineHeight: 	round(@bigFontSize * @lineHeightRatio);
+@h1LineHeight: 		round(@h1FontSize * @lineHeightRatio);
+@h2LineHeight: 		round(@h2FontSize * @lineHeightRatio);
+@h3LineHeight: 		round(@h3FontSize * @lineHeightRatio);
+@h4LineHeight: 		round(@h4FontSize * @lineHeightRatio);
+@h5LineHeight: 		round(@h5FontSize * @lineHeightRatio);
+@h6LineHeight: 		round(@h6FontSize * @lineHeightRatio);
+
+
+.smallSize 			{ font-size: @smallFontSize; line-height: @smallLineHeight; }
+.baseSize 			{ font-size: @baseFontSize; line-height: @baseLineHeight; }
+.bigSize 			{ font-size: @bigFontSize; line-height: @bigLineHeight; }
+.h1Size 			{ font-size: @h1FontSize; line-height: @h1LineHeight; }
+.h2Size 			{ font-size: @h2FontSize; line-height: @h2LineHeight; }
+.h3Size 			{ font-size: @h3FontSize; line-height: @h3LineHeight; }
+.h4Size 			{ font-size: @h4FontSize; line-height: @h4LineHeight; }
+.h5Size 			{ font-size: @h5FontSize; line-height: @h5LineHeight; }
+.h6Size 			{ font-size: @h6FontSize; line-height: @h6LineHeight; }
+
+/* There is place for your specific font sizing mixins. Add them wisely. ;) */
+
+/*** font styles ***/
+
+@import "fontsize.less";
+
+/* && end of FONT SIZES */
+
+
+/**************************************************/
+/*** && BASIC STYLES                            ***/
+/**************************************************/
+
+.sbHolder 						{ height: 32px; }
+.sbHolder .sbToggle				{ width: 32px; }
+.sbHolder .sbSelector			{ width: -webkit-calc(~"100% - 32px"); width: calc(~"100% - 32px"); }
+.sbHolder .sbToggle:before		{ border-width: 8px 8px 0px 8px; }
+.sbHolder .sbToggleOpen:before	{ border-width: 0px 8px 8px 8px; }
+.sbHolder .sbOptions li a 		{ padding: 10px 4px; }
+
+.ui-datepicker								{ width: 290px; }
+.ui-datepicker table th						{ padding: 6px 0px; }
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next			{ width: 26px; height: 26px; }
+.ui-datepicker .ui-datepicker-prev:before	{ border-width: 7px 8px 7px 0px; top: 6px; left: 7px; }
+.ui-datepicker .ui-datepicker-next:before	{ border-width: 7px 0px 7px 8px; top: 6px; right: 7px; }
+
+/* && end of BASIC STYLES */
+
+
+/**************************************************/
+/*** && SITE HEADER                             ***/
+/**************************************************/
+
+	/* Customization for Site header */
+		body.element-revolution-slider .site-header						{ padding-bottom: 10px; }
+	/* end Customization for Site header */
+
+/* && end of SITE HEADER */
+
+
+/**************************************************/
+/*** && MAIN MENU                               ***/
+/**************************************************/
+
+/*** collapse to button ***************************/
+
+.main-nav .assistive-text			{ display: none; }
+.main-nav-wrap						{ width: 200px; margin: 0px auto; position: relative; padding: 8px 0px; }
+.main-nav-wrap .menu-toggle			{ display: block;  margin: 0px; background: #ffffff; .border-radius(5px); line-height: 34px; text-align: center; }
+.main-nav-wrap .nav-menu-main		{ display: none; width: 300px; position: absolute; top: 50px; left: 50%; margin-left: -150px; }
+.main-nav-wrap:hover .nav-menu-main	{ display: block;}
+
+.nav-menu-main > ul						{ background: #ffffff; padding: @ulBorder; .boxshadow1; .border-radius(0px 0px 5px 5px); }
+.nav-menu-main > ul > li				{ float: none; }
+.nav-menu-main > ul > li:hover			{ background: none; }
+.nav-menu-main > ul > li > a			{ /*font-family: arial; font-weight: bold;*/ color: #333333; padding: 5px 15px; text-shadow: none; }
+.nav-menu-main > ul > li > a:hover		{ background: #eeeeee; color: #000000; }
+.nav-menu-main ul li a					{ border-bottom: 1px dotted #eeeeee !important; }
+
+.nav-menu-main > ul > li ul					{ width: auto; padding: 0px; position: static; background: none; .box-shadow(none); .border-radius(0px); }
+.nav-menu-main > ul > li li					{ padding: 0px; }
+.nav-menu-main > ul > li li a:hover			{ background: #eeeeee; color: #000000; }
+
+.nav-menu-main > ul > li.current_page_item,
+.nav-menu-main > ul > li.current_page_parent,
+.nav-menu-main > ul > li.current_page_ancestor,
+.nav-menu-main > ul > li.current-menu-item,
+.nav-menu-main > ul > li.current-menu-parent,
+.nav-menu-main > ul > li.current-menu-ancestor			{ background: #f5f5f5; }
+
+.nav-menu-main > ul > li.current_page_item > a,
+.nav-menu-main > ul > li.current_page_parent > a,
+.nav-menu-main > ul > li.current_page_ancestor > a,
+.nav-menu-main > ul > li.current-menu-item > a,
+.nav-menu-main > ul > li.current-menu-parent > a,
+.nav-menu-main > ul > li.current-menu-ancestor > a		{ color: #000000; background: #eeeeee; .box-shadow(none); }
+
+.nav-menu-main > ul ul li.current_page_parent > a,
+.nav-menu-main > ul ul li.current_page_ancestor > a,
+.nav-menu-main > ul ul li.current-menu-parent > a,
+.nav-menu-main > ul ul li.current-menu-ancestor > a			{ color: @theme-general-txtColor; }
+.nav-menu-main > ul ul li.current_page_parent > a:hover,
+.nav-menu-main > ul ul li.current_page_ancestor > a:hover,
+.nav-menu-main > ul ul li.current-menu-parent > a:hover,
+.nav-menu-main > ul ul li.current-menu-ancestor > a:hover	{ color: #000000; }
+
+.nav-menu-main ul li.current_page_item > a,
+.nav-menu-main ul li.current-menu-item > a					{ color: @theme-general-decColor; }
+
+/* Main Navigation - CSS effects */
+
+.nav-menu-main 	{ .fadeMenuOff; }
+
+// .nav-menu-main li:hover > ul > li				{ margin-top: 0px; }
+// .nav-menu-main li:hover > ul > li:first-child	{ margin-top: 0px; }
+// .nav-menu-main li:hover > ul > li:last-child	{ margin-bottom: 0px; }
+
+
+/* MEGA MENU */
+
+/*** Content of "Main Navigation - CSS effects" has to be deleted except the ".nav-menu-main{ .fadeMenu; }" ***/
+
+.main-nav-wrap .nav-menu-main							{ text-align: center; }
+
+.menu-item-has-columns > ul > li > ul > li			    { display: inline; }
+/*.menu-item-ait-row > ul	li								{ width: 320px !important; }
+.menu-item-column-label									{ width: 320px !important; }*/
+
+.menu-item-ait-row > ul > li > ul li:last-child a	{  border-bottom: 1px dotted #eeeeee !important; }
+
+
+	/* Customization for Main menu */
+
+		.main-nav-wrap							{ width: 300px; }
+		.main-nav-wrap .nav-menu-main			{ top: 37px; z-index: 100; }
+
+		.nav-menu-main > ul						{ .box-shadow(0px 6px 5px rgba(0,0,0,0.3)); }
+		.nav-menu-main > ul > li				{ display: block; }
+		.nav-menu-main > ul > li > a			{ margin-right: 0; .border-radius(0); }
+		.nav-menu-main > ul > li li a:hover		{ background: #eeeeee; color: @theme-general-decColor; }
+
+
+		.nav-menu-main > ul > li.current_page_item,
+		.nav-menu-main > ul > li.current_page_parent,
+		.nav-menu-main > ul > li.current_page_ancestor,
+		.nav-menu-main > ul > li.current-menu-item,
+		.nav-menu-main > ul > li.current-menu-parent,
+		.nav-menu-main > ul > li.current-menu-ancestor			{ background: #eeeeee; }
+
+		.nav-menu-main > ul > li.current_page_item > a,
+		.nav-menu-main > ul > li.current_page_parent > a,
+		.nav-menu-main > ul > li.current_page_ancestor > a,
+		.nav-menu-main > ul > li.current-menu-item > a,
+		.nav-menu-main > ul > li.current-menu-parent > a,
+		.nav-menu-main > ul > li.current-menu-ancestor > a		{ color: @theme-general-decColor; background: #ffffff; }
+
+		.nav-menu-main > ul ul li.current_page_item > a,
+		.nav-menu-main > ul ul li.current_page_parent > a,
+		.nav-menu-main > ul ul li.current_page_ancestor > a,
+		.nav-menu-main > ul ul li.current-menu-item > a,
+		.nav-menu-main > ul ul li.current-menu-parent > a,
+		.nav-menu-main > ul ul li.current-menu-ancestor > a		{ color: @theme-general-txtColor; background: #f5f5f5; /*font-family: @fancyFontBold;*/ }
+		.nav-menu-main > ul > li li a 							{ padding-left: 0; padding-right: 0; text-align: center; }
+
+
+		.nav-menu-main > ul > li.menu-item-has-columns > ul ul { display: block; }
+
+	/* end Customization for Main menu */
+
+/* && end of MAIN MENU */
+
+
+/**************************************************/
+/*** && BREADCRUMB and PAGE TITLE               ***/
+/**************************************************/
+
+.breadcrumb									{ padding: 10px 0px; }
+.breadcrumbs								{ text-align: center; }
+.breadcrumbs .breadcrumb-sep				{ display: none; }
+.breadcrumbs .breadcrumbs-before			{ display: block; margin-bottom: 10px; padding: 2px 15px; }
+.breadcrumbs .breadcrumb-end				{ display: block; padding: 2px 15px; }
+.breadcrumbs a								{ display: block; margin-bottom: 10px; background: #ffffff; .border-radius(60px); padding: 2px 15px; }
+
+.page-title .entry-title					{ text-align: center; }
+.page-title .entry-meta						{ position: static; }
+.page-title a.post-edit-link				{ margin-top: 20px; }
+
+.page-title .post-title .entry-title-wrap	{ margin-left: 0px; }
+.page-title .post-title .entry-data			{ padding-right: 0px; }
+
+.logged-in .page-title .standard-title h1,
+.logged-in .page-title .blog-title h1,
+.logged-in .page-title .post-title h1,
+.logged-in .page-title .attach-title h1		{ padding-right: 0px; }
+
+.page-title .comments-link					{ position: static; margin-top: 20px; }
+
+	/* Customization for Page Title */
+
+		.page-title h1							{ padding: 0 !important; }
+
+	/* END Customization for Page Title */
+
+
+/* && end of BREADCRUMB and PAGE TITLE */
+
+
+/**************************************************/
+/*** && CONTENT and BASIC TEXT LAYOUT           ***/
+/**************************************************/
+
+.entry-content
+{
+	h1, h2, h3, h4, h5, h6	{ text-align: center; }
+}
+
+/* && end of CONTENT and BASIC TEXT LAYOUT */
+
+
+/**************************************************/
+/*** && SHORTCODES                              ***/
+/**************************************************/
+
+.ait-sc-button									{ display: block !important; min-width: 50%; margin-left: auto !important; margin-right: auto !important; margin-bottom: 20px !important; float: none !important; }
+.ait-sc-button .container						{ display: block;}
+.ait-sc-button .wrap							{ display: block; }
+.ait-sc-button .icon							{ display: block; text-align: center !important; }
+.ait-sc-button .text							{ display: block; text-align: center !important; }
+.ait-sc-button.buticon.buticon-left .text,
+.ait-sc-button.buticon.buticon-right .text		{ padding-left: @butspaceIcon; padding-right: @butspaceIcon; }
+.ait-sc-button.buticon.buticon-left .text		{ padding-bottom: (@butspaceIcon + @butspaceIconMore); padding-top: @butspaceTextMore; }
+.ait-sc-button.buticon.buticon-right .text		{ padding-top: (@butspaceIcon + @butspaceIconMore); padding-bottom: @butspaceTextMore; }
+.ait-sc-button.buticon.buticon-left .icon		{ padding-top: (@butspaceIcon + @butspaceIconMore); }
+.ait-sc-button.buticon.buticon-right .icon		{ padding-bottom: (@butspaceIcon + @butspaceIconMore); }
+
+ul.ait-sc-lists li:before								{ top: 2px; }
+ul.ait-sc-lists.line li:before							{ top: 12px; }
+ul.ait-sc-lists.line li:first-child:before				{ top: 2px; }
+ul.ait-sc-lists.layout-half.line li:nth-child(2):before	{ top: 2px; }
+
+/* && end of SHORTCODES */
+
+
+/**************************************************/
+/*** && ITEM-ORGANIZER                          ***/
+/**************************************************/
+
+.elm-item-organizer .carousel-disabled.column-1,
+.elm-item-organizer .carousel-disabled.column-2,
+.elm-item-organizer .carousel-disabled.column-3,
+.elm-item-organizer .carousel-disabled.column-4,
+.elm-item-organizer .carousel-disabled.column-5			{ 	.item		{ width: @item1; margin-right: 0px !important; clear: both !important; } }
+
+.elm-item-organizer .carousel-container.column-1,
+.elm-item-organizer .carousel-container.column-2,
+.elm-item-organizer .carousel-container.column-3,
+.elm-item-organizer .carousel-container.column-4,
+.elm-item-organizer .carousel-container.column-5		{ 	.item-box	{ width: @item1; } }
+
+.elm-item-organizer .layout-list.column-1 .item-thumbnail				{ width: @listThumb; }
+.elm-item-organizer .layout-list.column-1 .image-present .item-title,
+.elm-item-organizer .layout-list.column-1 .image-present .item-text,
+.elm-item-organizer .layout-list.column-1 .image-present .item-info 	{ margin-left: @listThumb + @itemSpace; }
+
+/*** SERVICES modifications ***/
+
+.elm-services-main .layout-list .item-thumbnail,
+.elm-services-main .layout-list.column-1 .item-thumbnail		{ width: 92px; }
+.elm-services-main .layout-list .image-present .item-title,
+.elm-services-main .layout-list .image-present .item-text,
+.elm-services-main .layout-list .image-present .item-info		{ margin-left: 112px !important; }
+
+/*** EVENTS modifications ***/
+
+.elm-events-main .layout-box .item-thumbnail			{ min-height: 92px; }
+.elm-events-main .layout-list.column-1 .item-title		{ margin-left: @listThumb + @itemSpace; }
+
+/*** JOB-OFFERS modifications ***/
+
+.elm-job-offers-main .layout-list .item-thumbnail,
+.elm-job-offers-main .layout-list.column-1 .item-thumbnail		{ width: 90px; }
+.elm-job-offers-main .layout-list .image-present .item-title,
+.elm-job-offers-main .layout-list .image-present .item-text,
+.elm-job-offers-main .layout-list .image-present .item-info		{ margin-left: 130px !important; }
+
+/*** TESTIMONIALS modifications ***/
+
+.elm-testimonials-main .column-1 .item  .item-text p						{ .bodysize; }
+.elm-testimonials-main .layout-list.column-1 .image-present .item-text p	{ padding-top: 0px !important; }
+
+/* && end of ITEM-ORGANIZER */
+
+
+/**************************************************/
+/*** && PRICE-TABLE                             ***/
+/**************************************************/
+
+/*** vertical - two cols **************************/
+
+.elm-price-table.layout-vertical .ptable-item			{ display: block; }
+.elm-price-table.layout-vertical .ptable-item-wrap		{ display: block; }
+.elm-price-table-main .layout-vertical .table-header	{ width: 50%; .border-radius(@cornersRad 0px 0px 0px); }
+.elm-price-table-main .layout-vertical .table-body		{ width: 50%; .border-radius(0px @cornersRad 0px 0px);}
+.elm-price-table-main .layout-vertical .table-footer	{ display: block; width: 100%; .border-radius(0px 0px @cornersRad @cornersRad); }
+.elm-price-table.layout-vertical .table-button			{ width: auto; height: auto; }
+.elm-price-table.layout-vertical .table-button a		{ .border-radius(20px); padding: 5px 20px; }
+
+/* && end of PRICE-TABLE */
+
+
+/**************************************************/
+/*** && MEMBER                                  ***/
+/**************************************************/
+
+.elm-member-main .photo-wrap				{ width: 60%; margin-right: auto; margin-left: auto; float: none; margin-bottom: 30px; }
+.elm-member-main .desc-wrap					{ width: 100%; float: none; text-align: center; }
+
+.elm-member-main ul.member-icons			{ text-align: center; }
+.elm-member-main ul.member-icons li			{ margin-right: 3px; margin-left: 3px; margin-bottom: 6px;}
+
+	/* Customization for Member */
+
+		.elm-member-main h3									{ text-align: center; }
+		.elm-member-main .photo-wrap						{ margin-bottom: 0px; }
+
+	/* end Customization for Member */
+
+/* && end of MEMBER */
+
+
+/**************************************************/
+/*** && CONTACT-FORM                            ***/
+/**************************************************/
+
+.elm-contact-form-main form .form-container			{ }
+.elm-contact-form-main form p						{ }
+.elm-contact-form-main form p.half-size				{ }
+.elm-contact-form-main form p.half-size-fl			{ width: 100%; margin-right: 0px; float: none; }
+.elm-contact-form-main form p.half-size .input-row	{ width: 100%; }
+
+.elm-contact-form-main form p .input-row .input-label			{ padding: 0px 0px 8px 0px; float: none; width: 100% !important; }
+.elm-contact-form-main form p .input-row .input-wrap			{ float: none; width: 100% !important; }
+.elm-contact-form-main form p.nolabel .input-row .input-wrap	{ width: 100% !important; }
+
+.elm-contact-form-main form input[type="text"],
+.elm-contact-form-main form input[type="email"],
+.elm-contact-form-main form input[type="url"],
+.elm-contact-form-main form input[type="date"],
+.elm-contact-form-main form select							{ height: 32px; }
+.elm-contact-form-main form textarea						{ height: 150px; }
+
+.elm-contact-form-main form .input-chbox-horizontal label,
+.elm-contact-form-main form .input-rbutt-horizontal label	{ display: block; padding-right: 0px; }
+.elm-contact-form-main form .input-chbox-horizontal input,
+.elm-contact-form-main form .input-chbox-vertical input,
+.elm-contact-form-main form .input-rbutt-horizontal input,
+.elm-contact-form-main form .input-rbutt-vertical input		{ margin-right: 10px; vertical-align: middle; position: relative; top: -2px; }
+
+.elm-contact-form-main form .input-captcha img				{ height: 32px; }
+.elm-contact-form-main form .input-captcha input			{ width: 26%; margin-right: 0px; }
+.elm-contact-form-main form .input-captcha .input-wrap		{ text-align: center; }
+
+	/* Customization for Contact form */
+
+		.elm-contact-form-main form input[type="text"],
+		.elm-contact-form-main form input[type="email"],
+		.elm-contact-form-main form input[type="url"],
+		.elm-contact-form-main form input[type="date"],
+		.elm-contact-form-main form select							{ height: 50px; }
+
+		.elm-contact-form-main form .sbSelector						{ padding-top: 9px; padding-bottom: 8px; }
+
+		.elm-contact-form-main form .input-captcha img				{ height: 50px; margin-bottom: 10px; }
+		.elm-contact-form-main form .input-captcha input			{ margin-bottom: 10px; }
+		.elm-contact-form-main form .input-captcha .input-wrap		{ margin-bottom: 10px; }
+
+	/* end Customization for Contact form */
+
+/* && end of CONTACT-FORM */
+
+
+/**************************************************/
+/*** && BLOG                                    ***/
+/**************************************************/
+
+
+
+.hentry {
+
+	margin-bottom: 50px;
+
+	.entry-thumbnail								{ max-width: 100%; float: none; }
+	.entry-header									{ float: none; width: 100%; }
+	.entry-content.loop								{ float: none; width: 100%; height: 102px; }
+	.entry-footer									{ float: none; width: 100%; }
+
+}
+
+
+
+/*
+.entry-date 					{ width: 92px; height: 92px; margin-bottom: 20px; float: none; }
+.comments-link .comments-count	{ min-width: 40px; }
+
+.hentry	{
+
+	.entry-header						{ text-align: center; }
+	.loop								{ text-align: center; }
+	.entry-footer						{ text-align: center; }
+
+	.entry-title .entry-title-wrap		{ margin-left: 0px; }
+	.entry-meta							{ position: static; }
+	.post-edit-link						{ margin-bottom: 20px; }
+	.nothumbnail .entry-title h2		{ padding-right: 0px; }
+
+	.entry-date							{ margin-top: 0px; }
+	.entry-data							{ padding-right: 0px; }
+	.comments-link						{ position: static; margin-top: 20px; }
+	.tags								{ display: block; }
+	.more								{ float: none; margin-right: 0px; }
+	.more .meta-nav						{ width: 26px; height: 26px; }
+	.more .meta-nav:before				{ border-width: 7px 0px 7px 7px; top: 6px; left: 11px; }
+
+}
+
+.hentry.sticky {
+
+	.nothumbnail .entry-title h2		{ padding-right: 0px; }
+	.featured-post						{ margin-bottom: 20px; }
+
+}
+*/
+
+
+
+/* && end of BLOG */
+
+
+/**************************************************/
+/*** && WOOCOMMERCE                             ***/
+/**************************************************/
+
+	body.woocommerce,
+	body.woocommerce-page
+	{
+
+		div.product {
+
+			.images										{ width: 100%; float: none; }
+			.images:after								{ .clearfix; }
+			.images a.woocommerce-main-image			{ width: 48.4%; float: left; }
+			.images .thumbnails							{ width: 48.4%; float: right; margin-top: 0; }
+
+			.summary									{ float: none; width: 100%; }
+			.summary .star-rating						{ margin: 0 auto; }
+			.summary .price								{ text-align: center; }
+
+			.woocommerce-tabs							{ float: none; width: 100%; }
+			.woocommerce-tabs #tab-reviews .commentlist li.comment .comment-text    { margin-left: 115px !important; }
+		}
+
+	}
+
+.pp_woocommerce .comment-respond .stars a:before 				{ letter-spacing: 18px; }
+#cboxContent .comment-respond .stars a { width: 32% !important; margin-top: 1%; }
+
+.ait-woocommerce-cart-widget 									{ right: auto !important; }
+/*.header-one .ait-woocommerce-cart-widget 						{ right: auto !important; }*/
+
+.ait-woocommerce-cart-widget .cart-wrapper .cart-content 		{ top: 29px; }
+.ait-woocommerce-cart-widget .cart-wrapper .cart-header			{ padding-left: 35px; }
+
+body.woocommerce div.product .woocommerce-tabs,
+body.woocommerce-page div.product .woocommerce-tabs,
+.woocommerce div.product .woocommerce-tabs 						{ width: auto !important; }
+
+body.woocommerce,
+body.woocommerce-page,
+.woocommerce {
+	ul.products li .thubnail-wrapper .thubnail-link .star-rating { height: 11px; line-height: 12px; }
+
+}
+
+
+body.woocommerce div.product .images,
+body.woocommerce-page div.product .images,
+.woocommerce div.product .images,
+body.woocommerce div.product .summary,
+body.woocommerce-page div.product .summary,
+.woocommerce div.product .summary 									{ float: none; width: auto; text-align: center; }
+
+.woocommerce-product-rating  										{ display: inline-block; }
+
+body.woocommerce div.product .summary .cart .quantity,
+body.woocommerce-page div.product .summary .cart .quantity,
+.woocommerce div.product .summary .cart .quantity 					{ float: none; margin-bottom: 30px; }
+body.woocommerce div.product .summary .cart .single_add_to_cart_button,
+body.woocommerce-page div.product .summary .cart .single_add_to_cart_button,
+.woocommerce div.product .summary .cart .single_add_to_cart_button 	{ margin-left: 0px; }
+
+.woocommerce .col-1, .woocommerce .col-2 { float: none; width: 100%; }
+
+
+/* && end of WOOCOMMERCE */
+
+
+/**************************************************/
+/*** && COMMENTS                                ***/
+/**************************************************/
+
+.commentlist .comment-meta .comment-author	{ float: none; }
+.commentlist .comment-meta .fn:after 		{ display: none; }
+.commentlist .comment-meta time				{ float: none; }
+
+/* && end of COMMENTS */
+
+
+/**************************************************/
+/*** && WIDGETS                                 ***/
+/**************************************************/
+
+.widget_categories, .widget_archive, 								/* --- archives ----- */
+.widget_submenu, .widget_pages, .widget_nav_menu, .widget_meta, 	/* --- menus -------- */
+.widget_recent_entries, .widget_recent_comments, .widget_rss		/* --- posts, rss --- */
+{
+	li:before						{ top: 13px; }
+}
+
+.widget_calendar tfoot td a			{ top: 6px; }
+.widget_rss .widget-title img		{ margin-top: 7px; }
+
+.footer-widgets {
+
+.widget_categories, .widget_archive, 								/* --- archives ----- */
+.widget_submenu, .widget_pages, .widget_nav_menu, .widget_meta, 	/* --- menus -------- */
+.widget_recent_entries, .widget_recent_comments, .widget_rss		/* --- posts, rss --- */
+{
+	li:before						{ top: 8px; }
+}
+}
+
+/* && end of WIDGETS */
+
+/* && END 640 */
+}
+
+
+/******************************************************************************/
+/* ========================================================================== */
+/* = MAX WIDTH 480px                                                        = */
+/* ========================================================================== */
+/******************************************************************************/
+
+@media all and (max-width: 497px) {
+/* && START 480 */
+
+body.header-one {
+	.site-tools 	{ padding-top: 10px; }
+	.language-icons { display: inline-block; float: none; padding: 0 0 10px 0; }
+
+}
+
+body.header-two {
+	.social-icons 	{ display: block; }
+	.language-icons { display: inline-block; float: none; padding: 20px 0 10px 0px; }
+
+}
+
+body.header-three {
+	.language-icons { padding: 0; }
+	.social-icons 	{ display: block; /*margin-top: 20px;*/ }
+}
+
+body.header-four {
+	.language-icons { display: inline-block; margin-bottom: 10px; float: none; }
+	.social-icons 	{ display: block; }
+
+	}
+
+/**************************************************/
+/*** && SHORTCODES                              ***/
+/**************************************************/
+
+.ait-sc-button								{ width: 100% !important; }
+
+/* && end of SHORTCODES  */
+
+
+/**************************************************/
+/*** && PORTFOLIO                               ***/
+/**************************************************/
+
+/*** collapsed to fullwidth boxes *****************/
+
+.elm-portfolio .portfolio-item 							{ width: 440px !important; height: auto !important}
+
+.elements-sidebar-wrap .elm-portfolio-main.elm-has-bg .elm-portfolio .portfolio-item 	{ width: 400px !important; height: auto !important }
+
+/* && end of PORTFOLIO */
+
+
+/**************************************************/
+/*** && PRICE-TABLE                             ***/
+/**************************************************/
+
+/*** horizontal & vertical - one column ***********/
+
+.elm-price-table.layout-horizontal .ptable-item			{ width: 100% !important; margin-right: 0px !important; float: none; }
+
+.elm-price-table-main .layout-vertical .table-header			{ display: block; width: 100%; .border-radius(@cornersRad @cornersRad 0px 0px); }
+.elm-price-table-main .layout-vertical .table-header h3:before	{ .border-radius(@cornersRad @cornersRad 0px 0px); }
+.elm-price-table-main .layout-vertical .table-body				{ display: block; width: 100%; .border-radius(0px); }
+
+/* && end of PRICE-TABLE */
+
+
+/**************************************************/
+/*** && COMMENTS                                ***/
+/**************************************************/
+
+.commentlist .comment-meta .comment-tools	{ position: static; padding: 15px 0px 10px 0px;  }
+
+/* && end of COMMENTS */
+
+
+/**************************************************/
+/*** && WIDGETS                                 ***/
+/**************************************************/
+
+/*** content collapsed to one column **************/
+
+.widget-container .widget-title		{ width: 100%; float: none; }
+.widget-container .widget-content	{ width: 100%; float: none; }
+
+/* && end of WIDGETS */
+
+
+/**************************************************/
+/*** && WOOCOMMERCE                             ***/
+/**************************************************/
+
+body.woocommerce ul.products li, body.woocommerce-page ul.products li { float: none; width: auto; margin: 0 0 5%; }
+body.woocommerce ul.products li .thubnail-wrapper .thubnail-link .star-rating span:before, body.woocommerce-page ul.products li .thubnail-wrapper .thubnail-link .star-rating span:before { top: -2px; }
+
+.woocommerce,
+.woocommerce-page
+	{
+
+		.product {
+
+			.images a.woocommerce-main-image,
+			.images .thumbnails							{ width: 100% !important; float: none !important; }
+            .summary .cart .single_add_to_cart_button   { margin: 0 auto !important; }
+            .woocommerce-tabs .tabs li a                      { border-bottom: 1px solid @theme-general-linesColor !important; }
+            .woocommerce-tabs .tabs li a:last-child           { border-bottom: 0px; }
+		}
+
+	}
+
+
+/* && END 480 */
+}
+
+
+/******************************************************************************/
+/* ========================================================================== */
+/* = MAX WIDTH 320px                                                        = */
+/* ========================================================================== */
+/******************************************************************************/
+
+@media all and (max-width: 479px) {
+/* && START 320 */
+
+/**************************************************/
+/*** && PORTFOLIO                               ***/
+/**************************************************/
+
+/*** collapsed to fullwidth boxes *****************/
+
+.elm-portfolio .portfolio-item 							{ width: 280px !important; }
+
+.elements-sidebar-wrap .elm-portfolio-main.elm-has-bg .elm-portfolio .portfolio-item 	{ width: 240px !important; }
+
+/* && end of PORTFOLIO */
+
+/* && END 320 */
+}

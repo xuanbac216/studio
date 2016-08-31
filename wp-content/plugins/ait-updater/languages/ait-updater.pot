@@ -1,0 +1,196 @@
+# Copyright (C) 2015 AitThemes.Club
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AIT Updater\n"
+"Report-Msgid-Bugs-To: https://system.ait-themes.club/support/\n"
+"POT-Creation-Date: 2015-10-29 11:38:17+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: src/Updater/Admin/AddPluginsTab.php:204
+msgid "Changelog"
+msgstr ""
+
+#: src/Updater/Admin/AddThemesTab.php:233
+msgid "Can not get information about %s for installation"
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:44 src/Updater/Admin/SettingsPage.php:54
+#: src/Updater/Admin/SettingsPage.php:71
+#: src/Updater/Admin/SettingsPage.php:293
+msgctxt "AIT Updater"
+msgid "%s Settings"
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:101
+msgid "AitThemes.Club API Credentials"
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:105 src/Updater.php:227
+msgid "Username"
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:107
+msgid "Username which you are using to login to AitThemes.club."
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:110 src/Updater.php:228
+#: src/Updater.php:229
+msgid "API Key"
+msgstr ""
+
+#. translators: Those %s are opening and closing html tags, wrapping that text
+#. between them
+#: src/Updater/Admin/SettingsPage.php:113
+msgid "You can get your API key in your %saccount on AitThemes.club%s."
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:122
+msgid "Envato API Credentials"
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:126 src/Updater.php:230
+msgid "Marketplace Username"
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:128
+msgid "Username which you are using to login to ThemeForest."
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:131 src/Updater.php:231
+#: src/Updater.php:232
+msgid "Secret API Key"
+msgstr ""
+
+#. translators: Those %s are opening and closing html tags, wrapping that text
+#. between them
+#: src/Updater/Admin/SettingsPage.php:134
+msgid "You can get your API key <strong>on ThemeForest</strong> in <strong>Your Account -&gt; Settings -&gt; API Keys</strong>."
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:142
+msgid "Backup"
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:145
+msgid "Do backup"
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:173
+msgid "Settings saved."
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:271
+msgid "PHP ZipArchive class for making zip files from PHP is not available, therefore backup option and backuping old versions is not available for you. Please contact server admin."
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:276
+msgid "Whether to do backup of old version plugin or theme before update. Backups will be stored in %s."
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:280
+msgid "List of old backups"
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:314
+msgid "You need to enter credentials to receive updates for these installed AitThemes.Club products:"
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:316
+msgid "You don't have any products from AitThemes.Club. You don't need to enter credentials here."
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:327
+#: src/Updater/Admin/SettingsPage.php:358
+msgid "Themes: %s"
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:339
+msgid "Plugins: %s"
+msgstr ""
+
+#: src/Updater/Admin/SettingsPage.php:350
+msgid "You need to enter credentials to receive updates for these installed ThemeForest products:"
+msgstr ""
+
+#: src/Updater/Base.php:108
+msgid "You did not provide your Envato credentials. Please enter your Envato username and API key on the <a href=\"%s\" target=\"_top\">AIT Updater Settings Page</a>."
+msgstr ""
+
+#: src/Updater/Base.php:113
+msgid "You did not provide your credentials. Please enter your username and API key on the <a href=\"%s\" target=\"_top\">AIT Updater Settings Page</a>."
+msgstr ""
+
+#: src/Updater/Base.php:125
+msgid "Could not create temporary file."
+msgstr ""
+
+#: src/Updater/Plugins.php:51
+msgid "%s could not check updates for plugins. Reason: %s"
+msgstr ""
+
+#: src/Updater/Plugins.php:196
+msgid "Oops, you haven’t purchased this plugin yet. Please <a href=\"%s\" target=\"_blank\">purchase this product as single plugin</a> or get access to all plugins, themes and graphics by <a href=\"%s\" target=\"_blank\">upgrading to our Premium Membership</a>."
+msgstr ""
+
+#: src/Updater/Plugins.php:267 src/Updater/Plugins.php:308
+msgid "Version %s"
+msgstr ""
+
+#: src/Updater/Plugins.php:271
+msgid "You do not have sufficient permissions to update plugins on this site."
+msgstr ""
+
+#: src/Updater/Plugins.php:317
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: src/Updater/Themes.php:58
+msgid "%s could not check for updates for themes purchased on ThemeForest. Response from Envato API: %s"
+msgstr ""
+
+#: src/Updater/Themes.php:92
+msgid "%s could not check updates for themes. Reason: %s"
+msgstr ""
+
+#: src/Updater/Themes.php:172
+msgid "Oops, you haven’t purchased this theme yet. Please <a href=\"%s\" target=\"_blank\">purchase this product as single theme</a> or get access to all themes by <a href=\"%s\" target=\"_blank\">upgrading to our Business Membership</a> or get access to all plugins, themes and graphics by <a href=\"%s\" target=\"_blank\">upgrading to our Premium Membership</a>"
+msgstr ""
+
+#: src/Updater/Themes.php:206
+msgid "Package for theme '%s' can not be downloaded because Themeforest Item ID is missing."
+msgstr ""
+
+#: src/Updater/Themes.php:226
+msgid "Downloaded theme package is maybe corrupted. File size provided from server is not identical to file size of downloaded package."
+msgstr ""
+
+#: src/Updater.php:223
+msgid "AitThemes.Club API Credentials:"
+msgstr ""
+
+#: src/Updater.php:224
+msgid "Envato API Credentials:"
+msgstr ""
+
+#: src/Updater.php:227 src/Updater.php:228 src/Updater.php:230
+#: src/Updater.php:231
+msgid "You have to enter value to %s"
+msgstr ""
+
+#: src/Updater.php:229
+msgid "The %s is incorrect, it should be 64 characters long. You probably entered <em>Envato Secret API Key</em> to this field. You have to enter <em>AitThemes.Club API Key</em> to the field."
+msgstr ""
+
+#: src/Updater.php:232
+msgid "The %s is incorrect, it should be 32 characters long.  You probably entered <em>AitThemes.Club API Key</em> to this field. You have to enter <em>Envato Secret API Key</em> to the field."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Updater for themes and plugins from AitThemes.Club"
+msgstr ""

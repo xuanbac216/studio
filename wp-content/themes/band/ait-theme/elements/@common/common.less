@@ -1,0 +1,37 @@
+.user-spaces(){
+	margin-top: @margin-top;
+	padding-top: @padding-top;
+	padding-bottom: @padding-bottom;
+	margin-bottom: @margin-bottom;
+}
+
+.bgCustomColor() when (iscolor(@bg-color))			{ background-color: @bg-color; }
+.bgCustomImage() when not (iskeyword(@bg-image))	{ background-image: @bg-image; }
+.titCustomColor() when (iscolor(@titlesAltColor))	{ color: @titlesAltColor; }
+.txtCustomColor() when (iscolor(@textAltColor))		{ color: @textAltColor; }
+.lnkCustomColor() when (iscolor(@linkAltColor))		{ color: @linkAltColor; }
+
+#@{el}-main
+{
+									  .bgCustomColor();
+									  .bgCustomImage();
+									  background-repeat: @bg-repeat;
+									  background-attachment: @bg-scroll;
+									  background-position: @bg-position;
+									  .user-spaces;
+									  .txtCustomColor();
+	h1, h2, h3, h4, h5, h6, strong,
+	.item-info .item-duration 		{ .titCustomColor(); }
+	a, a:hover						{ .lnkCustomColor(); }
+
+
+	.elm-maintitle:after,
+	.portfolio-item-desc h3:after			{ border-bottom: 1px solid @titlesAltColor }
+
+
+}
+.elements-sidebar-wrap #@{el}-main 	{ .user-spaces; }
+
+#@{el}-main.elm-has-bg .elm-item-organizer .item {
+	background: @itemBgColor;
+}

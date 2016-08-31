@@ -1,0 +1,103 @@
+@include: common.neon
+
+category:
+	label: Category
+	type: categories
+	taxonomy: portfolios
+	default: 0
+	basic: true
+
+count:
+	label: Count
+	type: number
+	default: 10
+	basic: true
+	less: false
+
+columns:
+	label: Columns
+	type: number
+	default: 5
+	basic: true
+
+textRows:
+	label: Text Rows
+	type: number
+	unit: number
+	default: 3
+	basic: true
+
+- section(title: Portfolio Layout)
+
+showFilter:
+	label: Filter
+	type: on-off
+	default: on
+
+subcategoryItems:
+	label: Subcategory Filter
+	type: on-off
+	default: on
+	help: "Display items from subcategories when filtering"
+
+display:
+	label: Item Display
+	type: select
+	selected: detail
+	default:
+		detail: Link to detail
+		colorbox: Open in popup
+
+orderby:
+	label: Order By
+	type: select
+	selected: menu_order
+	default:
+		date: Creation Date
+		menu_order: Item Order
+		rand: Random
+
+order:
+	label: Order
+	type: select
+	selected: ASC
+	default:
+		ASC: Ascending
+		DESC: Descending
+
+imageDescription:
+	label: Excerpt
+	type: on-off
+	default: off
+
+imageHeight:
+	label: Image Height
+	type: number
+	unit: px
+	default: 300
+
+imageOffset:
+	label: Image Offset
+	type: number
+	unit: px
+	default: 10
+
+- section(title: Custom Button, advanced: true)
+
+butTxtColor:
+	label: Button Text Color
+	type: color
+	default: '#ffffff'
+	help: "Custom text button color"
+
+butText:
+	label: Button Text
+	type: text
+	default: ''
+	help: 'Text displayed in the Button'
+
+butUrl:
+	label: Button Url
+	type: text
+	default: ''
+	help: 'Imput url for the Button'

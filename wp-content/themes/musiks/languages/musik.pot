@@ -1,0 +1,1605 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2015-01-06 02:24:02+00:00\n"
+"POT-Revision-Date: Mon Mar 28 2016 01:24:00 GMT+0800 (CST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:18
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#. Name of the template
+msgid "Page with player"
+msgstr ""
+
+#: ../comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:38 ../comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:41 ../comments.php:62
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:42 ../comments.php:63
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:75
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:81
+msgid "Your Name:"
+msgstr ""
+
+#: ../comments.php:87
+msgid "Your Email:"
+msgstr ""
+
+#: ../comments.php:94
+msgid "Comment:"
+msgstr ""
+
+#: ../comments.php:97
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:98 ../inc/template-tags.php:122
+msgid "Leave a comment"
+msgstr ""
+
+#: ../functions.php:45
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:46
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../functions.php:47
+msgid "User Menu"
+msgstr ""
+
+#: ../header.php:64
+msgid "Search..."
+msgstr ""
+
+#: ../header.php:84
+msgid "Your Basket"
+msgstr ""
+
+#: ../header.php:144
+msgid "Login"
+msgstr ""
+
+#: ../search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:5
+msgid "Search"
+msgstr ""
+
+#: ../taxonomy-download_artist.php:38 ../inc/edd.php:22 ../inc/edd.php:23 ..
+#: /inc/widgets/widget-music-post.php:7 ../template-parts/content-single-download.
+#: php:121 ../template-parts/content-single-playlist.php:87
+msgid "Music"
+msgstr ""
+
+#: ../inc/buddypress.php:15
+msgid "Playlists"
+msgstr ""
+
+#: ../inc/buddypress.php:28
+msgid "Likes"
+msgstr ""
+
+#: ../inc/customizer-theme.php:9
+msgid "Site Title, Tagline & Logo"
+msgstr ""
+
+#: ../inc/customizer-theme.php:23
+msgid "Logo Option"
+msgstr ""
+
+#: ../inc/customizer-theme.php:44
+msgid "Logo Icon"
+msgstr ""
+
+#: ../inc/customizer-theme.php:60
+msgid "Logo image"
+msgstr ""
+
+#: ../inc/customizer-theme.php:77
+msgid "Small logo image"
+msgstr ""
+
+#: ../inc/customizer-theme.php:107
+msgid "Logo Background Color"
+msgstr ""
+
+#: ../inc/customizer-theme.php:124
+msgid "Header Background Color"
+msgstr ""
+
+#: ../inc/customizer-theme.php:141
+msgid "Aside Background Color"
+msgstr ""
+
+#: ../inc/customizer-theme.php:158
+msgid "Player Background Color"
+msgstr ""
+
+#: ../inc/customizer-theme.php:175
+msgid "Button Color"
+msgstr ""
+
+#: ../inc/customizer-theme.php:193
+msgid "Misc"
+msgstr ""
+
+#: ../inc/customizer-theme.php:208
+msgid "Aside Folded"
+msgstr ""
+
+#: ../inc/customizer-theme.php:223
+msgid "Hide folded btn"
+msgstr ""
+
+#: ../inc/customizer-theme.php:238
+msgid "Hide admin bar"
+msgstr ""
+
+#: ../inc/customizer-theme.php:253
+msgid "Hide register btn"
+msgstr ""
+
+#: ../inc/customizer-theme.php:268
+msgid "Hide search on top bar"
+msgstr ""
+
+#: ../inc/customizer-theme.php:283
+msgid "Hide shopping cart"
+msgstr ""
+
+#: ../inc/customizer-theme.php:298
+msgid "Hide purchase btn"
+msgstr ""
+
+#: ../inc/customizer-theme.php:313
+msgid "Prices popup"
+msgstr ""
+
+#: ../inc/customizer-theme.php:328 ../piklist/parts/meta-boxes/music.php:221
+msgid "Hide play btn"
+msgstr ""
+
+#: ../inc/customizer-theme.php:343
+msgid "Disable ajax loading"
+msgstr ""
+
+#: ../inc/customizer-theme.php:358
+msgid "Disable player"
+msgstr ""
+
+#: ../inc/customizer-theme.php:373
+msgid "Disable share"
+msgstr ""
+
+#: ../inc/customizer-theme.php:388
+msgid "Ajaxify comment"
+msgstr ""
+
+#: ../inc/customizer-theme.php:403
+msgid "Show author info on list"
+msgstr ""
+
+#: ../inc/customizer-theme.php:418
+msgid "Show author info on detail page"
+msgstr ""
+
+#: ../inc/customizer-theme.php:433
+msgid "Show play count"
+msgstr ""
+
+#: ../inc/customizer-theme.php:448
+msgid "Show playlist"
+msgstr ""
+
+#: ../inc/customizer-theme.php:463
+msgid "Show likes"
+msgstr ""
+
+#: ../inc/customizer-theme.php:478
+msgid "Music title"
+msgstr ""
+
+#: ../inc/customizer-theme.php:493
+msgid "Related music title"
+msgstr ""
+
+#: ../inc/customizer-theme.php:508
+msgid "Artist page size"
+msgstr ""
+
+#: ../inc/customizer-theme.php:523
+msgid "Album page size"
+msgstr ""
+
+#: ../inc/customizer-theme.php:538
+msgid "Track page size"
+msgstr ""
+
+#: ../inc/customizer-theme.php:553
+msgid "Login Page"
+msgstr ""
+
+#: ../inc/customizer-theme.php:569
+msgid "Register Page"
+msgstr ""
+
+#: ../inc/customizer-theme.php:585
+msgid "Soundcloud Clientid"
+msgstr ""
+
+#: ../inc/edd.php:89
+#, php-format
+msgctxt "taxonomy general name"
+msgid "%2$s"
+msgstr ""
+
+#: ../inc/edd.php:90
+#, php-format
+msgctxt "taxonomy singular name"
+msgid "%1$s"
+msgstr ""
+
+#: ../inc/edd.php:91
+msgid "Add New"
+msgstr ""
+
+#: ../inc/edd.php:92
+#, php-format
+msgid "Add New %1$s"
+msgstr ""
+
+#: ../inc/edd.php:93
+#, php-format
+msgid "New %1$s Name"
+msgstr ""
+
+#: ../inc/edd.php:94
+#, php-format
+msgid "Edit %1$s"
+msgstr ""
+
+#: ../inc/edd.php:95
+#, php-format
+msgid "New %1$s"
+msgstr ""
+
+#: ../inc/edd.php:96
+#, php-format
+msgid "All %2$s"
+msgstr ""
+
+#: ../inc/edd.php:97
+#, php-format
+msgid "View %1$s"
+msgstr ""
+
+#: ../inc/edd.php:98
+#, php-format
+msgid "Update %1$s"
+msgstr ""
+
+#: ../inc/edd.php:99
+#, php-format
+msgid "Search %2$s"
+msgstr ""
+
+#: ../inc/edd.php:100
+#, php-format
+msgid "Popular %2$s"
+msgstr ""
+
+#: ../inc/edd.php:101
+#, php-format
+msgid "No %2$s found"
+msgstr ""
+
+#: ../inc/edd.php:102
+#, php-format
+msgid "No %2$s found in Trash"
+msgstr ""
+
+#: ../inc/edd.php:103
+#, php-format
+msgid "Parent %1$s"
+msgstr ""
+
+#: ../inc/edd.php:104
+#, php-format
+msgid "Parent %1$s :"
+msgstr ""
+
+#: ../inc/edd.php:105
+#, php-format
+msgid "Separate %2$s with commas"
+msgstr ""
+
+#: ../inc/edd.php:106
+#, php-format
+msgid "Add or remove %2$s"
+msgstr ""
+
+#: ../inc/edd.php:107
+#, php-format
+msgid "Choose from most used %2$s"
+msgstr ""
+
+#: ../inc/edd.php:108
+#, php-format
+msgctxt "taxonomy menu name"
+msgid "%2$s"
+msgstr ""
+
+#: ../inc/edd.php:142
+msgid "Register New Account"
+msgstr ""
+
+#: ../inc/extras.php:52
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/helper.php:8
+msgid "Share"
+msgstr ""
+
+#: ../inc/helper.php:12
+#, php-format
+msgid "Check this out: %s"
+msgstr ""
+
+#: ../inc/helper.php:13
+#, php-format
+msgid "Share %s on Twitter"
+msgstr ""
+
+#: ../inc/helper.php:14
+msgid "Share on Twitter"
+msgstr ""
+
+#: ../inc/helper.php:18
+#, php-format
+msgid "Add %s to Google Plus"
+msgstr ""
+
+#: ../inc/helper.php:19
+msgid "Add to Google+"
+msgstr ""
+
+#: ../inc/helper.php:22
+msgid "Check this out"
+msgstr ""
+
+#: ../inc/helper.php:23
+#, php-format
+msgid "Share %s on Facebook"
+msgstr ""
+
+#: ../inc/helper.php:24
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../inc/playlist.php:11
+msgid "Enter a new Playlist Title"
+msgstr ""
+
+#: ../inc/playlist.php:28
+msgid "Title"
+msgstr ""
+
+#: ../inc/playlist.php:29
+msgid "Created"
+msgstr ""
+
+#: ../inc/sidebars.php:7
+msgid "Home Header"
+msgstr ""
+
+#: ../inc/sidebars.php:9
+msgid "The home header widgets area"
+msgstr ""
+
+#: ../inc/sidebars.php:17
+msgid "Home Col 1/3"
+msgstr ""
+
+#: ../inc/sidebars.php:19 ../inc/sidebars.php:29 ../inc/sidebars.php:39 ..
+#: /inc/sidebars.php:59 ../inc/sidebars.php:69
+msgid "The home widgets area"
+msgstr ""
+
+#: ../inc/sidebars.php:27
+msgid "Home Col 2/3"
+msgstr ""
+
+#: ../inc/sidebars.php:37
+msgid "Home Col 3/3"
+msgstr ""
+
+#: ../inc/sidebars.php:47
+msgid "Home Body"
+msgstr ""
+
+#: ../inc/sidebars.php:49
+msgid "The home body widgets area"
+msgstr ""
+
+#: ../inc/sidebars.php:57
+msgid "Home Col 1/2"
+msgstr ""
+
+#: ../inc/sidebars.php:67
+msgid "Home Col 2/2"
+msgstr ""
+
+#: ../inc/sidebars.php:77
+msgid "Home Footer"
+msgstr ""
+
+#: ../inc/sidebars.php:79
+msgid "The home footer widgets area"
+msgstr ""
+
+#: ../inc/sidebars.php:87
+msgid "Home Sidebar"
+msgstr ""
+
+#: ../inc/sidebars.php:89
+msgid "The home sidebar area"
+msgstr ""
+
+#: ../inc/sidebars.php:97
+msgid "Album Sidebar"
+msgstr ""
+
+#: ../inc/sidebars.php:99
+msgid "The album sidebar area"
+msgstr ""
+
+#: ../inc/sidebars.php:107
+msgid "Artist Sidebar"
+msgstr ""
+
+#: ../inc/sidebars.php:109
+msgid "The artist sidebar area"
+msgstr ""
+
+#: ../inc/sidebars.php:117
+msgid "Music Sidebar"
+msgstr ""
+
+#: ../inc/sidebars.php:119
+msgid "The music sidebar area"
+msgstr ""
+
+#: ../inc/sidebars.php:127
+msgid "Sidebar"
+msgstr ""
+
+#: ../inc/sidebars.php:129
+msgid "The sidebar area"
+msgstr ""
+
+#: ../inc/sidebars.php:137
+msgid "Topbar"
+msgstr ""
+
+#: ../inc/sidebars.php:139
+msgid "The topbar area"
+msgstr ""
+
+#: ../inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:27
+msgid "Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:31
+msgid "Newer posts"
+msgstr ""
+
+#: ../inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:86
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: ../inc/template-tags.php:91
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: ../inc/template-tags.php:108 ../inc/template-tags.php:114
+msgid ", "
+msgstr ""
+
+#: ../inc/template-tags.php:110
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:116
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:122
+msgid "1 Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:122
+#, php-format
+msgid "% Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:126 ../template-parts/content-page.php:26
+msgid "Edit"
+msgstr ""
+
+#: ../inc/template-tags.php:143
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:145
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:147
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:149
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:149
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../inc/template-tags.php:151
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:151
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../inc/template-tags.php:153
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:153
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: ../inc/template-tags.php:156
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: ../inc/template-tags.php:158
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: ../inc/template-tags.php:160
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: ../inc/template-tags.php:162
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: ../inc/template-tags.php:164
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: ../inc/template-tags.php:166
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: ../inc/template-tags.php:168
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: ../inc/template-tags.php:170
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: ../inc/template-tags.php:172
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: ../inc/template-tags.php:175
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: ../inc/template-tags.php:179
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: ../inc/template-tags.php:181
+msgid "Archives"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:305
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:306
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:307
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:308
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:309
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:314
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:319
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:324
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:329
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:334
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:344
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:349
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:354
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:359
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:364
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:370
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:371
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:372 ../inc/classes/class-tgm-
+#: plugin-activation.php:3104
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:373 ../inc/classes/class-tgm-
+#: plugin-activation.php:2924
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:374
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:375
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:376
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:377
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:378
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:496
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:497 ../template-parts/player.
+#: php:61
+msgid "Update Required"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:614
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:813 ../inc/classes/class-tgm-
+#: plugin-activation.php:3522
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:928
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:928 ../inc/classes/class-tgm-
+#: plugin-activation.php:932
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:932
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:1117 ../inc/classes/class-tgm-
+#: plugin-activation.php:2920
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:1939
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2225
+msgid "Required"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2228
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2245
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2249
+msgid "External Source"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2253
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2272
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2276
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2278
+msgid "Active"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2284
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2287
+msgid "Requires Update"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2290
+msgid "Update recommended"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2298
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2347
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2351
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2355
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2359
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2452
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2460
+msgid "Installed version:"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2468
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2480
+msgid "Available version:"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2504
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2520
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2521
+msgid "Source"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2522 ../piklist/parts/meta-
+#: boxes/music.php:40
+msgid "Type"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2526
+msgid "Version"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2527
+msgid "Status"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2580
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2586
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2592
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2663
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2696
+msgid "Install"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2702
+msgid "Update"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2705
+msgid "Activate"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2737
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2739
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2775
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2777
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2881
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2906
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3103
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3442
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3446
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3447
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3451
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3452
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3452 ../inc/classes/class-tgm-
+#: plugin-activation.php:3459
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3452 ../inc/classes/class-tgm-
+#: plugin-activation.php:3459
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3453
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3454
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3458
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3459
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3460
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3461
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:7
+msgid "Display the musics or albums"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:251 ../inc/widgets/widget-music-term.php:
+#: 222
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:256 ../inc/widgets/widget-music-term.php:
+#: 227
+msgid "Sub Title:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:261
+msgid "Type:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:263 ../template-parts/template-gernes.php:
+#: 22
+msgid "All"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:264
+msgid "Single"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:265
+msgid "Bundle"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:270 ../inc/widgets/widget-music-term.php:
+#: 245
+msgid "Order by:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:273
+msgid "Random"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:274
+msgid "ID"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:275 ../inc/widgets/widget-music-term.php:
+#: 247
+msgid "Name"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:276
+msgid "Date"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:277
+msgid "View"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:278
+msgid "Sales"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:279
+msgid "Plays"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:284 ../inc/widgets/widget-music-term.php:
+#: 253
+msgid "Order:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:286 ../inc/widgets/widget-music-term.php:
+#: 255
+msgid "ASC"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:287 ../inc/widgets/widget-music-term.php:
+#: 256
+msgid "DESC"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:292 ../inc/widgets/widget-music-term.php:
+#: 261
+msgid "Display:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:294 ../inc/widgets/widget-music-term.php:
+#: 263
+msgid "List"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:295 ../inc/widgets/widget-music-term.php:
+#: 264
+msgid "Grid"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:300 ../inc/widgets/widget-music-term.php:
+#: 269
+msgid "Grid Column:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:310
+msgid "Filter by:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:319 ../inc/widgets/widget-music-term.php:
+#: 240 ../template-parts/content-single-download.php:30
+msgid "Artist"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:324
+msgid "Filter ids:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:330 ../inc/widgets/widget-music-term.php:
+#: 284
+msgid "Include:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:336
+msgid "Exclude:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:342 ../inc/widgets/widget-music-term.php:
+#: 295
+msgid "Count:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-post.php:347 ../inc/widgets/widget-music-term.php:
+#: 300
+msgid "Show Pagination:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-term.php:7
+msgid "Music terms"
+msgstr ""
+
+#: ../inc/widgets/widget-music-term.php:7
+msgid "Display the music genres, artists or tags"
+msgstr ""
+
+#: ../inc/widgets/widget-music-term.php:232
+msgid "Taxonomy:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-term.php:248
+msgid "Count"
+msgstr ""
+
+#: ../inc/widgets/widget-music-term.php:279
+msgid "Show Count:"
+msgstr ""
+
+#: ../inc/widgets/widget-music-term.php:290
+msgid "Hide Empty Categories:"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:41
+msgid "Default is single, select bundle when this is a bundle product."
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:55
+msgid "Preview"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:75 ../piklist/parts/meta-boxes/music.php:
+#: 95
+msgid "Preview file"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:76
+msgid "Preview audio file, you can add mp3, ogg, mp4 file(s)."
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:101
+msgid "Format"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:114 ../piklist/parts/meta-boxes/music.
+#: php:205
+msgid "URL"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:136
+msgid "Input the soundcloud url and click the get button"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:156
+msgid "Publish year"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:165
+msgid "Duration"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:174 ../template-parts/content-single-
+#: download.php:62
+msgid "iTunes"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:183 ../template-parts/content-single-
+#: download.php:66
+msgid "Google Play"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:193
+msgid "Links"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:199
+msgid "Text"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:233
+msgid "Allow download music"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:234
+msgid "Download the preview file"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/music.php:246 ../piklist/parts/meta-boxes/playlist.
+#: php:21
+msgid "Play count"
+msgstr ""
+
+#: ../piklist/parts/meta-boxes/playlist.php:12
+msgid "Tracks"
+msgstr ""
+
+#: ../piklist/parts/terms/artist.php:12
+msgid "Photo"
+msgstr ""
+
+#: ../piklist/parts/terms/artist.php:17
+msgid "Content"
+msgstr ""
+
+#: ../piklist/parts/terms/artist.php:18
+msgid "This is a content of the artist."
+msgstr ""
+
+#: ../piklist/parts/terms/category.php:12
+msgid "Category Template"
+msgstr ""
+
+#: ../template-parts/content-download-list.php:39 ../template-parts/content-
+#: download.php:39
+msgid "Purchase"
+msgstr ""
+
+#: ../template-parts/content-download-list.php:59 ../template-parts/content-
+#: download.php:75
+msgid "by "
+msgstr ""
+
+#: ../template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: ../template-parts/content-none.php:20
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content-none.php:24 ../template-parts/content-search-none.
+#: php:1
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../template-parts/content-page.php:19 ../template-parts/content-single.php:28 .
+#: ./template-parts/content-thumbnail.php:38 ../template-parts/content.php:38
+msgid "Pages:"
+msgstr ""
+
+#: ../template-parts/content-single-download.php:33
+msgid "Publish"
+msgstr ""
+
+#: ../template-parts/content-single-download.php:35
+msgid "in"
+msgstr ""
+
+#: ../template-parts/content-single-download.php:54 ../template-parts/playlist.
+#: php:7 ../template-parts/playlist.php:31
+msgid "Add to playlist"
+msgstr ""
+
+#: ../template-parts/content-single-download.php:99 ../template-parts/content-
+#: single-playlist.php:61
+msgid "Download"
+msgstr ""
+
+#: ../template-parts/content-single-download.php:115 ../template-parts/content-
+#: single-playlist.php:75
+msgid "Tag"
+msgstr ""
+
+#: ../template-parts/content-single-download.php:152
+msgid "Related music"
+msgstr ""
+
+#: ../template-parts/player.php:8
+msgid "play"
+msgstr ""
+
+#: ../template-parts/player.php:31
+msgid "mute"
+msgstr ""
+
+#: ../template-parts/player.php:32
+msgid "unmute"
+msgstr ""
+
+#: ../template-parts/player.php:40
+msgid "shuffle"
+msgstr ""
+
+#: ../template-parts/player.php:41
+msgid "shuffle off"
+msgstr ""
+
+#: ../template-parts/player.php:44
+msgid "repeat"
+msgstr ""
+
+#: ../template-parts/player.php:45
+msgid "repeat off"
+msgstr ""
+
+#: ../template-parts/player.php:48
+msgid "full screen"
+msgstr ""
+
+#: ../template-parts/player.php:49
+msgid "restore screen"
+msgstr ""
+
+#: ../template-parts/player.php:62
+msgid ""
+"To play the media you will need to either update your browser to a recent "
+"version or update your Flash plugin."
+msgstr ""
+
+#: ../template-parts/playlist.php:16
+msgid "Create new"
+msgstr ""
+
+#: ../template-parts/playlist.php:18
+msgid "Playlist title"
+msgstr ""
+
+#: ../template-parts/playlist.php:21
+msgid "Save"
+msgstr ""
+
+#: ../template-parts/playlist.php:25
+msgid "Someting went wrong, try later"
+msgstr ""
+
+#: ../template-parts/playlist.php:32
+msgid "Added"
+msgstr ""
+
+#: ../template-parts/playlist.php:33
+msgid "Remove"
+msgstr ""
+
+#. Name of the template
+msgid "Albums"
+msgstr ""
+
+#. Name of the template
+msgid "Artists"
+msgstr ""
+
+#. Name of the template
+msgid "Category with thumbnail"
+msgstr ""
+
+#. Name of the template
+msgid "Category with player"
+msgstr ""
+
+#. Name of the template
+msgid "Page with no header or nav"
+msgstr ""
+
+#. Name of the template
+msgid "Genres"
+msgstr ""
+
+#. Name of the template
+msgid "Home without sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "Home"
+msgstr ""
+
+#. Name of the template
+msgid "Category Masonry"
+msgstr ""
+
+#. Name of the template
+msgid "Category Video"
+msgstr ""
+
+#. Name of the template
+msgid "Page with fullwidth"
+msgstr ""
+
+#. Name of the template
+msgid "Page with sidebar and player"
+msgstr ""
+
+#. Name of the template
+msgid "Page with sidebar"
+msgstr ""
+
+#. Name of the theme
+msgid "Musik"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://flatfull.com/wp/musik/"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"A responsive music wordpress theme, Manage audio, album, genres, artist and "
+"sell the audio files to customer."
+msgstr ""
+
+#. Author of the theme
+msgid "Flatfull.com"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://flatfull.com/"
+msgstr ""

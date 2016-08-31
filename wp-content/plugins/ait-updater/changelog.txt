@@ -1,0 +1,93 @@
+v3.1.0, 29.10.2015
+------------------
+- New: Implemented server side validation of API keys via WP Settings API
+- New: Implemented client side (JavaScript) validation of API Keys
+
+
+v3.0.1, 5.10.2015
+-----------------
+- Update: Increased timeout for HTTP connection while checking for new updates.
+- Tweak: Better informative error message for Envato API response when it returns error 400 Bad request
+
+
+v3.0.0, 28.8.2015
+-----------------
+- Tweak: To minimize confusion, there are now listed all themes and plugins above fields for entering credentials, which should tell you what credentials you need to enter to update specific product.
+- Update: The plugin is now using v2.0 endpoint of our API.
+- Update: Some other improvements around updating ThemeForest or AitThemes.club themes and plugins
+
+
+v2.2.1, 19.8.2015
+-----------------
+- Update: Better detection and handling of free plugins (mainly AIT Updater itself). Free plugins don't need API key to be updated.
+
+
+v2.2.0, 17.8.2015
+-----------------
+- Tweak: Improved UI and UX of plugin's Settings Page
+
+
+v2.1.4, 12.8.2015
+-----------------
+- Fix: "Warning: Missing argument 2 and 3 for Ait\SystemApi\Response::__construct()"
+
+
+v2.1.3, 6.8.2015
+----------------
+- Fix: 'Fatal error: Call to a member function getData() on a non-object in src/Updater/Themes.php on line 103'
+
+
+v2.1.2, 27.7.2015
+-----------------
+- Fix: Validation of fields and error messages reporting on the plugin's settings page was not working properly in some edge cases
+
+
+v2.1.1, 25.6.2015
+-----------------
+- Tweak: Improved info messages to better comunicate what you can do when you don't have correct subscription level and you are trying to install new theme or plugin.
+- Fix: Fixed bug when non original AIT plugins, like Revolution Slider, couldn't be updated. That means updates for Revolution Slider works now.
+
+
+v2.1.0, 23.6.2015
+-----------------
+- Feature: You can now install our themes and plugins directly from WP admin. List of themes and plugins are under these menu items: "Plugins -> Add new -> AitThemes.club tab" and "Themes -> Add new -> AitThemes.club tab"
+
+
+v2.0.2, 15.6.2015
+----------------
+- Fix: In some edge cases with combination of ThemeForest themes and themes from our Club, Updater couldn't detect new updates.
+
+
+v2.0.1, 5.6.2015
+----------------
+- Fix: Updating of plugins and doing backups of old versions of plugins/themes was broken in v2.0 due to incorrect PHP namespacing.
+       If you updated to v2.0 already you will probably have to download this update manualy from https://system.ait-themes.club/plugins/
+       Otherwise if you still have v1.0 just update it to this v2.0.1 and everything is ok.
+
+
+v2.0, 3.6.2015
+--------------
+- Release: Stable v2.0 - Implemented Envato API for downloading updates for our themes from ThemeForest
+- Tweak: Some improvements and code refactorings
+
+
+v1.0, 18.5.2015
+---------------
+- Release: Stable v1.0
+- Tweak: Correctly escape changelog messages
+- New: Added info about "Requires WordPress Version" and "Compatible up to" to plugin details pop-up window
+
+
+v1.0-rc3, 13.5.2015
+-------------------
+- Fix: Correct displaying of admin menu item on multisite vs. singlesite and. Fixed some typos. Removed <details> tag for list of backups
+
+
+v1.0-rc2, 12.5.2015
+------------------
+- Feature: Option for backuping old version of themes or plugins before update
+
+
+v1.0-rc, 5.5.2015
+------------------
+- Release Candidate

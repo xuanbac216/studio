@@ -1,0 +1,58 @@
+public: true
+
+
+cpt:
+	labels:
+		name: _x(Portfolio Items, post type general name)
+		singular_name: _x(Portfolio Item, post type singular name)
+		menu_name: _x(Portfolio, post type menu name)
+		add_new: _x(Add New, portfolio item)
+		add_new_item: Add New Portfolio Item
+		edit_item: Edit Portfolio Item
+		new_item: New Portfolio Item
+		view_item: View Portfolio Item
+		search_items: Search Portfolio Items
+		not_found: No Portfolio Items found
+		not_found_in_trash: No Portfolio Items found in Trash
+		all_items: All Portfolio Items
+
+	args:
+		supports:
+			- title
+			- thumbnail
+			- editor
+			- excerpt
+			- page-attributes
+			- comments
+
+
+taxonomies:
+	portfolios:
+		labels:
+			name: _x(Portfolios, taxonomy general name)
+			menu_name: _x(Portfolios, taxonomy menu name)
+			singular_name: _x(Portfolio, taxonomy singular name)
+			search_items: Search Portfolios
+			all_items: All Portfolios
+			parent_item: Parent Portfolio
+			parent_item_colon: 'Parent Cateogry:'
+			edit_item: Edit Portfolio
+			view_item: View Portfolio
+			update_item: Update Portfolio
+			add_new_item: Add New Portfolio
+			new_item_name: New Portfolio Name
+
+
+metaboxes:
+	portfolio-item:
+		title: _x(Portfolio Item Options, custom metabox title)
+		config: portfolio-item
+
+
+featuredImageMetabox:
+	labels:
+		title: _x(Large Image, featured image metabox)
+		linkSetTitle: _x(Select Large Image, featured image metabox)
+		linkRemoveTitle: _x(Remove Large Image, featured image metabox)
+	context: normal
+	priority: high

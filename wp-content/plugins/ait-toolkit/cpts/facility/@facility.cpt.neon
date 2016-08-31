@@ -1,0 +1,43 @@
+cpt:
+	labels:
+		name: _x(Facility, post type general name)
+		singular_name: _x(Facility, post type singular name)
+		menu_name: _x(Facilities, post type menu name)
+		add_new: _x(Add New, Facility)
+		add_new_item: Add New Facility
+		edit_item: Edit Facility
+		new_item: New Facility
+		view_item: View Facility
+		search_items: Search Facilities
+		not_found: No Facilities found
+		not_found_in_trash: No Facilities found in Trash
+		all_items: All Facilities
+
+		enterTitleHere: Enter descriptive title for this facility here
+
+	args:
+		supports:
+			- title
+			- page-attributes
+
+taxonomies:
+	facilities:
+		labels:
+			name: _x(Facility Categories, taxonomy general name)
+			menu_name: _x(Categories, taxonomy menu name)
+			singular_name: _x(Category, taxonomy singular name)
+			search_items: Search Categories
+			all_items: All Categories
+			parent_item: Parent Category
+			parent_item_colon: 'Parent Cateogry:'
+			edit_item: Edit Category
+			view_item: View Category
+			update_item: Update Category
+			add_new_item: Add New Category
+			new_item_name: New Category Name
+
+
+metaboxes:
+	facility-data:
+		title: _x(Facility Options, custom metabox title)
+		config: facility-data

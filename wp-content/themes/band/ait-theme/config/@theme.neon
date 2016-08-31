@@ -1,0 +1,445 @@
+general:
+	title: General
+	options:
+
+		layoutType:
+			label: Layout Type
+			type: image-radio
+			checked: layout-wide
+			images:
+				layout-wide: layout-wide.png
+				layout-narrow: layout-narrow.png
+			default:
+				layout-wide: Wide Layout
+				layout-narrow: Narrow Layout
+
+		websiteWidth:
+			label: Website Width
+			type: range
+			unit: px
+			min: 1000
+			max: 1800
+			step: 50
+			default: 1200
+
+		leftSidebarWidth:
+			label: Left Sidebar Width
+			type: range
+			unit: %
+			min: 10.0
+			max: 30.0
+			step: 0.1
+			default: 20.0
+
+		rightSidebarWidth:
+			label: Right Sidebar Width
+			type: range
+			unit: %
+			min: 10.0
+			max: 30.0
+			step: 0.1
+			default: 20.0
+
+		sidebarGap:
+			type: variable
+			default: 6.0
+
+		progressivePageLoading:
+			label: Progressive Page Loading
+			type: on-off
+			default: off
+
+		- section(title: 'Main Theme Colors and Backgrounds')
+
+		favicon:
+			label: Favicon
+			type: image
+			default: "/design/img/favicon.png"
+
+		mainbg:
+			label: Website Background
+			type: background
+			default:
+				color: '#f2f2f2'
+				opacity: 100%
+				image: '/design/img/patterns/sand.png'
+				repeat: repeat
+				position: top center
+				scroll: scroll
+			required: true
+
+		themeColor:
+			label: Theme Color
+			type: color
+			default: '#474747'
+			required: true
+
+		pageBgColor:
+			label: Page Background
+			type: color
+			default: '#ffffff'
+			opacity: 100%
+			required: true
+
+		titColor:
+			label: Titles
+			type: color
+			default: '#313131'
+			required: true
+
+		txtColor:
+			label: Text
+			type: color
+			default: '#656565'
+			required: true
+
+		lnkColor:
+			label: Links
+			type: color
+			default: '#ababab'
+			required: true
+
+		hvrColor:
+			label: Links Hover
+			type: color
+			default: '#919191'
+			required: true
+
+		decColor:
+			label: Decoration
+			type: color
+			default: '#d17e62'
+			required: true
+
+		linesColor:
+			label: Lines
+			type: color
+			default: '#e8e8e8'
+			required: true
+
+		lightObj:
+			label: Lighter Objects
+			type: color
+			default: '#ffffff'
+			opacity: 100%
+			required: true
+
+		darkObj:
+			label: Darker Objects
+			type: color
+			default: '#646464'
+			opacity: 20%
+			required: true
+
+header:
+	title: Header
+	options:
+
+		headerType:
+			label: Header Type
+			type: image-radio-full
+			checked: header-one
+			images:
+				header-one: header-one.png
+				header-two: header-two.png
+				header-three: header-three.png
+				header-four: header-four.png
+			default:
+				header-one: Header One
+				header-two: Header Two
+				header-three: Header Three
+				header-four: Header Four
+
+		logo:
+			label: Website Logo
+			type: image
+			default: ''
+
+		headbg:
+			label: Background
+			type: background
+			default:
+				color: '#474747'
+				opacity: 100%
+				image: ''
+				repeat: repeat
+				position: top center
+				scroll: scroll
+
+		stickyMenu:
+			label: Sticky Menu
+			type: on-off
+			default: on
+
+		- section(title: 'Main Menu Colors and Backgrounds')
+
+		menubg:
+			label: Background
+			type: color
+			default: '#909090'
+			opacity: 100%
+
+		menuColor:
+			label: Menu Items
+			type: color
+			default: '#ffffff'
+
+		menuColorAct:
+			label: Active Menu Item
+			type: color
+			default: '#d17e62'
+
+footer:
+	title: Footer
+	options:
+		- section(title: 'Footer Widgets Area')
+
+		footerbg:
+			label: Background
+			type: background
+			default:
+				color: '#333333'
+				opacity: 100%
+				image: '/design/img/patterns/bg-image.png'
+				repeat: repeat
+				position: top center
+				scroll: scroll
+			required: true
+
+		titFwColor:
+			label: Titles
+			type: color
+			default: '#bbbbbb'
+
+		txtFwColor:
+			label: Text
+			type: color
+			default: '#bbbbbb'
+
+		lnkFwColor:
+			label: Links
+			type: color
+			default: '#ffffff'
+
+		decFwColor:
+			label: Decoration
+			type: color
+			default: '#ffbc00'
+
+
+		- section(title: 'Footer Bar')
+
+		FtText:
+			label: Text Area Width
+			type: number
+			unit: %
+			default: 47
+
+		FtMenu:
+			label: Menu Area Width
+			type: number
+			unit: %
+			default: 47
+
+		bgColor:
+			label: Background
+			type: color
+			default: '#333333'
+			opacity: 50%
+
+		txtColor:
+			label: Text
+			type: color
+			default: '#bbbbbb'
+
+		lnkColor:
+			label: Links
+			type: color
+			default: '#ffffff'
+
+		hvrColor:
+			label: Links Hover
+			type: color
+			default: '#ffbc00'
+
+		text:
+			label: Text Area
+			type: editor
+			default: '<p>&copy; 2014 Copyright by <a href="http://www.ait-themes.com">AIT-Themes</a>. All rights reserved.</p>'
+
+		- section(title: Custom JavaScript Code)
+
+		customJsCode:
+			label: JavaScript Code
+			type: multiline-code
+			default: ''
+
+typography:
+	title: Typography
+	options:
+		mainFont:
+			label: Main Website Font
+			type: font-select
+			choices:
+				theme:
+					label: Theme Default Font
+					font-family: 'Open Sans'
+				system:
+					label: System font
+					font-family: 'Arial, sans-serif'
+				google:
+					label: Google Fonts
+			default: theme
+
+breadcrumbs:
+	title: Breadcrumbs
+	options:
+		separator:
+			label: Separator
+			type: code
+			default: '&raquo;'
+
+		before:
+			label: Breadcrumbs Text
+			type: text
+			default: 'You are here:'
+
+		showHome:
+			label: Text for "Home"
+			type: text
+			default: "Home"
+
+		network:
+			label: Website Title
+			type: on-off
+			default: on
+
+# Allows adding sidebars and widget areas from theme admin
+@widgetAreasAndSidebars:
+	title: 'Sidebars & Widget Areas'
+	options:
+
+
+
+		@sidebar:
+			label:
+			type: clone
+			min: 1
+			max: 10
+			removeAll: false
+			items:
+				name:
+					label: Name
+					type: text
+			default:
+				0:
+					name: 'General (Subpage)'
+				1:
+					name: Homepage
+				2:
+					name: Blog
+				3:
+					name: Blog Post
+				4:
+					name: Portfolio Item
+
+
+		footer:
+			type: clone
+			min: 1
+			max: 6
+			removeAll: false
+			items:
+				name:
+					label: Name
+					type: text
+					default: ''
+				width:
+					label: Width
+					type: number
+					unit: %
+					default: 25
+			default:
+				0:
+					name: Footer Widget Area 1
+					width: 25
+				1:
+					name: Footer Widget Area 2
+					width: 25
+				2:
+					name: Footer Widget Area 3
+					width: 25
+				3:
+					name: Footer Widget Area 4
+					width: 25
+
+
+
+google:
+	title: Google
+	options:
+
+		analyticsTrackingId:
+			label: Google Analytics Tracking ID
+			type: code
+social:
+
+	title: Social Icons
+	options:
+
+		enableSocialIcons:
+			label: Display
+			type: on-off
+			default: on
+
+		socbg:
+			label: Background
+			type: color
+			default: '#bbbbbb'
+			opacity: 75%
+
+		socIconsNewWindow:
+			label: Open In New Window
+			type: on-off
+			default: on
+
+		socIcons:
+			label: Social Icons
+			type: clone
+			max: 10
+			items:
+				title:
+					label: Title
+					type: text
+				icon:
+					label: Image
+					type: image
+					less: false
+				iconDark:
+					label: Icon Dark
+					type: image
+					less: false
+				url:
+					label: Link
+					type: url
+			default:
+				0:
+					title: Facebook
+					icon: '/design/img/ico/ico_facebook.png'
+					iconDark: '/design/img/ico/ico_facebook_dark.png'
+					url: 'http://www.facebook.com/AitThemes'
+				1:
+					title: Twitter
+					icon: '/design/img/ico/ico_twitter.png'
+					iconDark: '/design/img/ico/ico_twitter_dark.png'
+					url: 'http://www.twitter.com/AitThemes'
+				2:
+					title: 'Google+'
+					icon: '/design/img/ico/ico_gplus.png'
+					iconDark: '/design/img/ico/ico_gplus_dark.png'
+					url: 'https://plus.google.com/116003390334141481363'
+				3:
+					title: LinkedIn
+					icon: '/design/img/ico/ico_linkedin.png'
+					iconDark: '/design/img/ico/ico_linkedin_dark.png'
+					url: 'http://www.linkedin.com/company/ait-themes-com'

@@ -1,0 +1,53 @@
+cpt:
+	labels:
+		name: _x(Products, post type general name)
+		singular_name: _x(Products, post type singular name)
+		menu_name: _x(Products, post type menu name)
+		add_new: _x(Add New, Product)
+		add_new_item: Add New Product
+		edit_item: Edit Product
+		new_item: New Product
+		view_item: View Product
+		search_items: Search Products
+		not_found: No Products found
+		not_found_in_trash: No products found in Trash
+		all_items: All Products
+
+
+	args:
+		supports:
+			- title
+			- thumbnail
+			- page-attributes
+
+
+taxonomies:
+	products:
+		labels:
+			name: _x(Product Categories, taxonomy general name)
+			menu_name: _x(Categories, taxonomy menu name)
+			singular_name: _x(Category, taxonomy singular name)
+			search_items: Search Categories
+			all_items: All Categories
+			parent_item: Parent Category
+			parent_item_colon: 'Parent Cateogry:'
+			edit_item: Edit Category
+			view_item: View Category
+			update_item: Update Category
+			add_new_item: Add New Category
+			new_item_name: New Category Name
+
+
+metaboxes:
+	product-item-options:
+		title: _x(Product Options, custom metabox title)
+		config: product-item-options
+
+
+featuredImageMetabox:
+	labels:
+		title: _x(Product Image, featured image metabox)
+		linkSetTitle: _x(Set Product Image, featured image metabox)
+		linkRemoveTitle: _x(Remove Product Image, featured image metabox)
+	context: normal
+	priority: default

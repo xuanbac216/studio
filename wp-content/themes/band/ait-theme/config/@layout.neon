@@ -1,0 +1,40 @@
+custom:
+	reset: true
+	options:
+		pageHtmlClass:
+			label: Custom Class
+			type: code
+			default: ""
+			help: "Write your custom class for own page identification"
+
+@sidebars:
+	reset: false
+	options:
+
+		right:
+			label: Right Sidebar
+			type: sidebar
+			default:
+				sidebar: sidebar-0
+			help: "Select sidebar displayed on the right side of page"
+		left:
+			label: Left Sidebar
+			type: sidebar
+			default:
+				sidebar: none
+			help: "Select sidebar displayed on the left side of page"
+
+general:
+	reset: false
+	options:
+		enableWidgetAreas:
+			label: Footer Widgets Area
+			type: on-off
+			default: on
+			help: "Display footer widgets area"
+
+		showBreadcrumbs:
+			label: Breadcrumbs
+			type: on-off
+			default: on
+			help: "Display breadcrumbs"

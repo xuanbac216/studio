@@ -1,0 +1,22 @@
+title:
+	label: Title
+	type: text
+	default: ""
+
+description:
+	label: Description
+	type: text
+	default: ""
+
+data:
+	label: Data
+	type: clone
+	max: 10
+	items:
+		name:
+			label: Name
+			type: text
+		value:
+			label: Value
+			type: text
+	default: []

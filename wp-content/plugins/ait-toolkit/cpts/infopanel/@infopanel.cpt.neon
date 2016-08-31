@@ -1,0 +1,45 @@
+public: true
+
+cpt:
+	labels:
+		name: _x(Infopanels, post type general name)
+		singular_name: _x(Infopanel, post type singular name)
+		menu_name: _x(Infopanels, post type menu name)
+		add_new: _x(Add New, Infopanel)
+		add_new_item: Add New Infopanel
+		edit_item: Edit Infopanel
+		new_item: New Infopanel
+		view_item: View Infopanel
+		search_items: Search Infopanels
+		not_found: No Infopanels found
+		not_found_in_trash: No Infopanels found in Trash
+		all_items: All Infopanels
+
+
+	args:
+		supports:
+			- title
+			- editor
+			- thumbnail
+
+taxonomies:
+	infopanels:
+		labels:
+			name: _x(Infopanel Categories, taxonomy general name)
+			menu_name: _x(Categories, taxonomy menu name)
+			singular_name: _x(Category, taxonomy singular name)
+			search_items: Search Categories
+			all_items: All Categories
+			parent_item: Parent Category
+			parent_item_colon: 'Parent Cateogry:'
+			edit_item: Edit Category
+			view_item: View Category
+			update_item: Update Category
+			add_new_item: Add New Category
+			new_item_name: New Category Name
+
+
+metaboxes:
+	infopanel-data:
+		title: _x(Infopanel Options, custom metabox title)
+		config: infopanel-data

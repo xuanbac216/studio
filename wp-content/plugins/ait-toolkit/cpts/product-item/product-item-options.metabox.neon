@@ -1,0 +1,17 @@
+description:
+	label: Description
+	type: text
+	default: ""
+	help: ""
+
+price:
+	label: Price
+	type: text
+	default: ""
+	help: ""
+
+featured:
+	label: Featured Item
+	type: on-off
+	default: off
+	help: ""

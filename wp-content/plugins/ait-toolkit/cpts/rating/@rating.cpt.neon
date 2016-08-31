@@ -1,0 +1,35 @@
+public: true
+#class: AitRatingCpt
+
+cpt:
+	labels:
+		name: _x(Ratings, post type general name)
+		singular_name: _x(Rating, post type singular name)
+		menu_name: _x(Ratings, post type menu name)
+
+	args:
+		supports:
+			- title
+			- editor
+			- page-attributes
+
+#taxonomies:
+#	ratings:
+#		labels:
+#			name: _x(Ratings Categories, taxonomy general name)
+#			menu_name: _x(Ratings Categories, taxonomy menu name)
+#			singular_name: _x(Ratings Category, taxonomy singular name)
+#			search_items: Search Categories
+#			all_items: All Categories
+#			parent_item: Parent Category
+#			parent_item_colon: 'Parent Category:'
+#			edit_item: Edit Category
+#			view_item: View Category
+#			update_item: Update Category
+#			add_new_item: Add New Category
+#			new_item_name: New Category Name
+
+metaboxes:
+	rating-data:
+		title: _x(Rating Options, custom metabox title)
+		config: rating-data

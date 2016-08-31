@@ -1,0 +1,299 @@
+v1.45, 9.12.2015
+----------------
+- Fix: (Critical) Theme Options couldn't save changed values, there were still default values after page refresh
+- Fix: Reset button on Default Layout admin page works correctly now
+
+
+v1.44, 8.12.2015
+------------------
+- Fix: Advanced search on directory themes when polylang is enabled
+- Fix: PHP Notices in Shortcode Generator Modal Window
+- Fix: Amongst some categories (e.g. Portfolios) there was incorectly listed language name from AIT Languages
+- Fix: Blog page menu item highlighting, if blog is currently opened page
+
+
+v1.43, 1.12.2015
+----------------
+- Fix: Corrected behaviour of WP custom queries (mostly in Elements) when some CPT is set as non translatable in AIT Languages settings
+- Update: Font Awesome v4.5.0
+
+
+v1.42, 25.11.2015
+-----------------
+- Fix: Submenu in last-child of menu was not reachable on hover
+- Fix: Fixed all dates where they were displaying current date and time
+- Fix: Issue with missing texts in widgets after updating to AIT Languages 2.0 is now fixed
+- Fix: Fullscreen option for youtube video element
+
+
+v1.41, 10.11.2015
+-----------------
+- New: Google Street View in Google Map Element
+- Update: Various updates for upcomming new AIT Languages 2.0 plugin
+- Fix: Improved compatibility of Advertising Spaces Element vs. Ad blockers
+
+
+v1.40, 20.10.2015
+-------------------
+- Fix: When adblocker extension in a browser blocked Advertising Spaces Element whole web page was broken
+- Added: Added streetview functionality to google maps element
+
+
+v1.39, 13.10.2015
+-----------------
+- Fix: RevolutionSlider Arrows Fix
+- Update: Contact form element form submit button disabled while form submitting
+- Fix: No more huge amount of old cache files (mainly old .css) in uploads/cache/ folder
+- Fix: Some forgotten text are now included in POT file
+
+
+v1.38, 22.9.2015
+----------------
+- Fix: Map input verification
+- Update: Ajax emails formatting
+
+
+v1.37, 16.9.2015
+----------------
+- Update: Updated facebook element
+- Update: Font Awesome v4.4.0
+- Update: Framework compatibility with upcoming improved AIT Languages plugin
+
+
+v1.36, 8.9.2015
+---------------
+- Fix: Typo in variable name in jquery.portfolio.js
+- Tweak: Theme Admin: if switched section contains map preview trigger resize to re-render map
+- Update: Font Awesome icons v4.4.0
+- Update: Updated condition to show / hide item description in services element
+- Update: Updated google map element
+
+
+v1.35, 25.8.2015
+----------------
+- Fix: When Visual Editor is disabled in user settings, Text Element in Page Builder doesn't work.
+
+
+v1.34, 18.8.2015
+----------------
+- Fix: Allow special characters in Member custom post type Title
+- Fix: Video element - fixed some PHP errors
+- Fix: Posts element - fixed some PHP errors
+- Fix: Added Sender parameter in Contact Form - some hostings didn't send emails from Contact Form
+
+
+v1.33, 11.8.2015
+----------------
+- Fix: 'Notice:  Array to string conversion'
+- Fix: Missing some text elements on non-english WP installs after demo content import
+- Fix: PHP notice on 404 page
+- Fix: One letter of text string displayed in metabox text fields
+- Update: Removed "Dev mode:" menu in Admin Bar and dev mode is disabled
+- Update: Updated javascript for content element on woocommerce pages
+
+
+v1.32, 04.08.2015
+----------------
+- Fix: PHP notice on 404 page
+
+
+v1.31, 21.7.2015
+----------------
+- Fix: When datepicker bundled with WP was used by some plugins (eg. Easy Reservations) that calendar was displayed in zh-TW language
+- Fix: Move "Languages" menu item back under "Theme Admin" item
+
+
+v1.30, 14.7.2015
+----------------
+- Fix: Datetime picker in admin was not working properly in Firefox
+
+
+v1.29, 7.7.2015
+---------------
+- Update: Improved compatibility with recent stand-alone AIT Languages plugin - this plugin is no more required and pre-packed with the theme, so there is no need to display "install required plugin" admin notice
+
+
+v1.28, 1.7.2015
+---------------
+- New: AIT Languages plugin is no more pre-packed with theme. And also all translations from theme are moved to AIT Languages plugin. Theme package has smaller size in MB. Just update the AIT Languages plugin and the theme and everthing will work as previous.
+- Update: Minimum requirements for our themes and plugins are PHP 5.3.1 and WordPress 4.0. It's time to use modern and secure technologies.
+- Fix: Datepicker on the backend and frontend is translated properly now
+
+
+v1.27, 9.6.2015
+---------------
+- Update: Updated all translations - translated some new strings
+- New:  Added new Ukrainian (uk) translation
+- Fix: Fixed login screen tooltip on logo - it displays correctly text from "Theme Options -> Admin Branding -> Login Screen Logo Tooltip"
+- Fix: Load Facebook Likebox in current language
+- Fix: Woocommerce product review form colorbox height
+- Fix: Woocommerce product variations form selects clear
+
+
+v1.26, 2.6.2015
+----------------
+- Tweak: Updated portfolio colorbox widths
+- Fix: Fixed responsive Toggles (double text in selected tab)
+
+
+v1.25, 26.05.2015
+------------------
+- Fixed: Page Titles padding in responsive design
+- Updated: Ajax mail reply-to headers (Contact Form element)
+- Updated: YouTube video embedding (Portfolio element)
+
+
+v1.24, 19.5.2015
+-----------------
+- Updated: WooCommerce styles and responsive styles
+- Updated: TGM Plugin Activation class v2.4.2 - security update
+- Updated: JavaScript datetime picker compatibility for Firefox (Countdown element)
+
+
+v1.23, 12.5.2015
+-----------------
+- Added: New 'AIT Updater' plugin for automatic updates of AIT themes and plugins
+- Update: Time picker available for Count Down element
+- Added: 4 new social icons for Font Awesome
+- Fixed: Made "Activate map" button text translatable right after page load
+
+
+v1.22, 5.5.2015
+-----------------
+- Update: Woocommerce 2.3.8 compatibility
+- Fixed: empty url in css 'background' property caused longer website load
+- Update: Updated Revolution Slider to v4.6.92
+- Added: allowed using of Footer Widget areas
+- Fixed: WP SEO by Yoast compatibility
+
+
+v1.21, 28.04.2015
+-----------------
+- Fixed: Responsive Menu Aligment correction
+- Update: Updated all languages
+
+v1.20, 23.04.2015
+-----------------
+- Fixed: AIT plugins are not activated on first theme install (problem with updated TGM-Plugin-Activation library)
+
+v1.19, 22.04.2015
+-----------------
+- Update: Important security fix
+
+v1.18, 08.04.2015
+-----------------
+- Fix: Content Import - Optimization of fetching attachments from remote location
+
+v1.17, 31.03.2015
+-----------------
+- New: Added Turkish language (tr_TR)
+- New: Font Awesome icons v4.3
+- Update: Updated Russian language (ru_RU)
+- Fix: WordPress 4.2 compatibility with new handling of shared terms - implemented split_shared_term hook
+- Fix: Images with caption are not loading
+
+v1.16, 24.03.2015
+-----------------
+- Fix: 320px responsive issue
+- Fix: Login screen custom css
+- Fix: WooCommerce reviews not showing up
+
+
+v1.15, 17.3.2015
+-----------------
+- Fixed: Added Favicon
+
+v1.14, 13.3.2015
+-----------------
+- Fixed: Carousel JS for Job Offers element
+
+
+v1.13, 10.03.2015
+-----------------
+- Fixed: typography settings remember selected option on page refresh
+- Fixed: red color for new created counter element
+- Updated all language files (mo/po files)
+
+
+v1.12, 27.02.2015
+-----------------
+- Fixed: Woocommerce 2.3.5 compatibility
+- Added Greek translation
+- Fixed: compatibility of our AIT Languages plugin with WordPress SEO by Yoast plugin
+
+
+v1.11, 6.2.2015
+---------------
+- Fixed: JavaScript for new simplified Import UI.
+- Fixed: WooCommerce - if shipping address is unchecked, hide fields
+- Fixed: Localised date in Twitter Widget
+
+
+v1.10, 27.1.2015
+----------------
+- Fixed: Some problems with AIT Languages plugin and non-english WordPress installs. Please update AIT Languages plugin.
+- Improved: Simplified import/export UI. (There were added two filters for enabling old UI: ait-enable-old-export-ui, ait-enable-old-import-ui)
+
+
+v1.9, 20.1.2015
+---------------
+- Added: Croatian language
+- Added: Default en_US PO/MO files - if you want to change som english texts, but you don't want to change php/latte files
+- Improved: Allowed to load MO files from child theme. Just copy them from parent theme to /ait-theme/languages in child theme
+- Fixed: Compatibility between WooCommerce and our AIT Languages plugin, product search is working now. Please update AIT Languages plugin.
+
+
+v1.8, 12.1.2015
+---------------
+- Added: Romanian language
+- Updated: Revolution Slider to v4.6.5
+
+
+v1.7, 17.12.2014
+----------------
+- Added: support for wp-signup.php. Prior to this additional support, design of that page was broken
+- Fixed: Google Maps are now translated according to your frontend page language in which is page viewed
+
+
+v1.6, 11.12.2014
+-----------------
+- Feature: Compatibility with upcoming WordPress 4.1
+
+
+v1.5, 25.11.2014
+-----------------
+- All other changes related to framework are now in framework-changelog.txt file
+
+
+v1.4, 24.11.2014
+----------------
+- Added: Google Fonts in typography
+- All other changes related to framework are now in framework-changelog.txt file
+
+
+v1.3, 3.11.2014
+---------------
+- Portfolio category filter update
+- All other changes related to framework are now in framework-changelog.txt file
+
+
+v1.2, 10.10.2014
+----------------
+- Updated: All languages
+- Improved: Import/Export
+  - No more infinitely showing loading icon when something go wrong during import, it will be reported what happen
+  - Added checkbox, whether to import all attachments or not
+- Fixed: minor changes for compatibility with IIS 7.5
+
+
+v1.1, 24.9.2014
+----------------
+- Updated: Woocommerce templates
+- Fixed: Language switcher responsive
+- Updated: member and members element
+
+
+v1.0, 4.9.2014
+----------------
+- Theme released
+

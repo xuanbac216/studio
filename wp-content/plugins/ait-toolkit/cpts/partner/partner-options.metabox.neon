@@ -1,0 +1,10 @@
+link:
+	label: Link
+	type: url
+	default:
+	help: "URL of image link, use valid URL format with http://"
+linkTarget:
+	label: Open In New Window
+	type: on-off
+	default: off
+	help: "Open links in new window or tab"

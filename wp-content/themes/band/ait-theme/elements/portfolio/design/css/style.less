@@ -1,0 +1,37 @@
+
+
+@import "../../../@common/common.less";
+
+.textCropDef(@rowSize) when not (isnumber(@textRows))	{ height: @rowSize * 3; }
+.textCrop(@rowSize)										{ .textCropDef(@rowSize); height: @rowSize * @textRows; overflow: hidden; }
+
+
+
+#@{el} {
+
+	margin-right: -@imageOffset;
+
+	.elm-mainheader								{ margin-right: @imageOffset; }
+	.portfolio-loader							{ left: 0px; right: @imageOffset; }
+	.portfolio-items-wrapper .portfolio-item	{ margin-right: @imageOffset; margin-bottom: @imageOffset; }
+	.filters-wrapper							{ margin-right: @imageOffset; }
+	.alert  									{ margin-right: @imageOffset; }
+
+	.ait-sc-button .title 						{ color: @butTxtColor; }
+
+	.portfolio-item .portfolio-item-desc p		{ .textCrop(20px); }
+}
+
+@media all and (max-width: 640px) {
+
+	#@{el}{
+		.portfolio-item {height: auto !important}
+		.portfolio-item .portfolio-item-desc p	{ .textCrop(24px); }
+
+	}
+
+}
+
+.@{el} {
+	/*color:green;*/
+}

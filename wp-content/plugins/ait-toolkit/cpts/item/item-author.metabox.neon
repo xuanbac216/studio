@@ -1,0 +1,6 @@
+author:
+	label: Author
+	type: select-dynamic
+	dataFunction: AitItemCpt::fillAuthorMetabox
+	default: []
+	capabilities: true

@@ -1,0 +1,44 @@
+cpt:
+	labels:
+		name: _x(Questions and Answers, post type general name)
+		singular_name: _x(Question and Answer, post type singular name)
+		menu_name: _x(FAQ, post type menu name)
+		add_new: _x(Add New, question and answer)
+		add_new_item: Add New Question and Answer
+		edit_item: Edit Question and Answer
+		new_item: New Question and Answer
+		view_item: View Question and Answer
+		search_items: Search Questions and Answers
+		not_found: No Questions and Answers found
+		not_found_in_trash: No Questions and Answers found in Trash
+		all_items: All Questions and Answers
+
+		enterTitleHere: Enter descriptive title for this question here
+
+	args:
+		supports:
+			- title
+			- page-attributes
+
+
+taxonomies:
+	faqs:
+		labels:
+			name: _x(FAQ Categories, taxonomy general name)
+			menu_name: _x(Categories, taxonomy menu name)
+			singular_name: _x(Category, taxonomy singular name)
+			search_items: Search Categories
+			all_items: All Categories
+			parent_item: Parent Category
+			parent_item_colon: 'Parent Cateogry:'
+			edit_item: Edit Category
+			view_item: View Category
+			update_item: Update Category
+			add_new_item: Add New Category
+			new_item_name: New Category Name
+
+
+metaboxes:
+	faq-data:
+		title: _x(Question and Answer, custom metabox title)
+		config: faq-data

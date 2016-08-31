@@ -1,0 +1,153 @@
+/*
+ * AIT WordPress Theme
+ *
+ * Copyright (c) 2013, Affinity Information Technology, s.r.o. (http://ait-themes.com)
+ */
+
+
+/**************************************************/
+/*** && Font Mixins                             ***/
+/**************************************************/
+
+
+.font(@weight, @style = normal){
+	font-family: @theme-typography-mainFont-family;
+	font-weight: @weight;
+	font-style: @style;
+}
+
+.fontTXT(@weight, @style = normal){
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: @weight;
+	font-style: @style;
+}
+
+
+
+/**************************************************/
+/*** && FUNCTIONS                               ***/
+/**************************************************/
+
+.clearfix		{ content: "."; display: block; height: 0; overflow:hidden; clear: both; visibility: hidden; }
+.borderbox		{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.boxshadow0		{ -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5); -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5); box-shadow: 0px 0px 5px rgba(0,0,0,0.5); }
+.boxshadow1		{ -moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.3); -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.3); box-shadow: 0px 2px 5px rgba(0,0,0,0.3); }
+.boxshadow2		{ -moz-box-shadow: 1px 2px 1px -1px rgba(0,0,0,0.3); -webkit-box-shadow: 1px 2px 1px -1px rgba(0,0,0,0.3); box-shadow: 1px 2px 1px -1px rgba(0,0,0,0.3); }
+.rounded		{ -moz-border-radius: 100%; -webkit-border-radius: 100%; border-radius: 100%; }
+.text-overflow	{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.transition(@args) 		{ -moz-transition: @args;
+  						  -webkit-transition: @args;
+						  transition: @args; }
+
+.timing(@time)			{ -webkit-transition-timing-function: @time;
+						  transition-timing-function: @time; }
+
+
+.rotate(@deg) 			{ -moz-transform: 		rotate(@deg);
+						  -webkit-transform: 	rotate(@deg);
+						  -ms-transform: 		rotate(@deg);
+						  transform: 			rotate(@deg); }
+
+.scale(@factor) 		{ -moz-transform:       scale(@factor);
+						  -webkit-transform:    scale(@factor);
+						  -ms-transform:        scale(@factor);
+						  transform:            scale(@factor); }
+
+.translate(@pos) 		{ -moz-transform:       translate(@pos);
+						  -webkit-transform:    translate(@pos);
+						  -ms-transform:        translate(@pos);
+						  transform:            translate(@pos); }
+
+.border-radius(@args) 	{ -moz-border-radius: @args;
+  						  -webkit-border-radius: @args;
+						  border-radius: @args; }
+
+.box-shadow(@args) 		{ -moz-box-shadow: @args;
+  						  -webkit-box-shadow: @args;
+						  box-shadow: @args; }
+
+.slideMenu		{	/* Navigation - CSS effect */
+					li > ul 			{ opacity: 0; .transition(opacity 0.7s); overflow: hidden; }
+					li:hover > ul		{ opacity: 1;  }
+					li:hover > ul:hover	{ overflow: visible; }
+					li > ul > li		{ margin-top: -500px; .transition(margin-top 0.3s ease-in-out 0s); }
+				}
+
+.slideMenuOff	{	/* Navigation - CSS effect */
+					li > ul 			{ opacity: 1; overflow: visible; }
+					li > ul > li		{ margin-top: 0px; }
+				}
+
+.fadeMenu		{	/* Navigation - CSS effect */
+					li > ul 			{ opacity: 0; .transition(opacity 0.5s); overflow: hidden; height: 0px; }
+					li:hover > ul		{ opacity: 1; height: auto; }
+					li:hover > ul:hover	{ overflow: visible;  }
+				}
+
+.fadeMenuOff	{	/* Navigation - CSS effect */
+					li > ul 			{ opacity: 1; overflow: visible; height: auto; }
+				}
+
+.hvrIcon(@icoImg, @insideClass)
+{
+	(~"@{insideClass}")					{ display: inline-block; line-height: 0px; max-width: 100%; position: relative; vertical-align: top; }
+	(~"@{insideClass}:before")			{ content: ""; display: block; width: 60px; height: 60px; .rounded; background: url('@{imgUrl}/@{icoImg}') center center no-repeat ; position: absolute; top: 10px; left: 10px; z-index: 10; opacity: 0; }
+	(~"&:hover @{insideClass}:before")	{ opacity: 1; }
+	(~"@{insideClass} img")				{ opacity: 1; .transition(all 0.5s); vertical-align: top; }
+	(~"&:hover @{insideClass} img")		{ opacity: 1;}
+}
+
+.hvrIconFull(@icoImg, @insideClass)
+{
+	(~"@{insideClass}")					{ display: inline-block; line-height: 0px; max-width: 100%; position: relative; vertical-align: top; }
+	(~"@{insideClass}:before")			{ content: ""; display: block; background: url('@{imgUrl}/@{icoImg}') center center no-repeat rgba(0,0,0,0.8); position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; z-index: 10; opacity: 0; }
+	(~"&:hover @{insideClass}:before")	{ opacity: 1; }
+	(~"@{insideClass} img")				{ vertical-align: top; }
+}
+
+
+	/* Customization for MIXINS */
+
+		.headingStyle
+		{
+			position: relative; text-align: center; font-family: @fancyFontLight; display: block
+
+			&:after			{ display: block; content: ""; position: absolute; border-bottom: 1px solid @theme-general-titColor; width: 40px; height: 1px; bottom: -20px; left: 50%; margin-left: -20px; }
+		}
+
+		.wooButton {
+			.font(700);
+			color: #ffffff;
+			background: @theme-general-decColor;
+			padding: 8px 15px;
+			text-align: center;
+			/*.box-shadow(inset 0 -5px 0 rgba(0,0,0,0.1));*/
+			border: none;
+		}
+
+		.wooBorderImage	{ display: inline-block; padding: 5px; background: @theme-general-pageBgColor; border: solid 1px @theme-general-linesColor; }
+		.wooQtyForm{
+			& { float: left; }
+			.minus, .plus, .qty.text {  .borderbox; display: inline; width: 35px; height: 35px; padding: 0; vertical-align: middle; border: solid 1px darken(@theme-general-linesColor, 7%); }
+			.minus,	.plus   { .font(400); font-size: 15px; color: darken(@theme-general-linesColor, 25%); background: lighten(@theme-general-linesColor, 2%); cursor: pointer; }
+			.qty.text		{ /*border-width: 1px 0;*/ background: #fff; text-align: center; }
+			.qty.text::-webkit-outer-spin-button,
+			.qty.text::-webkit-inner-spin-button				{ -webkit-appearance: none; margin: 0; }
+		}
+
+		.resetUlBullet{
+
+			ul,
+			&{
+				list-style-type: none; margin-bottom: 0;
+				li{ padding: 0; position: relative; .resetBorderbox;}
+				li:before{ content: ""; width: auto; height: auto; background: none; .border-radius(0); position: relative; display: none; }
+			}
+
+		}
+
+
+	/* end Customization for MIXINS */
+
+/* && end of FUNCTIONS */

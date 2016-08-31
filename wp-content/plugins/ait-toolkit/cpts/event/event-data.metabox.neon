@@ -1,0 +1,14 @@
+dateFrom:
+	label: Date From
+	type: date
+	format: 'D, d M yy'
+	help: 'Starting date of event'
+dateTo:
+	label: Date To
+	type: date
+	format: 'D, d M yy'
+	help: 'Ending date of event'
+location:
+	label: Location
+	type: text
+	help: 'Location of event'

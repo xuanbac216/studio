@@ -1,0 +1,321 @@
+.preloader { background: url('../ajax-loader-dark.gif') center center no-repeat #333333; }
+
+.tracklist-Row .ivaplay,
+.ivaplay { background: url('../images/play_white.png') no-repeat scroll center center transparent; }
+
+.tracklist-Row .selected .ivaplay,
+.hover_type a.selected,
+.selected .ivaplay { background: url('../images/playing_white.gif') no-repeat scroll center center transparent; }
+/* Color Scheme */
+
+/* ---------------------------------------- */
+/* TEXTS AND LINKS                          */
+/* ---------------------------------------- */
+
+*::-moz-selection {
+    background-color: #e2126a;
+    color: #FFFFFF;
+}
+
+.testimonial-arrow { border: 0; }
+
+a,
+a:focus { color: #aaaaaa; text-decoration: none; outline: none; }
+
+.splitter ul li a:hover,
+.splitter li a.selected,
+a:hover { color: #e2126a; text-decoration: none; outline: none; }
+
+.search-nav > li > div a:hover,
+.mp3o:hover, .mp3o a:hover { color:#e2126a; }
+
+.event_wwrap .entry-title a { color:#e2126a; }
+.event_wwrap .entry-title a:hover { color:#ffffff; }
+
+h1 strong { color:#e2126a; }
+h2 strong { color:#e2126a; }
+h3 strong { color:#e2126a; }
+h4 strong { color:#e2126a; }
+#footer a { color: #aaaaaa;}
+
+#footer a:hover { color: #e2126a;}
+
+.more-labels .fancy-title a,
+.mp3list-head a { color:#aaaaaa; }
+
+.more-labels .fancy-title a:hover,
+.mp3list-head a:hover { color:#e2126a; }
+
+.album-playlist li       { background-color:#222222; background-color: rgba( 0, 0, 0, 0.75 ); color:#999999; }
+.album-playlist li:hover,
+.album-playlist li.selected > a,
+.album-playlist li.selected { background-color:#444444; background-color: rgba( 0, 0, 0, 0.25 ); color:#999999; }
+
+.album-mdata a,
+.artist-mdata a { color:#e2126a; }
+
+/* Next Prev for albums and artits */
+.iva-np-pagination a,
+.iva-np-pagination a:hover  { color:#ffffff;}
+.iva-np-pagination i { background-color:#e2126a;}
+/* ---------------------------------------- */
+/* BACKGROUND COLOR                         */
+/* ---------------------------------------- */
+
+.testimonial-box:hover .imageborder,
+.testimonial-box:hover .avatar,
+#back-top span,
+.btn.greensea,
+.ac_title.active .arrow,
+.tracklist-Header .tracklist-Row,
+.imageborder:hover,
+.avatar:hover,
+.pagination span.current,
+.pagination a:hover,
+.event-meta .day,
+.hover_type.selected a.hoverdjmix,
+.hover_type a.hoveraudio:hover,
+.hover_type a.hoveralbum:hover,
+.hover_type a.hoveralbums:hover,
+.hover_type a.hovervideo:hover,
+.hover_type a.hovergallery:hover,
+.hover_type a.hoverimage:hover,
+.hover_type a.hoverdjmix:hover,
+.hover_type a.hoverartists:hover,
+.hover_type a.hoverartist:hover,
+.tagcloud a:hover, .tagcloud a:active,
+.comment-edit-link,
+.post-edit-link,
+.iva_search_btn,
+.search-nav > li > a,
+.wpcf7-form .wpcf7-submit
+ {
+	background-color:#e2126a;
+}
+
+#main,
+#header,
+#subheader,
+#header-s2,
+#header-s3,
+#footer,
+#preloader_iva_wrap,
+.iva_select_wrapper select,
+.iva_search,
+.search-box input,
+.is-countdown {
+	background: transparent;
+	background-color: rgba( 0, 0, 0, 0.85 );
+    filter:'progid:DXImageTransform.Microsoft.gradient(startColorstr=#D9000000,endColorstr=#D9000000)';
+	zoom: 1;
+	color: #999999;
+}
+
+.topbar,
+.frontpage_teaser,
+.events-list,
+.event_details_wrap,
+#subheader,
+.iva-music-bar,
+.iva_search:focus,
+.search-box input:focus,
+.more-labels {
+	background: transparent;
+	background-color: rgba( 0, 0, 0, 0.75 );
+    filter:'progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000,endColorstr=#BF000000)';
+	zoom: 1;
+	color: #999999;
+}
+
+.iva-select-arrow { background-color: rgba(0,0,0,1); }
+
+/* ---------------------------------------- */
+/* MENU COLORS                              */
+/* ---------------------------------------- */
+#atp_menu a { color:#eeeeee;}
+#atp_menu a:hover { color:#e2126a;}
+#atp_menu li.current-cat a, #atp_menu li.current_page_item > a, #atp_menu li.current-page-ancestor > a { color:#e2126a; }
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active { color:#e2126a; }
+
+/* ---------------------------------------- */
+/* WHITE TITLES                             */
+/* ---------------------------------------- */
+#subheader .page-title,
+.more-labels .fancy-title,
+#footer .widget-title { color:#ffffff;}
+
+/* ---------------------------------------- */
+/* BORDER COLOR                             */
+/* ---------------------------------------- */
+
+#subheader,
+.djmix-list,
+.is-countdown,
+.event_wwrap,
+.event_wwrap .event-meta,
+.pagination a:link,
+.custompost_thumb,
+.album-desc,
+.artist-desc,
+.gallery-desc,
+.video-desc,
+.mp3list-head > span,
+.event-meta,
+.events-list,
+.event-single .event_info,
+.event_details_wrap,
+.iva-testimonial,
+.comments-area .comment_wrap,
+.iva-music-bar,
+.iva_search,
+.cs-posttype,
+#stretched #footer,
+#stretched #header {
+	border-color:#444444;
+	border-color: rgba(255,255,255,0.15);
+}
+
+/* ---------------------------------------- */
+/* ALBUMS,GALLERY, ARTISTS, VIDEO COLORS    */
+/* ---------------------------------------- */
+
+.video-list .video-desc,
+.gallery-list .gallery-desc,
+.artist-list .artist-desc,
+.album-list .album-desc { background-color:#e2126a; color:#ffffff; }
+
+.video-list:hover .video-desc,
+.gallery-list:hover .gallery-desc,
+.artist-list:hover .artist-desc,
+.album-list:hover .album-desc { background-color:#ffffff; color:#444444;}
+
+.video-list:hover .video-desc a,
+.gallery-list:hover .gallery-desc a,
+.artist-list:hover .artist-desc a,
+.album-list:hover .album-desc a { color:#444444; }
+
+.video-list:hover .video-desc span,
+.gallery-list:hover .gallery-desc span,
+.artist-list:hover .artist-desc span,
+.album-list:hover .album-desc span { color: #999999; }
+
+
+/* Advanced Customization */
+/* -------------------------------------------- */
+
+.imageframe { background-color: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.2); }
+.divider {
+	border-color:#444444;
+	border-color: rgba(255,255,255,0.2);
+}
+
+#footer { padding: 50px 0; font-size:13px; margin-top: 0; }
+
+.tagcloud a {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.artist_bio .artist-details,
+.album_bio .album-details { border:1px solid rgba(255,255,255,0.15); border-bottom: 0; margin-top: 0; }
+
+.artist_bio .artist-meta,
+.album_bio .album-meta { border-bottom:1px solid rgba(255,255,255,0.15); padding: 8px 8px; margin: 0; }
+.artist_bio .iva_sharing,
+.album_bio .iva_sharing { margin: 20px 0; }
+
+.artist_bio ul.atpsocials,
+.album_bio ul.atpsocials { display: table; width: 100%; margin: 0 auto; }
+
+.artist_bio ul.atpsocials li,
+.album_bio ul.atpsocials li { display: table-cell; }
+
+.artist-mdata a:hover,
+.album-mdata a:hover { text-decoration: underline; }
+
+/* */
+.testimonial-box { background-color: transparent; padding: 0;}
+.testimonial-content p { font-size: 18px; font-style: italic; font-weight: 600; line-height: 150%; padding: 0;}
+.testimonial_list .client-meta { font-size: 12px; font-weight: normal; letter-spacing: 1px; text-transform: uppercase; }
+
+/* since 3.1.0 */
+.artists-link a,
+.artist-list .entry-title > a { color:#ffffff; }
+
+/* since 3.1.0 */
+.album-desc > span {  color:rgba(255,255,255,0.8); }
+.album-list .entry-title > a { color:#ffffff; }
+
+/* since 3.1.0 */
+.djmix-slist .entry-title a { color:#ffffff;  }
+.djmix-slist .entry-title a:hover { color:#444444;  }
+
+/* @since v3.1.0 */
+.gallery-list .entry-title a { color:#ffffff;  }
+.gallery-list .entry-title a:hover { color:#444444;  }
+
+/* @since v3.1.0 */
+.video-list .entry-title a { color:#ffffff;  }
+.video-list .entry-title a:hover { color:#444444;  }
+
+
+.sf-menu ul { background-color:#121212; }
+
+#subheader .page-title {
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+/* iPad Portrait
+======================================================================== */
+@media only screen and (min-width: 240px) and (max-width: 959px) {
+	#subheader .page-title { font-size: 26px; }
+}
+
+#subheader .page-title { float: none; }
+#subheader .customtext {  padding: 0; }
+
+/* Radio Skinning
+======================================================================== */
+
+.jp-radio {
+    color: #FF368B !important;
+}
+.jp-radio .jp-interface {
+	background-color: #151617;
+}
+.jp-radio .jp-close-btn {
+	color: #FF368B;
+	background-color: #151617;
+	border-color: #FF368B;
+}
+.jp-radio .jp-volume-bar {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.jp-play-bar,
+.jp-volume-bar-value {
+	background-color: #FF368B;
+}
+.jp-audio a {
+	color: #FF368B;
+}
+.jp-audio a:hover {
+	color: #FF368B;
+}
+.jp-radio .jp-play {
+	color: #FF368B;
+}
+.jp-radio .jp-pause {
+	color: #FF368B;
+}
+
+.jp-volume-bar::after {
+	border-left: 1px solid rgba( 255, 255, 255, 0.1 );
+	border-right: 1px solid rgba( 0, 0, 0, 0.6 );
+}
+.jp-radio .jp-controls:after {
+	border-left: 1px solid rgba( 255, 255, 255, 0.1 );
+	border-right: 1px solid rgba( 0, 0, 0, 0.6 );
+}

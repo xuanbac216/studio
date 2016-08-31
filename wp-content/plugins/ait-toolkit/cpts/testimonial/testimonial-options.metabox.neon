@@ -1,0 +1,13 @@
+author:
+	label: Author
+	type: text
+	default:
+	help: "Text displayed as author name"
+
+rating:
+	label: Rating
+	type: range
+	min: 0
+	max: 100
+	step: 5
+	default: 0

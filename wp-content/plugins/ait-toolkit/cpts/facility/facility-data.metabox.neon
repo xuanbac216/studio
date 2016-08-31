@@ -1,0 +1,15 @@
+icon:
+	label: Icon
+	type: image
+	default: ""
+
+iconColor:
+	label: Icon Color
+	type: color
+	default: ""
+
+description:
+	label: Description
+	type: textarea
+	default: ""
+	

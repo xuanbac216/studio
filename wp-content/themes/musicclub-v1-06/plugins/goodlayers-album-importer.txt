@@ -1,0 +1,61 @@
+a:7:{s:12:"the-new-moon";a:10:{s:6:"upload";s:4:"2385";s:13:"download-link";s:38:"http://themeforest.net/user/GoodLayers";s:10:"apple-link";s:1:"#";s:11:"amazon-link";s:1:"#";s:7:"content";s:1034:"[gdlr_heading tag="h3" size="28px" font_weight="300"]Heading With Heading Shortcode[/gdlr_heading]
+
+Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+
+[gdlr_space height="40px"]
+
+[gdlr_heading tag="h3" size="28px" font_weight="300"]Album Promo Video[/gdlr_heading]
+
+[gdlr_video url="http://vimeo.com/51511202"]";s:5:"genre";s:15:"Pop, Electronic";s:4:"date";s:10:"2013-12-18";s:7:"sidebar";s:10:"no-sidebar";s:12:"left-sidebar";s:8:"Footer 1";s:13:"right-sidebar";s:8:"Footer 1";}s:12:"top-of-power";a:10:{s:6:"upload";s:4:"2386";s:13:"download-link";s:38:"http://themeforest.net/user/GoodLayers";s:10:"apple-link";s:1:"#";s:11:"amazon-link";s:1:"#";s:7:"content";s:1034:"[gdlr_heading tag="h3" size="28px" font_weight="300"]Heading With Heading Shortcode[/gdlr_heading]
+
+Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+
+[gdlr_space height="40px"]
+
+[gdlr_heading tag="h3" size="28px" font_weight="300"]Album Promo Video[/gdlr_heading]
+
+[gdlr_video url="http://vimeo.com/51511202"]";s:5:"genre";s:9:"Pop, Jazz";s:4:"date";s:10:"2013-04-16";s:7:"sidebar";s:10:"no-sidebar";s:12:"left-sidebar";s:8:"Footer 1";s:13:"right-sidebar";s:8:"Footer 1";}s:13:"hundred-miles";a:10:{s:6:"upload";s:4:"2382";s:13:"download-link";s:38:"http://themeforest.net/user/GoodLayers";s:10:"apple-link";s:1:"#";s:11:"amazon-link";s:1:"#";s:7:"content";s:1034:"[gdlr_heading tag="h3" size="28px" font_weight="300"]Heading With Heading Shortcode[/gdlr_heading]
+
+Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+
+[gdlr_space height="40px"]
+
+[gdlr_heading tag="h3" size="28px" font_weight="300"]Album Promo Video[/gdlr_heading]
+
+[gdlr_video url="http://vimeo.com/51511202"]";s:5:"genre";s:12:"Contemporary";s:4:"date";s:10:"2013-08-14";s:7:"sidebar";s:10:"no-sidebar";s:12:"left-sidebar";s:8:"Footer 1";s:13:"right-sidebar";s:8:"Footer 1";}s:11:"white-horse";a:10:{s:6:"upload";s:4:"2383";s:13:"download-link";s:38:"http://themeforest.net/user/GoodLayers";s:10:"apple-link";s:1:"#";s:11:"amazon-link";s:1:"#";s:7:"content";s:1034:"[gdlr_heading tag="h3" size="28px" font_weight="300"]Heading With Heading Shortcode[/gdlr_heading]
+
+Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+
+[gdlr_space height="40px"]
+
+[gdlr_heading tag="h3" size="28px" font_weight="300"]Album Promo Video[/gdlr_heading]
+
+[gdlr_video url="http://vimeo.com/51511202"]";s:5:"genre";s:9:"Pop, Rock";s:4:"date";s:10:"2012-12-11";s:7:"sidebar";s:10:"no-sidebar";s:12:"left-sidebar";s:8:"Footer 1";s:13:"right-sidebar";s:8:"Footer 1";}s:11:"say-nothing";a:10:{s:6:"upload";s:4:"2384";s:13:"download-link";s:38:"http://themeforest.net/user/GoodLayers";s:10:"apple-link";s:1:"#";s:11:"amazon-link";s:1:"#";s:7:"content";s:1034:"[gdlr_heading tag="h3" size="28px" font_weight="300"]Heading With Heading Shortcode[/gdlr_heading]
+
+Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+
+[gdlr_space height="40px"]
+
+[gdlr_heading tag="h3" size="28px" font_weight="300"]Album Promo Video[/gdlr_heading]
+
+[gdlr_video url="http://vimeo.com/51511202"]";s:5:"genre";s:11:"Rock, Metal";s:4:"date";s:10:"2013-06-11";s:7:"sidebar";s:10:"no-sidebar";s:12:"left-sidebar";s:8:"Footer 1";s:13:"right-sidebar";s:8:"Footer 1";}s:10:"endless-me";a:10:{s:6:"upload";s:4:"2381";s:13:"download-link";s:38:"http://themeforest.net/user/GoodLayers";s:10:"apple-link";s:1:"#";s:11:"amazon-link";s:1:"#";s:7:"content";s:1034:"[gdlr_heading tag="h3" size="28px" font_weight="300"]Heading With Heading Shortcode[/gdlr_heading]
+
+Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+
+[gdlr_space height="40px"]
+
+[gdlr_heading tag="h3" size="28px" font_weight="300"]Album Promo Video[/gdlr_heading]
+
+[gdlr_video url="http://vimeo.com/51511202"]";s:5:"genre";s:9:"Pop, Rock";s:4:"date";s:10:"2013-10-02";s:7:"sidebar";s:10:"no-sidebar";s:12:"left-sidebar";s:8:"Footer 1";s:13:"right-sidebar";s:8:"Footer 1";}s:13:"for-shortcode";a:10:{s:6:"upload";s:0:"";s:7:"content";s:0:"";s:5:"genre";s:0:"";s:4:"date";s:0:"";s:13:"download-link";s:0:"";s:10:"apple-link";s:0:"";s:11:"amazon-link";s:0:"";s:7:"sidebar";s:10:"no-sidebar";s:12:"left-sidebar";s:8:"Footer 1";s:13:"right-sidebar";s:8:"Footer 1";}}
